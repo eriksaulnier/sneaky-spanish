@@ -36,122 +36,124 @@ const TOOLTIP_STYLES = `
   }
 `;
 
-class SneakyTooltip extends HTMLElement {
-  private root: ShadowRoot;
-  private container: HTMLDivElement;
-  private labelEl: HTMLDivElement;
-  private originalEl: HTMLDivElement;
-  private ipaEl: HTMLDivElement;
-
-  constructor() {
-    super();
-    this.root = this.attachShadow({ mode: 'open' });
-    const style = document.createElement('style');
-    style.textContent = TOOLTIP_STYLES;
-    this.root.appendChild(style);
-
-    this.container = document.createElement('div');
-    this.container.className = 'tooltip';
-    this.container.style.display = 'none';
-
-    this.labelEl = document.createElement('div');
-    this.labelEl.className = 'label';
-    this.labelEl.textContent = 'Spanish for\u2026';
-
-    this.originalEl = document.createElement('div');
-    this.originalEl.className = 'original';
-
-    this.ipaEl = document.createElement('div');
-    this.ipaEl.className = 'ipa';
-
-    this.container.appendChild(this.labelEl);
-    this.container.appendChild(this.originalEl);
-    this.container.appendChild(this.ipaEl);
-    this.root.appendChild(this.container);
-  }
-
-  show(anchor: Element, original: string, ipa: string) {
-    this.originalEl.textContent = original;
-    this.ipaEl.textContent = ipa;
-    this.container.style.display = 'block';
-    this.position(anchor);
-  }
-
-  hide() {
-    this.container.style.display = 'none';
-  }
-
-  get visible() {
-    return this.container.style.display !== 'none';
-  }
-
-  private position(anchor: Element) {
-    const rect = anchor.getBoundingClientRect();
-    const gap = 6;
-
-    this.style.left = '0px';
-    this.style.top = '0px';
-
-    requestAnimationFrame(() => {
-      const tipRect = this.container.getBoundingClientRect();
-      let top: number;
-      let left: number;
-
-      if (rect.bottom + gap + tipRect.height <= window.innerHeight) {
-        top = rect.bottom + gap;
-      } else {
-        top = rect.top - gap - tipRect.height;
-      }
-
-      left = rect.left + rect.width / 2 - tipRect.width / 2;
-      left = Math.max(8, Math.min(left, window.innerWidth - tipRect.width - 8));
-      top = Math.max(8, top);
-
-      this.style.left = `${left}px`;
-      this.style.top = `${top}px`;
-    });
-  }
+interface Tooltip {
+  host: HTMLDivElement;
+  container: HTMLDivElement;
+  originalEl: HTMLDivElement;
+  ipaEl: HTMLDivElement;
 }
 
-let registered = false;
-let tooltip: SneakyTooltip | null = null;
+let tooltip: Tooltip | null = null;
 
-function getTooltip(): SneakyTooltip {
+function createTooltip(): Tooltip {
+  const host = document.createElement('div');
+  host.style.position = 'fixed';
+  host.style.zIndex = '2147483647';
+  host.style.pointerEvents = 'none';
+
+  const shadow = host.attachShadow({ mode: 'open' });
+
+  const style = document.createElement('style');
+  style.textContent = TOOLTIP_STYLES;
+  shadow.appendChild(style);
+
+  const container = document.createElement('div');
+  container.className = 'tooltip';
+  container.style.display = 'none';
+
+  const labelEl = document.createElement('div');
+  labelEl.className = 'label';
+  labelEl.textContent = 'Spanish for\u2026';
+
+  const originalEl = document.createElement('div');
+  originalEl.className = 'original';
+
+  const ipaEl = document.createElement('div');
+  ipaEl.className = 'ipa';
+
+  container.appendChild(labelEl);
+  container.appendChild(originalEl);
+  container.appendChild(ipaEl);
+  shadow.appendChild(container);
+  document.body.appendChild(host);
+
+  return { host, container, originalEl, ipaEl };
+}
+
+function getTooltip(): Tooltip {
   if (!tooltip) {
-    tooltip = document.createElement('sneaky-tooltip') as SneakyTooltip;
-    document.body.appendChild(tooltip);
+    tooltip = createTooltip();
   }
   return tooltip;
 }
 
-export function initTooltip(): void {
-  if (!registered) {
-    customElements.define('sneaky-tooltip', SneakyTooltip);
-    registered = true;
+function isVisible(): boolean {
+  return tooltip?.container.style.display !== 'none';
+}
+
+function show(anchor: Element, original: string, ipa: string) {
+  const t = getTooltip();
+  t.originalEl.textContent = original;
+  t.ipaEl.textContent = ipa;
+  t.container.style.display = 'block';
+  position(t, anchor);
+}
+
+function hide() {
+  if (tooltip) {
+    tooltip.container.style.display = 'none';
   }
+}
+
+function position(t: Tooltip, anchor: Element) {
+  const rect = anchor.getBoundingClientRect();
+  const gap = 6;
+
+  t.host.style.left = '0px';
+  t.host.style.top = '0px';
+
+  requestAnimationFrame(() => {
+    const tipRect = t.container.getBoundingClientRect();
+    let top: number;
+    let left: number;
+
+    if (rect.bottom + gap + tipRect.height <= window.innerHeight) {
+      top = rect.bottom + gap;
+    } else {
+      top = rect.top - gap - tipRect.height;
+    }
+
+    left = rect.left + rect.width / 2 - tipRect.width / 2;
+    left = Math.max(8, Math.min(left, window.innerWidth - tipRect.width - 8));
+    top = Math.max(8, top);
+
+    t.host.style.left = `${left}px`;
+    t.host.style.top = `${top}px`;
+  });
+}
+
+export function initTooltip(): void {
   document.addEventListener('click', (e) => {
     const target = (e.target as Element).closest?.('.sneaky-word') as HTMLElement | null;
     if (target) {
       e.preventDefault();
       e.stopPropagation();
-      const t = getTooltip();
-      t.show(target, target.dataset.original!, target.dataset.ipa!);
-    } else {
-      const t = getTooltip();
-      if (t.visible) t.hide();
+      show(target, target.dataset.original!, target.dataset.ipa!);
+    } else if (isVisible()) {
+      hide();
     }
   });
 
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && tooltip?.visible) {
-      tooltip.hide();
+    if (e.key === 'Escape' && isVisible()) {
+      hide();
     }
   });
 }
 
 export function destroyTooltip(): void {
   if (tooltip) {
-    tooltip.remove();
+    tooltip.host.remove();
     tooltip = null;
   }
 }
