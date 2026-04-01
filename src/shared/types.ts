@@ -7,7 +7,7 @@ export interface Settings {
   exclusions: string[];
 }
 
-export type PartOfSpeech = 'noun' | 'verb' | 'adj' | 'adv';
+export type PartOfSpeech = 'noun' | 'verb' | 'adj' | 'adv' | 'phrase';
 
 export interface DictionaryEntry {
   es: string;

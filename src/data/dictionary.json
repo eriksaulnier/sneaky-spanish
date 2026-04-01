@@ -6358,5 +6358,1559 @@
     "ipa": "/pɾinˈθipjo/",
     "level": "B1",
     "pos": "noun"
+  },
+  "good morning": {
+    "es": "buenos días",
+    "ipa": "/ˈbwenos ˈdias/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "good afternoon": {
+    "es": "buenas tardes",
+    "ipa": "/ˈbwenas ˈtaɾðes/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "good evening": {
+    "es": "buenas noches",
+    "ipa": "/ˈbwenas ˈnotʃes/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "good night": {
+    "es": "buenas noches",
+    "ipa": "/ˈbwenas ˈnotʃes/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "see you later": {
+    "es": "hasta luego",
+    "ipa": "/ˈasta ˈlweɣo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "see you soon": {
+    "es": "hasta pronto",
+    "ipa": "/ˈasta ˈpɾonto/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "see you tomorrow": {
+    "es": "hasta mañana",
+    "ipa": "/ˈasta maˈɲana/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "nice to meet you": {
+    "es": "mucho gusto",
+    "ipa": "/ˈmutʃo ˈɣusto/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "how are you": {
+    "es": "cómo estás",
+    "ipa": "/ˈkomo esˈtas/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "long time no see": {
+    "es": "cuánto tiempo",
+    "ipa": "/ˈkwanto ˈtjempo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "take care": {
+    "es": "cuídate mucho",
+    "ipa": "/ˈkwiðate ˈmutʃo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "have a good day": {
+    "es": "que tengas buen día",
+    "ipa": "/ke ˈtenɡas bwen ˈdia/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "welcome back": {
+    "es": "bienvenido de nuevo",
+    "ipa": "/bjembeˈniðo ðe ˈnweβo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "pleased to meet you": {
+    "es": "encantado de conocerte",
+    "ipa": "/enkanˈtaðo ðe konoˈθeɾte/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "thank you": {
+    "es": "gracias",
+    "ipa": "/ˈɡɾaθjas/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "thank you very much": {
+    "es": "muchas gracias",
+    "ipa": "/ˈmutʃas ˈɡɾaθjas/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "you're welcome": {
+    "es": "de nada",
+    "ipa": "/de ˈnaða/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "excuse me": {
+    "es": "disculpe",
+    "ipa": "/disˈkulpe/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "no problem": {
+    "es": "no hay problema",
+    "ipa": "/no aj pɾoˈβlema/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "don't worry": {
+    "es": "no te preocupes",
+    "ipa": "/no te pɾeoˈkupes/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "of course": {
+    "es": "por supuesto",
+    "ipa": "/poɾ suˈpwesto/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "with pleasure": {
+    "es": "con mucho gusto",
+    "ipa": "/kon ˈmutʃo ˈɣusto/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "go ahead": {
+    "es": "adelante",
+    "ipa": "/aðeˈlante/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "it doesn't matter": {
+    "es": "no importa",
+    "ipa": "/no imˈpoɾta/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "pardon me": {
+    "es": "perdóneme",
+    "ipa": "/peɾˈðoneme/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "if you please": {
+    "es": "por favor",
+    "ipa": "/poɾ faˈβoɾ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "forgive me": {
+    "es": "perdóname",
+    "ipa": "/peɾˈðoname/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "bless you": {
+    "es": "salud",
+    "ipa": "/saˈluð/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "by the way": {
+    "es": "por cierto",
+    "ipa": "/poɾ ˈθjeɾto/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "for example": {
+    "es": "por ejemplo",
+    "ipa": "/poɾ eˈxemplo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in fact": {
+    "es": "de hecho",
+    "ipa": "/de ˈetʃo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "at least": {
+    "es": "al menos",
+    "ipa": "/al ˈmenos/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "at first": {
+    "es": "al principio",
+    "ipa": "/al pɾinˈθipjo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "right now": {
+    "es": "ahora mismo",
+    "ipa": "/aˈoɾa ˈmismo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "so far": {
+    "es": "hasta ahora",
+    "ipa": "/ˈasta aˈoɾa/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "as well": {
+    "es": "también",
+    "ipa": "/tamˈbjen/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "on time": {
+    "es": "a tiempo",
+    "ipa": "/a ˈtjempo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in front of": {
+    "es": "delante de",
+    "ipa": "/deˈlante de/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "instead of": {
+    "es": "en vez de",
+    "ipa": "/em ˈbeθ de/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "according to": {
+    "es": "según",
+    "ipa": "/seˈɣun/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "at the same time": {
+    "es": "al mismo tiempo",
+    "ipa": "/al ˈmismo ˈtjempo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "from now on": {
+    "es": "de ahora en adelante",
+    "ipa": "/de aˈoɾa en aðeˈlante/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "more or less": {
+    "es": "más o menos",
+    "ipa": "/ˈmas o ˈmenos/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "on the contrary": {
+    "es": "al contrario",
+    "ipa": "/al konˈtɾaɾjo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "for sure": {
+    "es": "seguro que sí",
+    "ipa": "/seˈɣuɾo ke ˈsi/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "once again": {
+    "es": "una vez más",
+    "ipa": "/ˈuna ˈβeθ ˈmas/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "all of a sudden": {
+    "es": "de repente",
+    "ipa": "/de reˈpente/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in other words": {
+    "es": "es decir",
+    "ipa": "/es deˈθiɾ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "little by little": {
+    "es": "poco a poco",
+    "ipa": "/ˈpoko a ˈpoko/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "on purpose": {
+    "es": "a propósito",
+    "ipa": "/a pɾoˈposito/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "by chance": {
+    "es": "por casualidad",
+    "ipa": "/poɾ kaswalˈðað/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "without a doubt": {
+    "es": "sin duda",
+    "ipa": "/sin ˈduða/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "no wonder": {
+    "es": "con razón",
+    "ipa": "/kon raˈθon/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in a hurry": {
+    "es": "de prisa",
+    "ipa": "/de ˈpɾisa/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "up to date": {
+    "es": "al día",
+    "ipa": "/al ˈdia/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "out loud": {
+    "es": "en voz alta",
+    "ipa": "/em ˈboθ ˈalta/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "by heart": {
+    "es": "de memoria",
+    "ipa": "/de meˈmoɾja/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "face to face": {
+    "es": "cara a cara",
+    "ipa": "/ˈkaɾa a ˈkaɾa/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "step by step": {
+    "es": "paso a paso",
+    "ipa": "/ˈpaso a ˈpaso/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "sooner or later": {
+    "es": "tarde o temprano",
+    "ipa": "/ˈtaɾðe o temˈpɾano/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "once in a while": {
+    "es": "de vez en cuando",
+    "ipa": "/de ˈβeθ en ˈkwando/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in the meantime": {
+    "es": "mientras tanto",
+    "ipa": "/ˈmjentɾas ˈtanto/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "after all": {
+    "es": "después de todo",
+    "ipa": "/desˈpwes ðe ˈtoðo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "at the end": {
+    "es": "al final",
+    "ipa": "/al fiˈnal/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in the beginning": {
+    "es": "al principio",
+    "ipa": "/al pɾinˈθipjo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "as usual": {
+    "es": "como siempre",
+    "ipa": "/ˈkomo ˈsjempɾe/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "from time to time": {
+    "es": "de vez en cuando",
+    "ipa": "/de ˈβeθ en ˈkwando/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "at last": {
+    "es": "por fin",
+    "ipa": "/poɾ ˈfin/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in general": {
+    "es": "en general",
+    "ipa": "/en xeneˈɾal/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "on the other hand": {
+    "es": "por otro lado",
+    "ipa": "/poɾ ˈotɾo ˈlaðo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in addition": {
+    "es": "además",
+    "ipa": "/aðeˈmas/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "as a result": {
+    "es": "como resultado",
+    "ipa": "/ˈkomo resulˈtaðo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "for instance": {
+    "es": "por ejemplo",
+    "ipa": "/poɾ eˈxemplo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "last night": {
+    "es": "anoche",
+    "ipa": "/aˈnotʃe/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "next week": {
+    "es": "la semana que viene",
+    "ipa": "/la seˈmana ke ˈbjene/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "every day": {
+    "es": "todos los días",
+    "ipa": "/ˈtoðos los ˈðias/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "all day": {
+    "es": "todo el día",
+    "ipa": "/ˈtoðo el ˈdia/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "this morning": {
+    "es": "esta mañana",
+    "ipa": "/ˈesta maˈɲana/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "last year": {
+    "es": "el año pasado",
+    "ipa": "/el ˈaɲo paˈsaðo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "next month": {
+    "es": "el mes que viene",
+    "ipa": "/el ˈmes ke ˈbjene/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "right away": {
+    "es": "enseguida",
+    "ipa": "/enseˈɣiða/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "the day before yesterday": {
+    "es": "anteayer",
+    "ipa": "/anteaˈʝeɾ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "the day after tomorrow": {
+    "es": "pasado mañana",
+    "ipa": "/paˈsaðo maˈɲana/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "all the time": {
+    "es": "todo el tiempo",
+    "ipa": "/ˈtoðo el ˈtjempo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "at night": {
+    "es": "por la noche",
+    "ipa": "/poɾ la ˈnotʃe/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in the morning": {
+    "es": "por la mañana",
+    "ipa": "/poɾ la maˈɲana/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in the afternoon": {
+    "es": "por la tarde",
+    "ipa": "/poɾ la ˈtaɾðe/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "last week": {
+    "es": "la semana pasada",
+    "ipa": "/la seˈmana paˈsaða/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "every week": {
+    "es": "cada semana",
+    "ipa": "/ˈkaða seˈmana/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "every month": {
+    "es": "cada mes",
+    "ipa": "/ˈkaða ˈmes/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "every year": {
+    "es": "cada año",
+    "ipa": "/ˈkaða ˈaɲo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "this afternoon": {
+    "es": "esta tarde",
+    "ipa": "/ˈesta ˈtaɾðe/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "this evening": {
+    "es": "esta noche",
+    "ipa": "/ˈesta ˈnotʃe/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "next year": {
+    "es": "el año que viene",
+    "ipa": "/el ˈaɲo ke ˈbjene/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "a long time ago": {
+    "es": "hace mucho tiempo",
+    "ipa": "/ˈaθe ˈmutʃo ˈtjempo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "just now": {
+    "es": "ahora mismo",
+    "ipa": "/aˈoɾa ˈmismo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "early in the morning": {
+    "es": "por la mañana temprano",
+    "ipa": "/poɾ la maˈɲana temˈpɾano/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "late at night": {
+    "es": "tarde por la noche",
+    "ipa": "/ˈtaɾðe poɾ la ˈnotʃe/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "that is to say": {
+    "es": "es decir",
+    "ipa": "/es deˈθiɾ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in spite of": {
+    "es": "a pesar de",
+    "ipa": "/a peˈsaɾ ðe/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "due to": {
+    "es": "debido a",
+    "ipa": "/deˈβiðo a/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "as long as": {
+    "es": "mientras que",
+    "ipa": "/ˈmjentɾas ke/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in order to": {
+    "es": "para que",
+    "ipa": "/ˈpaɾa ke/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "as soon as": {
+    "es": "en cuanto",
+    "ipa": "/en ˈkwanto/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "even though": {
+    "es": "aunque",
+    "ipa": "/ˈawnke/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "so that": {
+    "es": "para que",
+    "ipa": "/ˈpaɾa ke/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "as if": {
+    "es": "como si",
+    "ipa": "/ˈkomo si/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in case": {
+    "es": "por si acaso",
+    "ipa": "/poɾ si aˈkaso/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "that way": {
+    "es": "de esa manera",
+    "ipa": "/de ˈesa maˈneɾa/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in short": {
+    "es": "en resumen",
+    "ipa": "/en reˈsumen/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "on the whole": {
+    "es": "en conjunto",
+    "ipa": "/en konˈxunto/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in conclusion": {
+    "es": "en conclusión",
+    "ipa": "/en konkluˈsjon/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "first of all": {
+    "es": "ante todo",
+    "ipa": "/ˈante ˈtoðo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "above all": {
+    "es": "sobre todo",
+    "ipa": "/ˈsoβɾe ˈtoðo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "wake up": {
+    "es": "despertarse",
+    "ipa": "/despeɾˈtaɾse/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "give up": {
+    "es": "rendirse",
+    "ipa": "/renˈdiɾse/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "look for": {
+    "es": "buscar",
+    "ipa": "/busˈkaɾ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "turn off": {
+    "es": "apagar",
+    "ipa": "/apaˈɣaɾ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "turn on": {
+    "es": "encender",
+    "ipa": "/enθenˈdeɾ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "find out": {
+    "es": "descubrir",
+    "ipa": "/deskuˈβɾiɾ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "carry out": {
+    "es": "llevar a cabo",
+    "ipa": "/ʎeˈβaɾ a ˈkaβo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "pay attention": {
+    "es": "prestar atención",
+    "ipa": "/pɾesˈtaɾ atenˈθjon/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "make sure": {
+    "es": "asegurarse",
+    "ipa": "/aseɣuˈɾaɾse/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "get up": {
+    "es": "levantarse",
+    "ipa": "/leβanˈtaɾse/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "sit down": {
+    "es": "sentarse",
+    "ipa": "/senˈtaɾse/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "come back": {
+    "es": "volver",
+    "ipa": "/bolˈβeɾ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "go out": {
+    "es": "salir",
+    "ipa": "/saˈliɾ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "get along": {
+    "es": "llevarse bien",
+    "ipa": "/ʎeˈβaɾse ˈbjen/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "put on": {
+    "es": "ponerse",
+    "ipa": "/poˈneɾse/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "take off": {
+    "es": "quitarse",
+    "ipa": "/kiˈtaɾse/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "show up": {
+    "es": "aparecer",
+    "ipa": "/apaɾeˈθeɾ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "point out": {
+    "es": "señalar",
+    "ipa": "/seɲaˈlaɾ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "set up": {
+    "es": "establecer",
+    "ipa": "/estaβleˈθeɾ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "pick up": {
+    "es": "recoger",
+    "ipa": "/rekoˈxeɾ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "throw away": {
+    "es": "tirar",
+    "ipa": "/tiˈɾaɾ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "run out": {
+    "es": "quedarse sin",
+    "ipa": "/keˈðaɾse sin/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "get rid of": {
+    "es": "deshacerse de",
+    "ipa": "/desaˈθeɾse ðe/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "look after": {
+    "es": "cuidar de",
+    "ipa": "/kwiˈðaɾ ðe/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "give back": {
+    "es": "devolver",
+    "ipa": "/deβolˈβeɾ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "break down": {
+    "es": "averiarse",
+    "ipa": "/aβeˈɾjaɾse/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "calm down": {
+    "es": "calmarse",
+    "ipa": "/kalˈmaɾse/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "fill out": {
+    "es": "rellenar",
+    "ipa": "/reʎeˈnaɾ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "hang up": {
+    "es": "colgar",
+    "ipa": "/kolˈɣaɾ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "keep going": {
+    "es": "seguir adelante",
+    "ipa": "/seˈɣiɾ aðeˈlante/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "come in": {
+    "es": "entrar",
+    "ipa": "/enˈtɾaɾ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "go away": {
+    "es": "irse",
+    "ipa": "/ˈiɾse/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "fall asleep": {
+    "es": "quedarse dormido",
+    "ipa": "/keˈðaɾse doɾˈmiðo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "grow up": {
+    "es": "crecer",
+    "ipa": "/kɾeˈθeɾ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "hold on": {
+    "es": "esperar",
+    "ipa": "/espeˈɾaɾ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "hurry up": {
+    "es": "darse prisa",
+    "ipa": "/ˈdaɾse ˈpɾisa/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "shut up": {
+    "es": "callarse",
+    "ipa": "/kaˈʎaɾse/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "stand up": {
+    "es": "ponerse de pie",
+    "ipa": "/poˈneɾse ðe ˈpje/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "slow down": {
+    "es": "ir más despacio",
+    "ipa": "/iɾ ˈmas desˈpaθjo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "go back": {
+    "es": "regresar",
+    "ipa": "/reɡɾeˈsaɾ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "try on": {
+    "es": "probarse",
+    "ipa": "/pɾoˈβaɾse/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "take out": {
+    "es": "sacar",
+    "ipa": "/saˈkaɾ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "bring back": {
+    "es": "traer de vuelta",
+    "ipa": "/tɾaeɾ ðe ˈβwelta/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "work out": {
+    "es": "hacer ejercicio",
+    "ipa": "/aˈθeɾ exeɾˈθiθjo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "figure out": {
+    "es": "resolver",
+    "ipa": "/resolˈβeɾ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "a lot": {
+    "es": "mucho",
+    "ipa": "/ˈmutʃo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "a little": {
+    "es": "un poco",
+    "ipa": "/um ˈpoko/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "too much": {
+    "es": "demasiado",
+    "ipa": "/demaˈsjaðo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "at most": {
+    "es": "como máximo",
+    "ipa": "/ˈkomo ˈmaksimo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "a little bit": {
+    "es": "un poquito",
+    "ipa": "/um poˈkito/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "not at all": {
+    "es": "para nada",
+    "ipa": "/ˈpaɾa ˈnaða/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "so much": {
+    "es": "tanto",
+    "ipa": "/ˈtanto/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "not enough": {
+    "es": "no suficiente",
+    "ipa": "/no sufiˈθjente/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "quite a bit": {
+    "es": "bastante",
+    "ipa": "/basˈtante/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "how much": {
+    "es": "cuánto",
+    "ipa": "/ˈkwanto/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "how many": {
+    "es": "cuántos",
+    "ipa": "/ˈkwantos/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "no more": {
+    "es": "no más",
+    "ipa": "/no ˈmas/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "nothing else": {
+    "es": "nada más",
+    "ipa": "/ˈnaða ˈmas/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "over there": {
+    "es": "allí",
+    "ipa": "/aˈʎi/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "right here": {
+    "es": "aquí mismo",
+    "ipa": "/aˈki ˈmismo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "next to": {
+    "es": "al lado de",
+    "ipa": "/al ˈlaðo ðe/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "on top of": {
+    "es": "encima de",
+    "ipa": "/enˈθima ðe/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "far away": {
+    "es": "lejos",
+    "ipa": "/ˈlexos/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "close by": {
+    "es": "cerca de aquí",
+    "ipa": "/ˈθeɾka ðe aˈki/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "up there": {
+    "es": "allá arriba",
+    "ipa": "/aˈʎa aˈriβa/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "down there": {
+    "es": "allá abajo",
+    "ipa": "/aˈʎa aˈβaxo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "around here": {
+    "es": "por aquí",
+    "ipa": "/poɾ aˈki/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "on the left": {
+    "es": "a la izquierda",
+    "ipa": "/a la iθˈkjeɾða/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "on the right": {
+    "es": "a la derecha",
+    "ipa": "/a la deˈɾetʃa/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "straight ahead": {
+    "es": "todo recto",
+    "ipa": "/ˈtoðo ˈrekto/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in the middle": {
+    "es": "en el medio",
+    "ipa": "/en el ˈmeðjo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "at the bottom": {
+    "es": "en el fondo",
+    "ipa": "/en el ˈfondo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "at the top": {
+    "es": "en la cima",
+    "ipa": "/en la ˈθima/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "on the corner": {
+    "es": "en la esquina",
+    "ipa": "/en la esˈkina/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "across from": {
+    "es": "enfrente de",
+    "ipa": "/enfɾente ðe/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "inside of": {
+    "es": "dentro de",
+    "ipa": "/ˈdentɾo ðe/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "outside of": {
+    "es": "fuera de",
+    "ipa": "/ˈfweɾa ðe/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "no way": {
+    "es": "de ninguna manera",
+    "ipa": "/de ninˈɡuna maˈneɾa/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "how nice": {
+    "es": "qué bien",
+    "ipa": "/ke ˈβjen/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "what a shame": {
+    "es": "qué lástima",
+    "ipa": "/ke ˈlastima/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "good luck": {
+    "es": "buena suerte",
+    "ipa": "/ˈbwena ˈsweɾte/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "well done": {
+    "es": "bien hecho",
+    "ipa": "/ˈbjen ˈetʃo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "take it easy": {
+    "es": "tómatelo con calma",
+    "ipa": "/ˈtomatelo kon ˈkalma/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "how funny": {
+    "es": "qué gracioso",
+    "ipa": "/ke ɡɾaˈθjoso/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "what a pity": {
+    "es": "qué pena",
+    "ipa": "/ke ˈpena/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "how strange": {
+    "es": "qué raro",
+    "ipa": "/ke ˈraro/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "how beautiful": {
+    "es": "qué hermoso",
+    "ipa": "/ke eɾˈmoso/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "be careful": {
+    "es": "ten cuidado",
+    "ipa": "/ten kwiˈðaðo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "what a mess": {
+    "es": "qué desastre",
+    "ipa": "/ke deˈsastɾe/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "how exciting": {
+    "es": "qué emocionante",
+    "ipa": "/ke emoθjoˈnante/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "how boring": {
+    "es": "qué aburrido",
+    "ipa": "/ke aβuˈriðo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "what a relief": {
+    "es": "qué alivio",
+    "ipa": "/ke aˈliβjo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "how terrible": {
+    "es": "qué horrible",
+    "ipa": "/ke oˈriβle/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "what a surprise": {
+    "es": "qué sorpresa",
+    "ipa": "/ke soɾˈpɾesa/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "how interesting": {
+    "es": "qué interesante",
+    "ipa": "/ke inteɾeˈsante/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "get well soon": {
+    "es": "que te mejores",
+    "ipa": "/ke te meˈxoɾes/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in any case": {
+    "es": "en todo caso",
+    "ipa": "/en ˈtoðo ˈkaso/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "at the moment": {
+    "es": "en este momento",
+    "ipa": "/en ˈeste moˈmento/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "at the beginning": {
+    "es": "al comienzo",
+    "ipa": "/al koˈmjenθo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "for the first time": {
+    "es": "por primera vez",
+    "ipa": "/poɾ pɾiˈmeɾa ˈβeθ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "for the last time": {
+    "es": "por última vez",
+    "ipa": "/poɾ ˈultima ˈβeθ/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in the end": {
+    "es": "al final",
+    "ipa": "/al fiˈnal/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "at this point": {
+    "es": "a estas alturas",
+    "ipa": "/a ˈestas alˈtuɾas/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in the past": {
+    "es": "en el pasado",
+    "ipa": "/en el paˈsaðo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in the future": {
+    "es": "en el futuro",
+    "ipa": "/en el fuˈtuɾo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "on the way": {
+    "es": "de camino",
+    "ipa": "/de kaˈmino/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in a way": {
+    "es": "en cierto modo",
+    "ipa": "/en ˈθjeɾto ˈmoðo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "all at once": {
+    "es": "de golpe",
+    "ipa": "/de ˈɣolpe/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "as a matter of fact": {
+    "es": "de hecho",
+    "ipa": "/de ˈetʃo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in the long run": {
+    "es": "a la larga",
+    "ipa": "/a la ˈlaɾɣa/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "for the time being": {
+    "es": "por el momento",
+    "ipa": "/poɾ el moˈmento/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "on behalf of": {
+    "es": "en nombre de",
+    "ipa": "/en ˈnombɾe ðe/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in charge of": {
+    "es": "a cargo de",
+    "ipa": "/a ˈkaɾɣo ðe/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in favor of": {
+    "es": "a favor de",
+    "ipa": "/a faˈβoɾ ðe/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in search of": {
+    "es": "en busca de",
+    "ipa": "/em ˈbuska ðe/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "day after day": {
+    "es": "día tras día",
+    "ipa": "/ˈdia tɾas ˈdia/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "side by side": {
+    "es": "lado a lado",
+    "ipa": "/ˈlaðo a ˈlaðo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "hand in hand": {
+    "es": "de la mano",
+    "ipa": "/de la ˈmano/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "one by one": {
+    "es": "uno por uno",
+    "ipa": "/ˈuno poɾ ˈuno/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "now and then": {
+    "es": "de cuando en cuando",
+    "ipa": "/de ˈkwando en ˈkwando/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "back and forth": {
+    "es": "de ida y vuelta",
+    "ipa": "/de ˈiða i ˈβwelta/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "upside down": {
+    "es": "al revés",
+    "ipa": "/al reˈβes/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "inside out": {
+    "es": "del revés",
+    "ipa": "/del reˈβes/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "as much as possible": {
+    "es": "lo más posible",
+    "ipa": "/lo ˈmas poˈsiβle/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "at any rate": {
+    "es": "de todos modos",
+    "ipa": "/de ˈtoðos ˈmoðos/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "in any event": {
+    "es": "en cualquier caso",
+    "ipa": "/en kwalˈkjeɾ ˈkaso/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "word for word": {
+    "es": "palabra por palabra",
+    "ipa": "/paˈlaβɾa poɾ paˈlaβɾa/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "go to bed": {
+    "es": "irse a la cama",
+    "ipa": "/ˈiɾse a la ˈkama/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "go to work": {
+    "es": "ir al trabajo",
+    "ipa": "/iɾ al tɾaˈβaxo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "go shopping": {
+    "es": "ir de compras",
+    "ipa": "/iɾ ðe ˈkompɾas/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "go for a walk": {
+    "es": "dar un paseo",
+    "ipa": "/daɾ um paˈseo/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "do homework": {
+    "es": "hacer la tarea",
+    "ipa": "/aˈθeɾ la taˈɾea/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "take a shower": {
+    "es": "ducharse",
+    "ipa": "/duˈtʃaɾse/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "take a nap": {
+    "es": "echar una siesta",
+    "ipa": "/eˈtʃaɾ ˈuna ˈsjesta/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "take a break": {
+    "es": "tomar un descanso",
+    "ipa": "/toˈmaɾ un desˈkanso/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "keep in touch": {
+    "es": "mantenerse en contacto",
+    "ipa": "/manteˈneɾse en konˈtakto/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "fall in love": {
+    "es": "enamorarse",
+    "ipa": "/enamoˈɾaɾse/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "get married": {
+    "es": "casarse",
+    "ipa": "/kaˈsaɾse/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "have fun": {
+    "es": "divertirse",
+    "ipa": "/diβeɾˈtiɾse/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "have a good time": {
+    "es": "pasarlo bien",
+    "ipa": "/paˈsaɾlo ˈβjen/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "make friends": {
+    "es": "hacer amigos",
+    "ipa": "/aˈθeɾ aˈmiɣos/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "change your mind": {
+    "es": "cambiar de opinión",
+    "ipa": "/kamˈbjaɾ ðe opinˈjon/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "keep a secret": {
+    "es": "guardar un secreto",
+    "ipa": "/ɡwaɾˈðaɾ un seˈkɾeto/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "tell the truth": {
+    "es": "decir la verdad",
+    "ipa": "/deˈθiɾ la βeɾˈðað/",
+    "level": "A1",
+    "pos": "phrase"
+  },
+  "make a decision": {
+    "es": "tomar una decisión",
+    "ipa": "/toˈmaɾ ˈuna deθiˈsjon/",
+    "level": "A1",
+    "pos": "phrase"
   }
 }

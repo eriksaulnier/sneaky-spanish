@@ -1,15 +1,17 @@
 import type { Dictionary, CEFRLevel } from '../shared/types';
 import { isLevelIncluded } from '../shared/constants';
 import { getSettings } from '../shared/storage';
-import { walkDOM, type WordSet } from './walker';
-import { startObserver, stopObserver } from './observer';
-import { initTooltip, destroyTooltip } from './tooltip';
+import { walkDOM, computePhraseInfo, type WordSet } from './walker';
+import { startObserver } from './observer';
+import { initTooltip } from './tooltip';
 import { restoreOriginalText } from './restore';
+
+const ALLOWED_POS = new Set(['noun', 'phrase']);
 
 function buildWordSet(dictionary: Dictionary, level: CEFRLevel): WordSet {
   const wordSet: WordSet = new Map();
   for (const [english, entry] of Object.entries(dictionary)) {
-    if (entry.pos !== 'noun') continue;
+    if (!ALLOWED_POS.has(entry.pos)) continue;
     if (isLevelIncluded(entry.level, level)) {
       wordSet.set(english, entry);
     }
@@ -23,14 +25,16 @@ async function activate(dictionary: Dictionary, level: CEFRLevel, highlight: boo
   const wordSet = buildWordSet(dictionary, level);
   if (wordSet.size === 0) return;
 
+  const phraseInfo = computePhraseInfo(wordSet);
+
   if (highlight) {
     document.documentElement.classList.add('sneaky-highlight');
   } else {
     document.documentElement.classList.remove('sneaky-highlight');
   }
 
-  walkDOM(document.body, wordSet);
-  startObserver(wordSet);
+  walkDOM(document.body, wordSet, phraseInfo);
+  startObserver(wordSet, phraseInfo);
   initTooltip();
 }
 

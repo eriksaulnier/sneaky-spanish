@@ -1,8 +1,8 @@
-import { processNode, walkDOM, type WordSet } from './walker';
+import { processNode, walkDOM, type WordSet, type PhraseInfo } from './walker';
 
 let observer: MutationObserver | null = null;
 
-export function startObserver(wordSet: WordSet): void {
+export function startObserver(wordSet: WordSet, phraseInfo: PhraseInfo): void {
   if (observer) return;
 
   let timer: ReturnType<typeof setTimeout> | null = null;
@@ -12,7 +12,6 @@ export function startObserver(wordSet: WordSet): void {
     for (const mutation of mutations) {
       for (const node of mutation.addedNodes) {
         if (node instanceof HTMLElement && node.closest('.sneaky-word')) continue;
-        if (node instanceof HTMLElement && node.tagName === 'SNEAKY-TOOLTIP') continue;
         pending.add(node);
       }
     }
@@ -25,9 +24,9 @@ export function startObserver(wordSet: WordSet): void {
       for (const node of nodes) {
         if (!node.isConnected) continue;
         if (node instanceof Text) {
-          processNode(node, wordSet);
+          processNode(node, wordSet, phraseInfo);
         } else if (node instanceof HTMLElement) {
-          walkDOM(node, wordSet);
+          walkDOM(node, wordSet, phraseInfo);
         }
       }
     }, 16);
