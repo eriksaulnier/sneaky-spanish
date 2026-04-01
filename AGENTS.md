@@ -6,6 +6,9 @@
 
 ## Development
 
+- Use **conventional commits** (e.g., `feat:`, `fix:`, `chore:`, `docs:`)
+- Commit incrementally after each logical unit of work — don't batch entire phases into one commit
+
 ## Testing
 
 ## Architecture

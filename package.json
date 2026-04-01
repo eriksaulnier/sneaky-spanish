@@ -1,0 +1,21 @@
+{
+  "name": "sneaky-spanish",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.8.1",
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "build:firefox": "vite build --mode firefox",
+    "package": "web-ext build --source-dir dist",
+    "generate-dict": "tsx scripts/generate-dictionary.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2",
+    "vite": "^8.0.3",
+    "vite-plugin-web-extension": "^4.5.0",
+    "web-ext": "^10.1.0"
+  }
+}
