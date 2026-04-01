@@ -133,14 +133,20 @@ function position(t: Tooltip, anchor: Element) {
 }
 
 export function initTooltip(): void {
-  document.addEventListener('click', (e) => {
+  let hideTimer: ReturnType<typeof setTimeout> | null = null;
+
+  document.addEventListener('mouseover', (e) => {
     const target = (e.target as Element).closest?.('.sneaky-word') as HTMLElement | null;
     if (target) {
-      e.preventDefault();
-      e.stopPropagation();
+      if (hideTimer) { clearTimeout(hideTimer); hideTimer = null; }
       show(target, target.dataset.original!, target.dataset.ipa!);
-    } else if (isVisible()) {
-      hide();
+    }
+  });
+
+  document.addEventListener('mouseout', (e) => {
+    const target = (e.target as Element).closest?.('.sneaky-word') as HTMLElement | null;
+    if (target && isVisible()) {
+      hideTimer = setTimeout(hide, 200);
     }
   });
 
