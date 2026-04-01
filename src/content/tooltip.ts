@@ -113,8 +113,7 @@ class SneakyTooltip extends HTMLElement {
   }
 }
 
-customElements.define('sneaky-tooltip', SneakyTooltip);
-
+let registered = false;
 let tooltip: SneakyTooltip | null = null;
 
 function getTooltip(): SneakyTooltip {
@@ -126,6 +125,10 @@ function getTooltip(): SneakyTooltip {
 }
 
 export function initTooltip(): void {
+  if (!registered) {
+    customElements.define('sneaky-tooltip', SneakyTooltip);
+    registered = true;
+  }
   document.addEventListener('click', (e) => {
     const target = (e.target as Element).closest?.('.sneaky-word') as HTMLElement | null;
     if (target) {
