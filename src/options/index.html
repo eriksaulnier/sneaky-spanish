@@ -9,6 +9,17 @@
 <body>
   <div id="app">
     <h1>Sneaky Spanish Options</h1>
+
+    <section>
+      <h2>Excluded Sites</h2>
+      <p class="description">Sneaky Spanish is disabled on these sites.</p>
+      <div class="add-site">
+        <input type="text" id="new-site" placeholder="example.com">
+        <button id="add-site" type="button">Add</button>
+      </div>
+      <ul id="exclusion-list"></ul>
+      <p id="empty-message" class="empty">No excluded sites.</p>
+    </section>
   </div>
   <script type="module" src="options.ts"></script>
 </body>

@@ -8,7 +8,41 @@
 </head>
 <body>
   <div id="app">
-    <h1>Sneaky Spanish</h1>
+    <header>
+      <h1>Sneaky Spanish</h1>
+      <label class="toggle">
+        <input type="checkbox" id="enabled">
+        <span class="toggle-slider"></span>
+      </label>
+    </header>
+
+    <section>
+      <label for="level">CEFR Level</label>
+      <select id="level">
+        <option value="A1">A1 — Beginner</option>
+        <option value="A2">A2 — Elementary</option>
+        <option value="B1">B1 — Intermediate</option>
+        <option value="B2">B2 — Upper Intermediate</option>
+        <option value="C1">C1 — Advanced</option>
+        <option value="C2">C2 — Mastery</option>
+      </select>
+    </section>
+
+    <section>
+      <label class="checkbox-label">
+        <input type="checkbox" id="highlight">
+        Highlight translated words
+      </label>
+    </section>
+
+    <section>
+      <button id="exclude-site" type="button">Exclude this site</button>
+      <p id="site-status" class="status"></p>
+    </section>
+
+    <footer>
+      <a id="options-link" href="#">Options</a>
+    </footer>
   </div>
   <script type="module" src="popup.ts"></script>
 </body>
