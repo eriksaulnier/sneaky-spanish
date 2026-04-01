@@ -7,10 +7,13 @@ export interface Settings {
   exclusions: string[];
 }
 
+export type PartOfSpeech = 'noun' | 'verb' | 'adj' | 'adv';
+
 export interface DictionaryEntry {
   es: string;
   ipa: string;
   level: CEFRLevel;
+  pos: PartOfSpeech;
 }
 
 export type Dictionary = Record<string, DictionaryEntry>;

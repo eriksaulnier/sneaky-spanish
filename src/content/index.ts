@@ -9,6 +9,7 @@ import { restoreOriginalText } from './restore';
 function buildWordSet(dictionary: Dictionary, level: CEFRLevel): WordSet {
   const wordSet: WordSet = new Map();
   for (const [english, entry] of Object.entries(dictionary)) {
+    if (entry.pos !== 'noun') continue;
     if (isLevelIncluded(entry.level, level)) {
       wordSet.set(english, entry);
     }

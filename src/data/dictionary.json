@@ -2,5301 +2,6361 @@
   "mother": {
     "es": "madre",
     "ipa": "/ˈmaðɾe/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "father": {
     "es": "padre",
     "ipa": "/ˈpaðɾe/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "brother": {
     "es": "hermano",
     "ipa": "/eɾˈmano/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "sister": {
     "es": "hermana",
     "ipa": "/eɾˈmana/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "son": {
     "es": "hijo",
     "ipa": "/ˈixo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "daughter": {
     "es": "hija",
     "ipa": "/ˈixa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "baby": {
     "es": "bebé",
     "ipa": "/beˈβe/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "family": {
     "es": "familia",
     "ipa": "/faˈmilja/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "husband": {
     "es": "esposo",
     "ipa": "/esˈposo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "wife": {
     "es": "esposa",
     "ipa": "/esˈposa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "grandfather": {
     "es": "abuelo",
     "ipa": "/aˈβwelo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "grandmother": {
     "es": "abuela",
     "ipa": "/aˈβwela/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "uncle": {
     "es": "tío",
     "ipa": "/ˈtio/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "aunt": {
     "es": "tía",
     "ipa": "/ˈtia/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "cousin": {
     "es": "primo",
     "ipa": "/ˈpɾimo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "nephew": {
     "es": "sobrino",
     "ipa": "/soˈβɾino/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "niece": {
     "es": "sobrina",
     "ipa": "/soˈβɾina/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "parents": {
     "es": "padres",
     "ipa": "/ˈpaðɾes/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "children": {
     "es": "hijos",
     "ipa": "/ˈixos/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "water": {
     "es": "agua",
     "ipa": "/ˈaɣwa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "milk": {
     "es": "leche",
     "ipa": "/ˈletʃe/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "bread": {
     "es": "pan",
     "ipa": "/pan/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "rice": {
     "es": "arroz",
     "ipa": "/aˈroθ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "meat": {
     "es": "carne",
     "ipa": "/ˈkaɾne/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "fish": {
     "es": "pescado",
     "ipa": "/pesˈkaðo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "fruit": {
     "es": "fruta",
     "ipa": "/ˈfɾuta/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "egg": {
     "es": "huevo",
     "ipa": "/ˈweβo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "cheese": {
     "es": "queso",
     "ipa": "/ˈkeso/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "sugar": {
     "es": "azúcar",
     "ipa": "/aˈθukaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "salt": {
     "es": "sal",
     "ipa": "/sal/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "coffee": {
     "es": "café",
     "ipa": "/kaˈfe/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "tea": {
     "es": "té",
     "ipa": "/te/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "juice": {
     "es": "jugo",
     "ipa": "/ˈxuɣo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "wine": {
     "es": "vino",
     "ipa": "/ˈbino/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "beer": {
     "es": "cerveza",
     "ipa": "/θeɾˈβeθa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "soup": {
     "es": "sopa",
     "ipa": "/ˈsopa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "salad": {
     "es": "ensalada",
     "ipa": "/ensaˈlaða/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "chicken": {
     "es": "pollo",
     "ipa": "/ˈpoʎo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "apple": {
     "es": "manzana",
     "ipa": "/manˈθana/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "orange": {
     "es": "naranja",
     "ipa": "/naˈɾanxa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "banana": {
     "es": "plátano",
     "ipa": "/ˈplatano/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "tomato": {
     "es": "tomate",
     "ipa": "/toˈmate/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "potato": {
     "es": "patata",
     "ipa": "/paˈtata/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "onion": {
     "es": "cebolla",
     "ipa": "/θeˈβoʎa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "butter": {
     "es": "mantequilla",
     "ipa": "/manteˈkiʎa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "chocolate": {
     "es": "chocolate",
     "ipa": "/tʃokoˈlate/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "cake": {
     "es": "pastel",
     "ipa": "/pasˈtel/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "cat": {
     "es": "gato",
     "ipa": "/ˈɡato/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "dog": {
     "es": "perro",
     "ipa": "/ˈpero/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "bird": {
     "es": "pájaro",
     "ipa": "/ˈpaxaɾo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "horse": {
     "es": "caballo",
     "ipa": "/kaˈβaʎo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "cow": {
     "es": "vaca",
     "ipa": "/ˈbaka/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "pig": {
     "es": "cerdo",
     "ipa": "/ˈθeɾðo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "sheep": {
     "es": "oveja",
     "ipa": "/oˈβexa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "rabbit": {
     "es": "conejo",
     "ipa": "/koˈnexo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "mouse": {
     "es": "ratón",
     "ipa": "/raˈton/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "lion": {
     "es": "león",
     "ipa": "/leˈon/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "elephant": {
     "es": "elefante",
     "ipa": "/eleˈfante/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "bear": {
     "es": "oso",
     "ipa": "/ˈoso/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "snake": {
     "es": "serpiente",
     "ipa": "/seɾˈpjente/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "frog": {
     "es": "rana",
     "ipa": "/ˈrana/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "duck": {
     "es": "pato",
     "ipa": "/ˈpato/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "head": {
     "es": "cabeza",
     "ipa": "/kaˈβeθa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "hand": {
     "es": "mano",
     "ipa": "/ˈmano/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "eye": {
     "es": "ojo",
     "ipa": "/ˈoxo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "mouth": {
     "es": "boca",
     "ipa": "/ˈboka/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "nose": {
     "es": "nariz",
     "ipa": "/naˈɾiθ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "ear": {
     "es": "oreja",
     "ipa": "/oˈɾexa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "arm": {
     "es": "brazo",
     "ipa": "/ˈbɾaθo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "leg": {
     "es": "pierna",
     "ipa": "/ˈpjeɾna/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "foot": {
     "es": "pie",
     "ipa": "/ˈpje/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "heart": {
     "es": "corazón",
     "ipa": "/koɾaˈθon/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "back": {
     "es": "espalda",
     "ipa": "/esˈpalda/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "neck": {
     "es": "cuello",
     "ipa": "/ˈkweʎo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "shoulder": {
     "es": "hombro",
     "ipa": "/ˈombɾo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "knee": {
     "es": "rodilla",
     "ipa": "/roˈðiʎa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "finger": {
     "es": "dedo",
     "ipa": "/ˈdeðo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "hair": {
     "es": "pelo",
     "ipa": "/ˈpelo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "face": {
     "es": "cara",
     "ipa": "/ˈkaɾa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "tooth": {
     "es": "diente",
     "ipa": "/ˈdjente/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "tongue": {
     "es": "lengua",
     "ipa": "/ˈleŋɡwa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "stomach": {
     "es": "estómago",
     "ipa": "/esˈtomaɣo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "house": {
     "es": "casa",
     "ipa": "/ˈkasa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "room": {
     "es": "habitación",
     "ipa": "/aβitaˈθjon/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "door": {
     "es": "puerta",
     "ipa": "/ˈpweɾta/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "window": {
     "es": "ventana",
     "ipa": "/benˈtana/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "table": {
     "es": "mesa",
     "ipa": "/ˈmesa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "chair": {
     "es": "silla",
     "ipa": "/ˈsiʎa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "bed": {
     "es": "cama",
     "ipa": "/ˈkama/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "kitchen": {
     "es": "cocina",
     "ipa": "/koˈθina/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "bathroom": {
     "es": "baño",
     "ipa": "/ˈbaɲo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "floor": {
     "es": "suelo",
     "ipa": "/ˈswelo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "wall": {
     "es": "pared",
     "ipa": "/paˈɾeð/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "garden": {
     "es": "jardín",
     "ipa": "/xaɾˈðin/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "lamp": {
     "es": "lámpara",
     "ipa": "/ˈlampaɾa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "key": {
     "es": "llave",
     "ipa": "/ˈʎaβe/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "glass": {
     "es": "vaso",
     "ipa": "/ˈbaso/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "plate": {
     "es": "plato",
     "ipa": "/ˈplato/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "spoon": {
     "es": "cuchara",
     "ipa": "/kuˈtʃaɾa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "fork": {
     "es": "tenedor",
     "ipa": "/teneˈðoɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "knife": {
     "es": "cuchillo",
     "ipa": "/kuˈtʃiʎo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "red": {
     "es": "rojo",
     "ipa": "/ˈɾoxo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "blue": {
     "es": "azul",
     "ipa": "/aˈθul/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "green": {
     "es": "verde",
     "ipa": "/ˈbeɾðe/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "yellow": {
     "es": "amarillo",
     "ipa": "/amaˈɾiʎo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "white": {
     "es": "blanco",
     "ipa": "/ˈblaŋko/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "black": {
     "es": "negro",
     "ipa": "/ˈneɣɾo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "brown": {
     "es": "marrón",
     "ipa": "/maˈron/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "pink": {
     "es": "rosa",
     "ipa": "/ˈɾosa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "purple": {
     "es": "morado",
     "ipa": "/moˈɾaðo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "gray": {
     "es": "gris",
     "ipa": "/ɡɾis/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "one": {
     "es": "uno",
     "ipa": "/ˈuno/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "two": {
     "es": "dos",
     "ipa": "/dos/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "three": {
     "es": "tres",
     "ipa": "/tɾes/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "four": {
     "es": "cuatro",
     "ipa": "/ˈkwatɾo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "five": {
     "es": "cinco",
     "ipa": "/ˈθiŋko/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "six": {
     "es": "seis",
     "ipa": "/seis/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "seven": {
     "es": "siete",
     "ipa": "/ˈsjete/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "eight": {
     "es": "ocho",
     "ipa": "/ˈotʃo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "nine": {
     "es": "nueve",
     "ipa": "/ˈnweβe/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "ten": {
     "es": "diez",
     "ipa": "/ˈdjeθ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "twenty": {
     "es": "veinte",
     "ipa": "/ˈbeinte/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "hundred": {
     "es": "cien",
     "ipa": "/ˈθjen/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "thousand": {
     "es": "mil",
     "ipa": "/mil/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "first": {
     "es": "primero",
     "ipa": "/pɾiˈmeɾo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "second": {
     "es": "segundo",
     "ipa": "/seˈɣundo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "third": {
     "es": "tercero",
     "ipa": "/teɾˈθeɾo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "day": {
     "es": "día",
     "ipa": "/ˈdia/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "night": {
     "es": "noche",
     "ipa": "/ˈnotʃe/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "morning": {
     "es": "mañana",
     "ipa": "/maˈɲana/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "afternoon": {
     "es": "tarde",
     "ipa": "/ˈtaɾðe/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "week": {
     "es": "semana",
     "ipa": "/seˈmana/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "month": {
     "es": "mes",
     "ipa": "/mes/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "year": {
     "es": "año",
     "ipa": "/ˈaɲo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "today": {
     "es": "hoy",
     "ipa": "/oi/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "tomorrow": {
     "es": "mañana",
     "ipa": "/maˈɲana/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "yesterday": {
     "es": "ayer",
     "ipa": "/aˈjeɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "hour": {
     "es": "hora",
     "ipa": "/ˈoɾa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "minute": {
     "es": "minuto",
     "ipa": "/miˈnuto/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "monday": {
     "es": "lunes",
     "ipa": "/ˈlunes/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "tuesday": {
     "es": "martes",
     "ipa": "/ˈmaɾtes/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "wednesday": {
     "es": "miércoles",
     "ipa": "/ˈmjeɾkoles/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "thursday": {
     "es": "jueves",
     "ipa": "/ˈxweβes/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "friday": {
     "es": "viernes",
     "ipa": "/ˈbjeɾnes/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "saturday": {
     "es": "sábado",
     "ipa": "/ˈsaβaðo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "sunday": {
     "es": "domingo",
     "ipa": "/doˈmiŋɡo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "eat": {
     "es": "comer",
     "ipa": "/koˈmeɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "drink": {
     "es": "beber",
     "ipa": "/beˈβeɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "sleep": {
     "es": "dormir",
     "ipa": "/doɾˈmiɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "walk": {
     "es": "caminar",
     "ipa": "/kamiˈnaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "run": {
     "es": "correr",
     "ipa": "/koˈreɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "speak": {
     "es": "hablar",
     "ipa": "/aˈβlaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "read": {
     "es": "leer",
     "ipa": "/leˈeɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "write": {
     "es": "escribir",
     "ipa": "/eskɾiˈβiɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "work": {
     "es": "trabajar",
     "ipa": "/tɾaβaˈxaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "play": {
     "es": "jugar",
     "ipa": "/xuˈɣaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "buy": {
     "es": "comprar",
     "ipa": "/komˈpɾaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "sell": {
     "es": "vender",
     "ipa": "/benˈdeɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "open": {
     "es": "abrir",
     "ipa": "/aˈβɾiɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "close": {
     "es": "cerrar",
     "ipa": "/θeˈraɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "give": {
     "es": "dar",
     "ipa": "/daɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "take": {
     "es": "tomar",
     "ipa": "/toˈmaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "come": {
     "es": "venir",
     "ipa": "/beˈniɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "go": {
     "es": "ir",
     "ipa": "/iɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "see": {
     "es": "ver",
     "ipa": "/beɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "hear": {
     "es": "escuchar",
     "ipa": "/eskuˈtʃaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "know": {
     "es": "saber",
     "ipa": "/saˈβeɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "want": {
     "es": "querer",
     "ipa": "/keˈɾeɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "need": {
     "es": "necesitar",
     "ipa": "/neθesiˈtaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "like": {
     "es": "gustar",
     "ipa": "/ɡusˈtaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "love": {
     "es": "amar",
     "ipa": "/aˈmaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "live": {
     "es": "vivir",
     "ipa": "/biˈβiɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "have": {
     "es": "tener",
     "ipa": "/teˈneɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "make": {
     "es": "hacer",
     "ipa": "/aˈθeɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "say": {
     "es": "decir",
     "ipa": "/deˈθiɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "ask": {
     "es": "preguntar",
     "ipa": "/pɾeɣunˈtaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "think": {
     "es": "pensar",
     "ipa": "/penˈsaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "understand": {
     "es": "entender",
     "ipa": "/entenˈdeɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "wait": {
     "es": "esperar",
     "ipa": "/espeˈɾaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "arrive": {
     "es": "llegar",
     "ipa": "/ʎeˈɣaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "leave": {
     "es": "salir",
     "ipa": "/saˈliɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "return": {
     "es": "volver",
     "ipa": "/bolˈβeɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "start": {
     "es": "empezar",
     "ipa": "/empeˈθaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "finish": {
     "es": "terminar",
     "ipa": "/teɾmiˈnaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "help": {
     "es": "ayudar",
     "ipa": "/ajuˈðaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "call": {
     "es": "llamar",
     "ipa": "/ʎaˈmaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "find": {
     "es": "encontrar",
     "ipa": "/enkonˈtɾaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "put": {
     "es": "poner",
     "ipa": "/poˈneɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "cook": {
     "es": "cocinar",
     "ipa": "/koθiˈnaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "clean": {
     "es": "limpiar",
     "ipa": "/limˈpjaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "wash": {
     "es": "lavar",
     "ipa": "/laˈβaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "carry": {
     "es": "llevar",
     "ipa": "/ʎeˈβaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "learn": {
     "es": "aprender",
     "ipa": "/apɾenˈdeɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "teach": {
     "es": "enseñar",
     "ipa": "/enseˈɲaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "study": {
     "es": "estudiar",
     "ipa": "/estuˈðjaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "pay": {
     "es": "pagar",
     "ipa": "/paˈɣaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "travel": {
     "es": "viajar",
     "ipa": "/bjaˈxaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "swim": {
     "es": "nadar",
     "ipa": "/naˈðaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "dance": {
     "es": "bailar",
     "ipa": "/baiˈlaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "sing": {
     "es": "cantar",
     "ipa": "/kanˈtaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "look": {
     "es": "mirar",
     "ipa": "/miˈɾaɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "good": {
     "es": "bueno",
     "ipa": "/ˈbweno/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "bad": {
     "es": "malo",
     "ipa": "/ˈmalo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "big": {
     "es": "grande",
     "ipa": "/ˈɡɾande/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "small": {
     "es": "pequeño",
     "ipa": "/peˈkeɲo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "new": {
     "es": "nuevo",
     "ipa": "/ˈnweβo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "old": {
     "es": "viejo",
     "ipa": "/ˈbjeχo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "young": {
     "es": "joven",
     "ipa": "/ˈxoβen/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "hot": {
     "es": "caliente",
     "ipa": "/kaˈljente/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "cold": {
     "es": "frío",
     "ipa": "/ˈfɾio/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "happy": {
     "es": "feliz",
     "ipa": "/feˈliθ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "sad": {
     "es": "triste",
     "ipa": "/ˈtɾiste/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "fast": {
     "es": "rápido",
     "ipa": "/ˈrapiðo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "slow": {
     "es": "lento",
     "ipa": "/ˈlento/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "tall": {
     "es": "alto",
     "ipa": "/ˈalto/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "short": {
     "es": "bajo",
     "ipa": "/ˈbaxo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "long": {
     "es": "largo",
     "ipa": "/ˈlaɾɣo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "dirty": {
     "es": "sucio",
     "ipa": "/ˈsuθjo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "easy": {
     "es": "fácil",
     "ipa": "/ˈfaθil/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "difficult": {
     "es": "difícil",
     "ipa": "/diˈfiθil/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "beautiful": {
     "es": "hermoso",
     "ipa": "/eɾˈmoso/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "tired": {
     "es": "cansado",
     "ipa": "/kanˈsaðo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "sick": {
     "es": "enfermo",
     "ipa": "/enˈfeɾmo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "healthy": {
     "es": "sano",
     "ipa": "/ˈsano/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "full": {
     "es": "lleno",
     "ipa": "/ˈʎeno/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "empty": {
     "es": "vacío",
     "ipa": "/baˈθio/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adj"
   },
   "here": {
     "es": "aquí",
     "ipa": "/aˈki/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adv"
   },
   "there": {
     "es": "allí",
     "ipa": "/aˈʎi/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adv"
   },
   "now": {
     "es": "ahora",
     "ipa": "/aˈoɾa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adv"
   },
   "later": {
     "es": "después",
     "ipa": "/desˈpwes/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adv"
   },
   "always": {
     "es": "siempre",
     "ipa": "/ˈsjempɾe/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adv"
   },
   "never": {
     "es": "nunca",
     "ipa": "/ˈnuŋka/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adv"
   },
   "sometimes": {
     "es": "a veces",
     "ipa": "/a ˈbeθes/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adv"
   },
   "very": {
     "es": "muy",
     "ipa": "/mui/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adv"
   },
   "also": {
     "es": "también",
     "ipa": "/tamˈbjen/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adv"
   },
   "only": {
     "es": "solo",
     "ipa": "/ˈsolo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adv"
   },
   "again": {
     "es": "otra vez",
     "ipa": "/ˈotɾa beθ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adv"
   },
   "well": {
     "es": "bien",
     "ipa": "/bjen/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "adv"
   },
   "street": {
     "es": "calle",
     "ipa": "/ˈkaʎe/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "city": {
     "es": "ciudad",
     "ipa": "/θjuˈðað/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "country": {
     "es": "país",
     "ipa": "/paˈis/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "school": {
     "es": "escuela",
     "ipa": "/esˈkwela/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "hospital": {
     "es": "hospital",
     "ipa": "/ospiˈtal/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "store": {
     "es": "tienda",
     "ipa": "/ˈtjenda/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "market": {
     "es": "mercado",
     "ipa": "/meɾˈkaðo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "bank": {
     "es": "banco",
     "ipa": "/ˈbaŋko/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "park": {
     "es": "parque",
     "ipa": "/ˈpaɾke/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "beach": {
     "es": "playa",
     "ipa": "/ˈplaja/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "mountain": {
     "es": "montaña",
     "ipa": "/monˈtaɲa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "river": {
     "es": "río",
     "ipa": "/ˈrio/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "sea": {
     "es": "mar",
     "ipa": "/maɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "forest": {
     "es": "bosque",
     "ipa": "/ˈboske/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "station": {
     "es": "estación",
     "ipa": "/estaˈθjon/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "hotel": {
     "es": "hotel",
     "ipa": "/oˈtel/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "restaurant": {
     "es": "restaurante",
     "ipa": "/restawˈɾante/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "office": {
     "es": "oficina",
     "ipa": "/ofiˈθina/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "money": {
     "es": "dinero",
     "ipa": "/diˈneɾo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "car": {
     "es": "coche",
     "ipa": "/ˈkotʃe/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "phone": {
     "es": "teléfono",
     "ipa": "/teˈlefono/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "book": {
     "es": "libro",
     "ipa": "/ˈliβɾo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "bag": {
     "es": "bolsa",
     "ipa": "/ˈbolsa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "clothes": {
     "es": "ropa",
     "ipa": "/ˈropa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "shirt": {
     "es": "camisa",
     "ipa": "/kaˈmisa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "pants": {
     "es": "pantalón",
     "ipa": "/pantaˈlon/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "shoes": {
     "es": "zapatos",
     "ipa": "/θaˈpatos/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "dress": {
     "es": "vestido",
     "ipa": "/besˈtiðo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "hat": {
     "es": "sombrero",
     "ipa": "/somˈbɾeɾo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "coat": {
     "es": "abrigo",
     "ipa": "/aˈβɾiɣo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "watch": {
     "es": "reloj",
     "ipa": "/reˈlox/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "glasses": {
     "es": "gafas",
     "ipa": "/ˈɡafas/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "pen": {
     "es": "bolígrafo",
     "ipa": "/boˈliɣɾafo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "paper": {
     "es": "papel",
     "ipa": "/paˈpel/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "letter": {
     "es": "carta",
     "ipa": "/ˈkaɾta/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "computer": {
     "es": "ordenador",
     "ipa": "/oɾðenaˈðoɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "television": {
     "es": "televisión",
     "ipa": "/teleβiˈsjon/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "ticket": {
     "es": "billete",
     "ipa": "/biˈʎete/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "map": {
     "es": "mapa",
     "ipa": "/ˈmapa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "music": {
     "es": "música",
     "ipa": "/ˈmusika/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "tree": {
     "es": "árbol",
     "ipa": "/ˈaɾβol/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "sun": {
     "es": "sol",
     "ipa": "/sol/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "moon": {
     "es": "luna",
     "ipa": "/ˈluna/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "star": {
     "es": "estrella",
     "ipa": "/esˈtɾeʎa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "rain": {
     "es": "lluvia",
     "ipa": "/ˈʎuβja/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "snow": {
     "es": "nieve",
     "ipa": "/ˈnjeβe/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "word": {
     "es": "palabra",
     "ipa": "/paˈlaβɾa/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "name": {
     "es": "nombre",
     "ipa": "/ˈnombɾe/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "question": {
     "es": "pregunta",
     "ipa": "/pɾeˈɣunta/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "answer": {
     "es": "respuesta",
     "ipa": "/resˈpwesta/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "price": {
     "es": "precio",
     "ipa": "/ˈpɾeθjo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "person": {
     "es": "persona",
     "ipa": "/peɾˈsona/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "man": {
     "es": "hombre",
     "ipa": "/ˈombɾe/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "woman": {
     "es": "mujer",
     "ipa": "/muˈxeɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "verb"
   },
   "boy": {
     "es": "chico",
     "ipa": "/ˈtʃiko/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "girl": {
     "es": "chica",
     "ipa": "/ˈtʃika/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "friend": {
     "es": "amigo",
     "ipa": "/aˈmiɣo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "teacher": {
     "es": "profesor",
     "ipa": "/pɾofeˈsoɾ/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "student": {
     "es": "estudiante",
     "ipa": "/estuˈðjante/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "doctor": {
     "es": "médico",
     "ipa": "/ˈmeðiko/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "weather": {
     "es": "tiempo",
     "ipa": "/ˈtjempo/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "language": {
     "es": "idioma",
     "ipa": "/iˈðjoma/",
-    "level": "A1"
+    "level": "A1",
+    "pos": "noun"
   },
   "airport": {
     "es": "aeropuerto",
     "ipa": "/aeɾoˈpweɾto/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "passport": {
     "es": "pasaporte",
     "ipa": "/pasaˈpoɾte/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "lake": {
     "es": "lago",
     "ipa": "/ˈlaɣo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "island": {
     "es": "isla",
     "ipa": "/ˈizla/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "suitcase": {
     "es": "maleta",
     "ipa": "/maˈleta/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "flight": {
     "es": "vuelo",
     "ipa": "/ˈbwelo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "train": {
     "es": "tren",
     "ipa": "/ˈtɾen/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "tourist": {
     "es": "turista",
     "ipa": "/tuˈɾista/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "reservation": {
     "es": "reserva",
     "ipa": "/reˈseɾβa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "journey": {
     "es": "viaje",
     "ipa": "/ˈbjaχe/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "valley": {
     "es": "valle",
     "ipa": "/ˈbaʎe/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "shore": {
     "es": "orilla",
     "ipa": "/oˈɾiʎa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "jacket": {
     "es": "chaqueta",
     "ipa": "/tʃaˈketa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "socks": {
     "es": "calcetines",
     "ipa": "/kalθeˈtines/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "boots": {
     "es": "botas",
     "ipa": "/ˈbotas/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "belt": {
     "es": "cinturón",
     "ipa": "/θintuˈɾon/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "gloves": {
     "es": "guantes",
     "ipa": "/ˈɡwantes/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "scarf": {
     "es": "bufanda",
     "ipa": "/buˈfanda/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "sweater": {
     "es": "jersey",
     "ipa": "/xeɾˈsei/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "skirt": {
     "es": "falda",
     "ipa": "/ˈfalda/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "button": {
     "es": "botón",
     "ipa": "/boˈton/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "police": {
     "es": "policía",
     "ipa": "/poliˈθia/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "nurse": {
     "es": "enfermera",
     "ipa": "/emfeɾˈmeɾa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "lawyer": {
     "es": "abogado",
     "ipa": "/aboˈɣaðo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "engineer": {
     "es": "ingeniero",
     "ipa": "/inχeˈnjeɾo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "driver": {
     "es": "conductor",
     "ipa": "/kondukˈtoɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "farmer": {
     "es": "agricultor",
     "ipa": "/aɣɾikulˈtoɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "mechanic": {
     "es": "mecánico",
     "ipa": "/meˈkaniko/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "architect": {
     "es": "arquitecto",
     "ipa": "/aɾkiˈtekto/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "journalist": {
     "es": "periodista",
     "ipa": "/peɾjoˈðista/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "firefighter": {
     "es": "bombero",
     "ipa": "/bomˈbeɾo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "pilot": {
     "es": "piloto",
     "ipa": "/piˈloto/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "waiter": {
     "es": "camarero",
     "ipa": "/kamaˈɾeɾo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "dentist": {
     "es": "dentista",
     "ipa": "/denˈtista/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "cheap": {
     "es": "barato",
     "ipa": "/baˈɾato/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "expensive": {
     "es": "caro",
     "ipa": "/ˈkaɾo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "receipt": {
     "es": "recibo",
     "ipa": "/reˈθiβo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "gift": {
     "es": "regalo",
     "ipa": "/reˈɣalo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "discount": {
     "es": "descuento",
     "ipa": "/desˈkwento/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "cash": {
     "es": "efectivo",
     "ipa": "/efekˈtiβo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "customer": {
     "es": "cliente",
     "ipa": "/ˈkljente/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "sale": {
     "es": "oferta",
     "ipa": "/oˈfeɾta/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "size": {
     "es": "talla",
     "ipa": "/ˈtaʎa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "medicine": {
     "es": "medicina",
     "ipa": "/meðiˈθina/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "pain": {
     "es": "dolor",
     "ipa": "/doˈloɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "fever": {
     "es": "fiebre",
     "ipa": "/ˈfjeβɾe/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "cough": {
     "es": "tos",
     "ipa": "/ˈtos/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "allergy": {
     "es": "alergia",
     "ipa": "/aleɾˈχia/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "injury": {
     "es": "herida",
     "ipa": "/eˈɾiða/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "pharmacy": {
     "es": "farmacia",
     "ipa": "/faɾˈmaθja/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "appointment": {
     "es": "cita",
     "ipa": "/ˈθita/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "pill": {
     "es": "pastilla",
     "ipa": "/pasˈtiʎa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "flower": {
     "es": "flor",
     "ipa": "/ˈfloɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "cloud": {
     "es": "nube",
     "ipa": "/ˈnuβe/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "wind": {
     "es": "viento",
     "ipa": "/ˈbjento/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "sky": {
     "es": "cielo",
     "ipa": "/ˈθjelo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "earth": {
     "es": "tierra",
     "ipa": "/ˈtjeɾa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "grass": {
     "es": "hierba",
     "ipa": "/ˈjeɾβa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "leaf": {
     "es": "hoja",
     "ipa": "/ˈoχa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "stone": {
     "es": "piedra",
     "ipa": "/ˈpjeðɾa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "sand": {
     "es": "arena",
     "ipa": "/aˈɾena/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "wave": {
     "es": "ola",
     "ipa": "/ˈola/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "angry": {
     "es": "enfadado",
     "ipa": "/emfaˈðaðo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "afraid": {
     "es": "asustado",
     "ipa": "/asusˈtaðo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "excited": {
     "es": "emocionado",
     "ipa": "/emoθjoˈnaðo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "nervous": {
     "es": "nervioso",
     "ipa": "/neɾˈbjoso/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "proud": {
     "es": "orgulloso",
     "ipa": "/oɾɣuˈʎoso/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "worried": {
     "es": "preocupado",
     "ipa": "/pɾeokuˈpaðo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "surprised": {
     "es": "sorprendido",
     "ipa": "/soɾpɾenˈdiðo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "bored": {
     "es": "aburrido",
     "ipa": "/abuˈriðo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "lonely": {
     "es": "solo",
     "ipa": "/ˈsolo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "jealous": {
     "es": "celoso",
     "ipa": "/θeˈloso/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "embarrassed": {
     "es": "avergonzado",
     "ipa": "/aβeɾɣonˈθaðo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "confused": {
     "es": "confundido",
     "ipa": "/konfunˈdiðo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "grateful": {
     "es": "agradecido",
     "ipa": "/aɣɾaðeˈθiðo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "disappointed": {
     "es": "decepcionado",
     "ipa": "/deθepθjoˈnaðo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "breakfast": {
     "es": "desayuno",
     "ipa": "/desaˈʝuno/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "lunch": {
     "es": "almuerzo",
     "ipa": "/alˈmweɾθo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "dinner": {
     "es": "cena",
     "ipa": "/ˈθena/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "shower": {
     "es": "ducha",
     "ipa": "/ˈdutʃa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "alarm": {
     "es": "despertador",
     "ipa": "/despeɾtaˈðoɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "schedule": {
     "es": "horario",
     "ipa": "/oˈɾaɾjo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "routine": {
     "es": "rutina",
     "ipa": "/ruˈtina/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "laundry": {
     "es": "ropa sucia",
     "ipa": "/ˈropa ˈsuθja/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "broom": {
     "es": "escoba",
     "ipa": "/esˈkoβa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "rubbish": {
     "es": "basura",
     "ipa": "/baˈsuɾa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "mirror": {
     "es": "espejo",
     "ipa": "/esˈpexo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "towel": {
     "es": "toalla",
     "ipa": "/toˈaʎa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "choose": {
     "es": "elegir",
     "ipa": "/eleˈχiɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "forget": {
     "es": "olvidar",
     "ipa": "/olbiˈðaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "remember": {
     "es": "recordar",
     "ipa": "/rekoɾˈdaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "believe": {
     "es": "creer",
     "ipa": "/kɾeˈeɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "prepare": {
     "es": "preparar",
     "ipa": "/pɾepaˈɾaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "throw": {
     "es": "lanzar",
     "ipa": "/lanˈθaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "catch": {
     "es": "atrapar",
     "ipa": "/atɾaˈpaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "push": {
     "es": "empujar",
     "ipa": "/empuˈχaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "pull": {
     "es": "tirar",
     "ipa": "/tiˈɾaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "cut": {
     "es": "cortar",
     "ipa": "/koɾˈtaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "break": {
     "es": "romper",
     "ipa": "/romˈpeɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "build": {
     "es": "construir",
     "ipa": "/konstɾuˈiɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "grow": {
     "es": "crecer",
     "ipa": "/kɾeˈθeɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "fly": {
     "es": "volar",
     "ipa": "/boˈlaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "climb": {
     "es": "escalar",
     "ipa": "/eskaˈlaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "fall": {
     "es": "caer",
     "ipa": "/kaˈeɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "jump": {
     "es": "saltar",
     "ipa": "/salˈtaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "drive": {
     "es": "conducir",
     "ipa": "/konduˈθiɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "turn": {
     "es": "girar",
     "ipa": "/χiˈɾaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "stop": {
     "es": "parar",
     "ipa": "/paˈɾaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "show": {
     "es": "mostrar",
     "ipa": "/mosˈtɾaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "ugly": {
     "es": "feo",
     "ipa": "/ˈfeo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "strong": {
     "es": "fuerte",
     "ipa": "/ˈfweɾte/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "weak": {
     "es": "débil",
     "ipa": "/ˈdeβil/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "heavy": {
     "es": "pesado",
     "ipa": "/peˈsaðo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "light": {
     "es": "ligero",
     "ipa": "/liˈχeɾo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "deep": {
     "es": "profundo",
     "ipa": "/pɾoˈfundo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "wide": {
     "es": "ancho",
     "ipa": "/ˈantʃo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "narrow": {
     "es": "estrecho",
     "ipa": "/esˈtɾetʃo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "soft": {
     "es": "suave",
     "ipa": "/ˈswaβe/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "hard": {
     "es": "duro",
     "ipa": "/ˈduɾo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "dry": {
     "es": "seco",
     "ipa": "/ˈseko/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "wet": {
     "es": "mojado",
     "ipa": "/moˈχaðo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "rich": {
     "es": "rico",
     "ipa": "/ˈriko/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "poor": {
     "es": "pobre",
     "ipa": "/ˈpoβɾe/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "fresh": {
     "es": "fresco",
     "ipa": "/ˈfɾesko/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "loud": {
     "es": "ruidoso",
     "ipa": "/rwiˈðoso/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "quiet": {
     "es": "silencioso",
     "ipa": "/silenˈθjoso/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "bright": {
     "es": "brillante",
     "ipa": "/bɾiˈʎante/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "dark": {
     "es": "oscuro",
     "ipa": "/osˈkuɾo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "bridge": {
     "es": "puente",
     "ipa": "/ˈpwente/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "road": {
     "es": "carretera",
     "ipa": "/kareˈteɾa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "corner": {
     "es": "esquina",
     "ipa": "/esˈkina/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "stairs": {
     "es": "escaleras",
     "ipa": "/eskaˈleɾas/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "entrance": {
     "es": "entrada",
     "ipa": "/enˈtɾaða/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "exit": {
     "es": "salida",
     "ipa": "/saˈliða/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "roof": {
     "es": "tejado",
     "ipa": "/teˈχaðo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "square": {
     "es": "plaza",
     "ipa": "/ˈplaθa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "adj"
   },
   "neighborhood": {
     "es": "barrio",
     "ipa": "/ˈbarjo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "subject": {
     "es": "asignatura",
     "ipa": "/asiɣnaˈtuɾa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "lesson": {
     "es": "lección",
     "ipa": "/lekˈθjon/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "exam": {
     "es": "examen",
     "ipa": "/ekˈsamen/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "grade": {
     "es": "nota",
     "ipa": "/ˈnota/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "homework": {
     "es": "deberes",
     "ipa": "/deˈβeɾes/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "library": {
     "es": "biblioteca",
     "ipa": "/bibliˈoteka/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "classroom": {
     "es": "aula",
     "ipa": "/ˈawla/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "university": {
     "es": "universidad",
     "ipa": "/uniβeɾsiˈðað/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "mistake": {
     "es": "error",
     "ipa": "/eˈroɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "dictionary": {
     "es": "diccionario",
     "ipa": "/dikθjoˈnaɾjo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "skill": {
     "es": "habilidad",
     "ipa": "/aβiliˈðað/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "account": {
     "es": "cuenta",
     "ipa": "/ˈkwenta/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "coin": {
     "es": "moneda",
     "ipa": "/moˈneða/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "salary": {
     "es": "sueldo",
     "ipa": "/ˈsweldo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "tax": {
     "es": "impuesto",
     "ipa": "/imˈpwesto/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "rent": {
     "es": "alquiler",
     "ipa": "/alkiˈleɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "cost": {
     "es": "coste",
     "ipa": "/ˈkoste/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "budget": {
     "es": "presupuesto",
     "ipa": "/pɾesuˈpwesto/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "screen": {
     "es": "pantalla",
     "ipa": "/panˈtaʎa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "keyboard": {
     "es": "teclado",
     "ipa": "/tekˈlaðo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "network": {
     "es": "red",
     "ipa": "/ˈreð/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "message": {
     "es": "mensaje",
     "ipa": "/menˈsaχe/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "website": {
     "es": "sitio web",
     "ipa": "/ˈsitjo ˈweβ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "application": {
     "es": "aplicación",
     "ipa": "/aplikaˈθjon/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "password": {
     "es": "contraseña",
     "ipa": "/kontɾaˈseɲa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "sport": {
     "es": "deporte",
     "ipa": "/deˈpoɾte/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "match": {
     "es": "partido",
     "ipa": "/paɾˈtiðo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "team": {
     "es": "equipo",
     "ipa": "/eˈkipo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "player": {
     "es": "jugador",
     "ipa": "/χuɣaˈðoɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "winner": {
     "es": "ganador",
     "ipa": "/ɡanaˈðoɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "goal": {
     "es": "gol",
     "ipa": "/ˈɡol/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "trophy": {
     "es": "trofeo",
     "ipa": "/tɾoˈfeo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "song": {
     "es": "canción",
     "ipa": "/kanˈθjon/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "instrument": {
     "es": "instrumento",
     "ipa": "/instɾuˈmento/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "concert": {
     "es": "concierto",
     "ipa": "/konˈθjeɾto/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "painting": {
     "es": "cuadro",
     "ipa": "/ˈkwadɾo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "theatre": {
     "es": "teatro",
     "ipa": "/teˈatɾo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "exhibition": {
     "es": "exposición",
     "ipa": "/eksposiˈθjon/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "novel": {
     "es": "novela",
     "ipa": "/noˈβela/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "poem": {
     "es": "poema",
     "ipa": "/poˈema/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "church": {
     "es": "iglesia",
     "ipa": "/iˈɣlesja/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "castle": {
     "es": "castillo",
     "ipa": "/kasˈtiʎo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "museum": {
     "es": "museo",
     "ipa": "/muˈseo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "monument": {
     "es": "monumento",
     "ipa": "/monuˈmento/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "statue": {
     "es": "estatua",
     "ipa": "/esˈtatwa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "beef": {
     "es": "ternera",
     "ipa": "/teɾˈneɾa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "pork": {
     "es": "cerdo",
     "ipa": "/ˈθeɾðo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "seafood": {
     "es": "marisco",
     "ipa": "/maˈɾisko/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "dessert": {
     "es": "postre",
     "ipa": "/ˈpostɾe/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "sauce": {
     "es": "salsa",
     "ipa": "/ˈsalsa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "spice": {
     "es": "especia",
     "ipa": "/esˈpeθja/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "recipe": {
     "es": "receta",
     "ipa": "/reˈθeta/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "oven": {
     "es": "horno",
     "ipa": "/ˈoɾno/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "napkin": {
     "es": "servilleta",
     "ipa": "/seɾβiˈʎeta/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "bottle": {
     "es": "botella",
     "ipa": "/boˈteʎa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "village": {
     "es": "pueblo",
     "ipa": "/ˈpweβlo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "capital": {
     "es": "capital",
     "ipa": "/kapiˈtal/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "region": {
     "es": "región",
     "ipa": "/reˈχjon/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "border": {
     "es": "frontera",
     "ipa": "/fɾonˈteɾa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "coast": {
     "es": "costa",
     "ipa": "/ˈkosta/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "desert": {
     "es": "desierto",
     "ipa": "/deˈsjeɾto/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "jungle": {
     "es": "selva",
     "ipa": "/ˈselβa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "cave": {
     "es": "cueva",
     "ipa": "/ˈkweβa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "volcano": {
     "es": "volcán",
     "ipa": "/bolˈkan/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "waterfall": {
     "es": "cascada",
     "ipa": "/kasˈkaða/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "bay": {
     "es": "bahía",
     "ipa": "/baˈia/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "spring": {
     "es": "primavera",
     "ipa": "/pɾimaˈβeɾa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "summer": {
     "es": "verano",
     "ipa": "/beˈɾano/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "autumn": {
     "es": "otoño",
     "ipa": "/oˈtoɲo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "winter": {
     "es": "invierno",
     "ipa": "/imˈbjeɾno/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "temperature": {
     "es": "temperatura",
     "ipa": "/tempeɾaˈtuɾa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "storm": {
     "es": "tormenta",
     "ipa": "/toɾˈmenta/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "thunder": {
     "es": "trueno",
     "ipa": "/ˈtɾweno/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "lightning": {
     "es": "relámpago",
     "ipa": "/reˈlampago/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "flood": {
     "es": "inundación",
     "ipa": "/inundaˈθjon/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "drought": {
     "es": "sequía",
     "ipa": "/seˈkia/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "sunrise": {
     "es": "amanecer",
     "ipa": "/amaneˈθeɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "sunset": {
     "es": "atardecer",
     "ipa": "/ataɾðeˈθeɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "shadow": {
     "es": "sombra",
     "ipa": "/ˈsombɾa/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "heat": {
     "es": "calor",
     "ipa": "/kaˈloɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "noun"
   },
   "suggest": {
     "es": "sugerir",
     "ipa": "/suχeˈɾiɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "decide": {
     "es": "decidir",
     "ipa": "/deθiˈðiɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "invite": {
     "es": "invitar",
     "ipa": "/imbiˈtaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "accept": {
     "es": "aceptar",
     "ipa": "/aθepˈtaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "refuse": {
     "es": "rechazar",
     "ipa": "/retʃaˈθaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "promise": {
     "es": "prometer",
     "ipa": "/pɾomeˈteɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "warn": {
     "es": "advertir",
     "ipa": "/aðβeɾˈtiɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "complain": {
     "es": "quejarse",
     "ipa": "/keˈχaɾse/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "apologize": {
     "es": "disculparse",
     "ipa": "/diskʌlˈpaɾse/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "congratulate": {
     "es": "felicitar",
     "ipa": "/feliθiˈtaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "celebrate": {
     "es": "celebrar",
     "ipa": "/θeleˈβɾaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "borrow": {
     "es": "pedir prestado",
     "ipa": "/peˈðiɾ pɾesˈtaðo/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "lend": {
     "es": "prestar",
     "ipa": "/pɾesˈtaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "spend": {
     "es": "gastar",
     "ipa": "/ɡasˈtaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "save": {
     "es": "ahorrar",
     "ipa": "/aoˈraɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "earn": {
     "es": "ganar",
     "ipa": "/ɡaˈnaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "measure": {
     "es": "medir",
     "ipa": "/meˈðiɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "compare": {
     "es": "comparar",
     "ipa": "/kompaˈɾaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "count": {
     "es": "contar",
     "ipa": "/konˈtaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "add": {
     "es": "añadir",
     "ipa": "/aɲaˈðiɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "multiply": {
     "es": "multiplicar",
     "ipa": "/multipliˈkaɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "divide": {
     "es": "dividir",
     "ipa": "/diβiˈðiɾ/",
-    "level": "A2"
+    "level": "A2",
+    "pos": "verb"
   },
   "meeting": {
     "es": "reunión",
     "ipa": "/reuˈnjon/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "interview": {
     "es": "entrevista",
     "ipa": "/entɾeˈβista/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "contract": {
     "es": "contrato",
     "ipa": "/konˈtɾato/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "employee": {
     "es": "empleado",
     "ipa": "/empleˈaðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "employer": {
     "es": "empleador",
     "ipa": "/empleaˈðoɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "manager": {
     "es": "gerente",
     "ipa": "/xeˈɾente/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "colleague": {
     "es": "colega",
     "ipa": "/koˈleɣa/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "deadline": {
     "es": "plazo",
     "ipa": "/ˈplaθo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "profit": {
     "es": "ganancia",
     "ipa": "/ɡaˈnanθja/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "loss": {
     "es": "pérdida",
     "ipa": "/ˈpeɾðiða/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "invest": {
     "es": "invertir",
     "ipa": "/imbeɾˈtiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "promote": {
     "es": "promover",
     "ipa": "/pɾomoˈβeɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "resign": {
     "es": "renunciar",
     "ipa": "/renunˈθjaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "hire": {
     "es": "contratar",
     "ipa": "/kontɾaˈtaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "fire": {
     "es": "despedir",
     "ipa": "/despeˈðiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "career": {
     "es": "carrera",
     "ipa": "/kaˈreɾa/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "profession": {
     "es": "profesión",
     "ipa": "/pɾofeˈsjon/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "department": {
     "es": "departamento",
     "ipa": "/depaɾtaˈmento/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "headquarters": {
     "es": "sede",
     "ipa": "/ˈseðe/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "branch": {
     "es": "sucursal",
     "ipa": "/sukuɾˈsal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "client": {
     "es": "cliente",
     "ipa": "/kliˈente/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "supplier": {
     "es": "proveedor",
     "ipa": "/pɾoβeeˈðoɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "invoice": {
     "es": "factura",
     "ipa": "/fakˈtuɾa/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "loan": {
     "es": "préstamo",
     "ipa": "/ˈpɾestamo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "debt": {
     "es": "deuda",
     "ipa": "/ˈdeuða/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "revenue": {
     "es": "ingresos",
     "ipa": "/iŋˈɡɾesos/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "expense": {
     "es": "gasto",
     "ipa": "/ˈɡasto/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "insurance": {
     "es": "seguro",
     "ipa": "/seˈɣuɾo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "pension": {
     "es": "pensión",
     "ipa": "/penˈsjon/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "bonus": {
     "es": "bono",
     "ipa": "/ˈbono/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "commission": {
     "es": "comisión",
     "ipa": "/komiˈsjon/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "promotion": {
     "es": "ascenso",
     "ipa": "/asˈθenso/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "negotiation": {
     "es": "negociación",
     "ipa": "/neɣoθjaˈθjon/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "degree": {
     "es": "título",
     "ipa": "/ˈtitulo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "lecture": {
     "es": "conferencia",
     "ipa": "/konfeˈɾenθja/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "research": {
     "es": "investigación",
     "ipa": "/imbestiɣaˈθjon/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "knowledge": {
     "es": "conocimiento",
     "ipa": "/konoθiˈmjento/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "certificate": {
     "es": "certificado",
     "ipa": "/θeɾtifiˈkaðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "scholarship": {
     "es": "beca",
     "ipa": "/ˈbeka/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "tuition": {
     "es": "matrícula",
     "ipa": "/maˈtɾikula/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "curriculum": {
     "es": "plan de estudios",
     "ipa": "/plan de esˈtuðjos/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "semester": {
     "es": "semestre",
     "ipa": "/seˈmestɾe/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "thesis": {
     "es": "tesis",
     "ipa": "/ˈtesis/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "professor": {
     "es": "profesor",
     "ipa": "/pɾofeˈsoɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "faculty": {
     "es": "facultad",
     "ipa": "/fakultˈað/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "campus": {
     "es": "campus",
     "ipa": "/ˈkampus/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "laboratory": {
     "es": "laboratorio",
     "ipa": "/laβoɾaˈtoɾjo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "internet": {
     "es": "internet",
     "ipa": "/inteɾˈnet/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "software": {
     "es": "software",
     "ipa": "/ˈsoftweɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "download": {
     "es": "descargar",
     "ipa": "/deskaɾˈɣaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "upload": {
     "es": "subir",
     "ipa": "/suˈβiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "data": {
     "es": "datos",
     "ipa": "/ˈdatos/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "database": {
     "es": "base de datos",
     "ipa": "/ˈbase ðe ˈdatos/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "server": {
     "es": "servidor",
     "ipa": "/seɾβiˈðoɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "device": {
     "es": "dispositivo",
     "ipa": "/disposiˈtiβo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "wireless": {
     "es": "inalámbrico",
     "ipa": "/inaˈlambɾiko/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "digital": {
     "es": "digital",
     "ipa": "/dixiˈtal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "algorithm": {
     "es": "algoritmo",
     "ipa": "/aloˈɾitmo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "program": {
     "es": "programa",
     "ipa": "/pɾoˈɣɾama/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "update": {
     "es": "actualizar",
     "ipa": "/aktwaliˈθaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "install": {
     "es": "instalar",
     "ipa": "/instaˈlaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "delete": {
     "es": "eliminar",
     "ipa": "/elimiˈnaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "search": {
     "es": "buscar",
     "ipa": "/busˈkaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "newspaper": {
     "es": "periódico",
     "ipa": "/peˈɾjoðiko/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "magazine": {
     "es": "revista",
     "ipa": "/reˈβista/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "article": {
     "es": "artículo",
     "ipa": "/aɾˈtikulo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "advertisement": {
     "es": "anuncio",
     "ipa": "/aˈnunθjo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "channel": {
     "es": "canal",
     "ipa": "/kaˈnal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "broadcast": {
     "es": "transmitir",
     "ipa": "/tɾansmiˈtiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "audience": {
     "es": "audiencia",
     "ipa": "/awˈðjenθja/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "headline": {
     "es": "titular",
     "ipa": "/tituˈlaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "publish": {
     "es": "publicar",
     "ipa": "/publiˈkaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "editor": {
     "es": "editor",
     "ipa": "/eðiˈtoɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "reporter": {
     "es": "reportero",
     "ipa": "/repoɾˈteɾo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "documentary": {
     "es": "documental",
     "ipa": "/dokumentˈal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "series": {
     "es": "serie",
     "ipa": "/ˈseɾje/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "episode": {
     "es": "episodio",
     "ipa": "/epiˈsoðjo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "podcast": {
     "es": "podcast",
     "ipa": "/ˈpoðkast/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "subscribe": {
     "es": "suscribirse",
     "ipa": "/suskɾiˈβiɾse/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "comment": {
     "es": "comentario",
     "ipa": "/komenˈtaɾjo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "review": {
     "es": "reseña",
     "ipa": "/reˈseɲa/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "law": {
     "es": "ley",
     "ipa": "/lei/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "rule": {
     "es": "norma",
     "ipa": "/ˈnoɾma/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "government": {
     "es": "gobierno",
     "ipa": "/ɡoˈβjeɾno/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "election": {
     "es": "elección",
     "ipa": "/elekˈθjon/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "vote": {
     "es": "votar",
     "ipa": "/boˈtaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "citizen": {
     "es": "ciudadano",
     "ipa": "/θjuðaˈðano/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "crime": {
     "es": "crimen",
     "ipa": "/ˈkɾimen/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "prison": {
     "es": "prisión",
     "ipa": "/pɾiˈsjon/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "court": {
     "es": "tribunal",
     "ipa": "/tɾiβuˈnal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "judge": {
     "es": "juez",
     "ipa": "/xweθ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "witness": {
     "es": "testigo",
     "ipa": "/tesˈtiɣo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "victim": {
     "es": "víctima",
     "ipa": "/ˈβiktima/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "justice": {
     "es": "justicia",
     "ipa": "/xusˈtiθja/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "rights": {
     "es": "derechos",
     "ipa": "/deˈɾetʃos/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "freedom": {
     "es": "libertad",
     "ipa": "/liβeɾˈtað/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "democracy": {
     "es": "democracia",
     "ipa": "/demoˈkɾaθja/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "politics": {
     "es": "política",
     "ipa": "/poˈlitika/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "parliament": {
     "es": "parlamento",
     "ipa": "/paɾlaˈmento/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "minister": {
     "es": "ministro",
     "ipa": "/miˈnistɾo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "policy": {
     "es": "política",
     "ipa": "/poˈlitika/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "constitution": {
     "es": "constitución",
     "ipa": "/konstituˈθjon/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "treaty": {
     "es": "tratado",
     "ipa": "/tɾaˈtaðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "embassy": {
     "es": "embajada",
     "ipa": "/embaˈxaða/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "ingredient": {
     "es": "ingrediente",
     "ipa": "/iŋɡɾeˈðjente/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "flavor": {
     "es": "sabor",
     "ipa": "/saˈβoɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "roast": {
     "es": "asar",
     "ipa": "/aˈsaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "boil": {
     "es": "hervir",
     "ipa": "/eɾˈβiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "fry": {
     "es": "freír",
     "ipa": "/fɾeˈiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "bake": {
     "es": "hornear",
     "ipa": "/oɾneˈaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "grill": {
     "es": "asar a la parrilla",
     "ipa": "/aˈsaɾ a la paˈriʎa/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "slice": {
     "es": "rebanar",
     "ipa": "/reβaˈnaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "peel": {
     "es": "pelar",
     "ipa": "/peˈlaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "chop": {
     "es": "picar",
     "ipa": "/piˈkaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "stir": {
     "es": "remover",
     "ipa": "/remoˈβeɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "marinate": {
     "es": "marinar",
     "ipa": "/maɾiˈnaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "season": {
     "es": "sazonar",
     "ipa": "/saθoˈnaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "portion": {
     "es": "porción",
     "ipa": "/poɾˈθjon/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "cuisine": {
     "es": "cocina",
     "ipa": "/koˈθina/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "vegetarian": {
     "es": "vegetariano",
     "ipa": "/βexetaˈɾjano/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "pollution": {
     "es": "contaminación",
     "ipa": "/kontaminaˈθjon/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "recycle": {
     "es": "reciclar",
     "ipa": "/reθikˈlaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "climate": {
     "es": "clima",
     "ipa": "/ˈklima/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "environment": {
     "es": "medio ambiente",
     "ipa": "/ˈmeðjo amˈbjente/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "energy": {
     "es": "energía",
     "ipa": "/eneɾˈxia/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "resource": {
     "es": "recurso",
     "ipa": "/reˈkuɾso/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "waste": {
     "es": "residuo",
     "ipa": "/reˈsiðwo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "protect": {
     "es": "proteger",
     "ipa": "/pɾoteˈxeɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "solar": {
     "es": "solar",
     "ipa": "/soˈlaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "fossil": {
     "es": "fósil",
     "ipa": "/ˈfosil/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "emission": {
     "es": "emisión",
     "ipa": "/emiˈsjon/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "conservation": {
     "es": "conservación",
     "ipa": "/konseɾβaˈθjon/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "sustainable": {
     "es": "sostenible",
     "ipa": "/sosteˈniβle/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "biodiversity": {
     "es": "biodiversidad",
     "ipa": "/bioðiβeɾsiˈðað/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "ecosystem": {
     "es": "ecosistema",
     "ipa": "/ekosisˈtema/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "earthquake": {
     "es": "terremoto",
     "ipa": "/tereˈmoto/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "deforestation": {
     "es": "deforestación",
     "ipa": "/defoɾestaˈθjon/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "score": {
     "es": "marcador",
     "ipa": "/maɾkaˈðoɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "coach": {
     "es": "entrenador",
     "ipa": "/entɾenaˈðoɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "champion": {
     "es": "campeón",
     "ipa": "/kampeˈon/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "race": {
     "es": "carrera",
     "ipa": "/kaˈreɾa/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "compete": {
     "es": "competir",
     "ipa": "/kompeˈtiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "stadium": {
     "es": "estadio",
     "ipa": "/esˈtaðjo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "tournament": {
     "es": "torneo",
     "ipa": "/toɾˈneo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "athlete": {
     "es": "atleta",
     "ipa": "/atˈleta/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "referee": {
     "es": "árbitro",
     "ipa": "/ˈaɾβitɾo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "league": {
     "es": "liga",
     "ipa": "/ˈliɣa/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "defend": {
     "es": "defender",
     "ipa": "/defen̪ˈdeɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "attack": {
     "es": "atacar",
     "ipa": "/ataˈkaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "victory": {
     "es": "victoria",
     "ipa": "/bikˈtoɾja/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "defeat": {
     "es": "derrota",
     "ipa": "/deˈrota/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "truth": {
     "es": "verdad",
     "ipa": "/beɾˈðað/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "peace": {
     "es": "paz",
     "ipa": "/paθ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "courage": {
     "es": "valentía",
     "ipa": "/balenˈtia/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "wisdom": {
     "es": "sabiduría",
     "ipa": "/saβiðuˈɾia/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "patience": {
     "es": "paciencia",
     "ipa": "/paˈθjenθja/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "respect": {
     "es": "respeto",
     "ipa": "/resˈpeto/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "confidence": {
     "es": "confianza",
     "ipa": "/konˈfjanθa/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "success": {
     "es": "éxito",
     "ipa": "/ˈeksito/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "failure": {
     "es": "fracaso",
     "ipa": "/fɾaˈkaso/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "effort": {
     "es": "esfuerzo",
     "ipa": "/esˈfweɾθo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "opportunity": {
     "es": "oportunidad",
     "ipa": "/opoɾtuniˈðað/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "experience": {
     "es": "experiencia",
     "ipa": "/ekspeˈɾjenθja/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "behavior": {
     "es": "comportamiento",
     "ipa": "/kompoɾtaˈmjento/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "attitude": {
     "es": "actitud",
     "ipa": "/aktiˈtuð/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "opinion": {
     "es": "opinión",
     "ipa": "/opiˈnjon/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "decision": {
     "es": "decisión",
     "ipa": "/deθiˈsjon/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "solution": {
     "es": "solución",
     "ipa": "/soluˈθjon/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "problem": {
     "es": "problema",
     "ipa": "/pɾoˈβlema/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "achieve": {
     "es": "lograr",
     "ipa": "/loˈɣɾaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "admire": {
     "es": "admirar",
     "ipa": "/admiˈɾaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "announce": {
     "es": "anunciar",
     "ipa": "/anunˈθjaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "approve": {
     "es": "aprobar",
     "ipa": "/apɾoˈβaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "argue": {
     "es": "discutir",
     "ipa": "/diskuˈtiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "arrange": {
     "es": "organizar",
     "ipa": "/oɾɣaniˈθaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "attempt": {
     "es": "intentar",
     "ipa": "/intenˈtaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "attract": {
     "es": "atraer",
     "ipa": "/atɾaˈeɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "avoid": {
     "es": "evitar",
     "ipa": "/eβiˈtaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "blame": {
     "es": "culpar",
     "ipa": "/kulˈpaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "concentrate": {
     "es": "concentrarse",
     "ipa": "/konθentˈɾaɾse/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "confirm": {
     "es": "confirmar",
     "ipa": "/konfiɾˈmaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "connect": {
     "es": "conectar",
     "ipa": "/konekˈtaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "consider": {
     "es": "considerar",
     "ipa": "/konsideˈɾaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "contain": {
     "es": "contener",
     "ipa": "/konteˈneɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "contribute": {
     "es": "contribuir",
     "ipa": "/kontɾiˈβwiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "convince": {
     "es": "convencer",
     "ipa": "/kombenˈθeɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "damage": {
     "es": "dañar",
     "ipa": "/daˈɲaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "debate": {
     "es": "debatir",
     "ipa": "/deβaˈtiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "decrease": {
     "es": "disminuir",
     "ipa": "/disminuˈiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "deliver": {
     "es": "entregar",
     "ipa": "/entɾeˈɣaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "demand": {
     "es": "exigir",
     "ipa": "/eksiˈxiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "deny": {
     "es": "negar",
     "ipa": "/neˈɣaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "depend": {
     "es": "depender",
     "ipa": "/depenˈdeɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "describe": {
     "es": "describir",
     "ipa": "/deskɾiˈβiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "deserve": {
     "es": "merecer",
     "ipa": "/meɾeˈθeɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "destroy": {
     "es": "destruir",
     "ipa": "/destɾuˈiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "develop": {
     "es": "desarrollar",
     "ipa": "/desaɾoˈʎaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "disappear": {
     "es": "desaparecer",
     "ipa": "/desapaɾeˈθeɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "discover": {
     "es": "descubrir",
     "ipa": "/deskuˈβɾiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "discuss": {
     "es": "discutir",
     "ipa": "/diskuˈtiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "encourage": {
     "es": "animar",
     "ipa": "/aniˈmaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "enjoy": {
     "es": "disfrutar",
     "ipa": "/disfɾuˈtaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "establish": {
     "es": "establecer",
     "ipa": "/estaβleˈθeɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "examine": {
     "es": "examinar",
     "ipa": "/ekamiˈnaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "exchange": {
     "es": "intercambiar",
     "ipa": "/inteɾkamˈbjaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "exist": {
     "es": "existir",
     "ipa": "/eksiˈstiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "explain": {
     "es": "explicar",
     "ipa": "/ekspliˈkaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "express": {
     "es": "expresar",
     "ipa": "/espɾeˈsaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "fail": {
     "es": "fracasar",
     "ipa": "/fɾakaˈsaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "imagine": {
     "es": "imaginar",
     "ipa": "/imaxi̞ˈnaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "improve": {
     "es": "mejorar",
     "ipa": "/mexoˈɾaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "include": {
     "es": "incluir",
     "ipa": "/inkluˈiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "increase": {
     "es": "aumentar",
     "ipa": "/awmenˈtaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "influence": {
     "es": "influir",
     "ipa": "/influ̯ˈiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "inform": {
     "es": "informar",
     "ipa": "/infoɾˈmaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "insist": {
     "es": "insistir",
     "ipa": "/insiˈstiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "introduce": {
     "es": "presentar",
     "ipa": "/pɾesenˈtaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "invent": {
     "es": "inventar",
     "ipa": "/ibenˈtaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "involve": {
     "es": "involucrar",
     "ipa": "/imboˈlukɾaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "limit": {
     "es": "limitar",
     "ipa": "/limiˈtaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "mention": {
     "es": "mencionar",
     "ipa": "/menθjoˈnaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "notice": {
     "es": "notar",
     "ipa": "/noˈtaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "obtain": {
     "es": "obtener",
     "ipa": "/obteˈneɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "offer": {
     "es": "ofrecer",
     "ipa": "/ofɾeˈθeɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "organize": {
     "es": "organizar",
     "ipa": "/oɾɣaniˈθaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "participate": {
     "es": "participar",
     "ipa": "/paɾtiθiˈpaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "perform": {
     "es": "actuar",
     "ipa": "/akˈtwaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "permit": {
     "es": "permitir",
     "ipa": "/peɾmiˈtiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "persuade": {
     "es": "persuadir",
     "ipa": "/peɾswaˈðiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "possess": {
     "es": "poseer",
     "ipa": "/poseˈeɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "predict": {
     "es": "predecir",
     "ipa": "/pɾeðeˈθiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "prevent": {
     "es": "prevenir",
     "ipa": "/pɾeβeˈniɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "produce": {
     "es": "producir",
     "ipa": "/pɾoðuˈθiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "propose": {
     "es": "proponer",
     "ipa": "/pɾopoˈneɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "prove": {
     "es": "demostrar",
     "ipa": "/demosˈtɾaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "provide": {
     "es": "proporcionar",
     "ipa": "/pɾopoɾθjoˈnaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "raise": {
     "es": "elevar",
     "ipa": "/eleˈβaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "recognize": {
     "es": "reconocer",
     "ipa": "/rekonoˈθeɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "recommend": {
     "es": "recomendar",
     "ipa": "/rekommenˈdaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "reduce": {
     "es": "reducir",
     "ipa": "/reðuˈθiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "relate": {
     "es": "relacionar",
     "ipa": "/relaθjoˈnaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "release": {
     "es": "liberar",
     "ipa": "/liβeˈɾaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "remain": {
     "es": "quedarse",
     "ipa": "/keˈðaɾse/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "remove": {
     "es": "eliminar",
     "ipa": "/elimiˈnaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "repair": {
     "es": "reparar",
     "ipa": "/repaˈɾaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "replace": {
     "es": "reemplazar",
     "ipa": "/reemplaˈθaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "represent": {
     "es": "representar",
     "ipa": "/repɾesenˈtaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "request": {
     "es": "solicitar",
     "ipa": "/soliθiˈtaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "require": {
     "es": "requerir",
     "ipa": "/rekeˈɾiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "reveal": {
     "es": "revelar",
     "ipa": "/reβeˈlaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "risk": {
     "es": "arriesgar",
     "ipa": "/arjesˈɣaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "satisfy": {
     "es": "satisfacer",
     "ipa": "/satisfaˈθeɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "separate": {
     "es": "separar",
     "ipa": "/sepaˈɾaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "solve": {
     "es": "resolver",
     "ipa": "/resolˈβeɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "spread": {
     "es": "difundir",
     "ipa": "/difunˈdiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "struggle": {
     "es": "luchar",
     "ipa": "/luˈtʃaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "succeed": {
     "es": "tener éxito",
     "ipa": "/teˈneɾ ˈeksito/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "suffer": {
     "es": "sufrir",
     "ipa": "/sufɾiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "supply": {
     "es": "suministrar",
     "ipa": "/suminiˈstɾaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "support": {
     "es": "apoyar",
     "ipa": "/apoˈʝaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "suppose": {
     "es": "suponer",
     "ipa": "/supoˈneɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "surround": {
     "es": "rodear",
     "ipa": "/rodeˈaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "survive": {
     "es": "sobrevivir",
     "ipa": "/soβɾeβiˈβiɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "threaten": {
     "es": "amenazar",
     "ipa": "/amenaˈθaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "treat": {
     "es": "tratar",
     "ipa": "/tɾaˈtaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "trust": {
     "es": "confiar",
     "ipa": "/konˈfjaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "anxious": {
     "es": "ansioso",
     "ipa": "/anˈsjoso/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "appropriate": {
     "es": "apropiado",
     "ipa": "/apɾopˈjaðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "available": {
     "es": "disponible",
     "ipa": "/disposˈiβle/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "adj"
   },
   "aware": {
     "es": "consciente",
     "ipa": "/konsˈθjente/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "basic": {
     "es": "básico",
     "ipa": "/ˈbasiko/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "blind": {
     "es": "ciego",
     "ipa": "/ˈθjeɣo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "brief": {
     "es": "breve",
     "ipa": "/ˈbɾeβe/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "brilliant": {
     "es": "brillante",
     "ipa": "/bɾiˈʎante/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "calm": {
     "es": "tranquilo",
     "ipa": "/tɾanˈkilo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "capable": {
     "es": "capaz",
     "ipa": "/kaˈpaθ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "certain": {
     "es": "seguro",
     "ipa": "/seˈɣuɾo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "comfortable": {
     "es": "cómodo",
     "ipa": "/ˈkomoðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "complex": {
     "es": "complejo",
     "ipa": "/komˈplexo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "conscious": {
     "es": "consciente",
     "ipa": "/konsˈθjente/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "constant": {
     "es": "constante",
     "ipa": "/konsˈtante/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "convenient": {
     "es": "conveniente",
     "ipa": "/kombeˈnjente/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "correct": {
     "es": "correcto",
     "ipa": "/koˈrekto/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "creative": {
     "es": "creativo",
     "ipa": "/kɾeaˈtiβo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "cruel": {
     "es": "cruel",
     "ipa": "/kɾuel/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "curious": {
     "es": "curioso",
     "ipa": "/kuˈɾjoso/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "current": {
     "es": "actual",
     "ipa": "/akˈtwal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "dangerous": {
     "es": "peligroso",
     "ipa": "/peliˈɣɾoso/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "adj"
   },
   "deaf": {
     "es": "sordo",
     "ipa": "/ˈsoɾðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "definite": {
     "es": "definitivo",
     "ipa": "/definiˈtiβo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "delicate": {
     "es": "delicado",
     "ipa": "/deliˈkaðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "desperate": {
     "es": "desesperado",
     "ipa": "/desespeˈɾaðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "domestic": {
     "es": "doméstico",
     "ipa": "/doˈmestiko/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "dramatic": {
     "es": "dramático",
     "ipa": "/dɾaˈmatiko/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "eager": {
     "es": "ansioso",
     "ipa": "/anˈsjoso/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "effective": {
     "es": "eficaz",
     "ipa": "/efiˈkaθ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "efficient": {
     "es": "eficiente",
     "ipa": "/efiˈθjente/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "enormous": {
     "es": "enorme",
     "ipa": "/eˈnoɾme/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "entire": {
     "es": "entero",
     "ipa": "/enˈteɾo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "equal": {
     "es": "igual",
     "ipa": "/iˈɣwal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "essential": {
     "es": "esencial",
     "ipa": "/esenˈθjal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "exact": {
     "es": "exacto",
     "ipa": "/ekˈsakto/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "extreme": {
     "es": "extremo",
     "ipa": "/ekstɾˈemo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "familiar": {
     "es": "familiar",
     "ipa": "/familiˈaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "famous": {
     "es": "famoso",
     "ipa": "/faˈmoso/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "adj"
   },
   "fascinating": {
     "es": "fascinante",
     "ipa": "/fasθiˈnante/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "fierce": {
     "es": "feroz",
     "ipa": "/feˈɾoθ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "flexible": {
     "es": "flexible",
     "ipa": "/flekˈsiβle/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "fond": {
     "es": "aficionado",
     "ipa": "/afiθjoˈnaðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "former": {
     "es": "anterior",
     "ipa": "/anteˈɾjoɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "fortunate": {
     "es": "afortunado",
     "ipa": "/afortuˈnaðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "frequent": {
     "es": "frecuente",
     "ipa": "/fɾeˈkwente/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "generous": {
     "es": "generoso",
     "ipa": "/xeneˈɾoso/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "gentle": {
     "es": "amable",
     "ipa": "/aˈmaβle/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "genuine": {
     "es": "genuino",
     "ipa": "/xeˈnwino/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "global": {
     "es": "global",
     "ipa": "/ɡloˈβal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "adj"
   },
   "gradual": {
     "es": "gradual",
     "ipa": "/ɡɾaˈðwal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "guilty": {
     "es": "culpable",
     "ipa": "/kulˈpaβle/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "adj"
   },
   "harsh": {
     "es": "severo",
     "ipa": "/seˈβeɾo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "honest": {
     "es": "honesto",
     "ipa": "/oˈnesto/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "huge": {
     "es": "enorme",
     "ipa": "/eˈnoɾme/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "adj"
   },
   "humble": {
     "es": "humilde",
     "ipa": "/uˈmilde/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "ideal": {
     "es": "ideal",
     "ipa": "/ideˈal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "immediate": {
     "es": "inmediato",
     "ipa": "/inmeˈðjato/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "independent": {
     "es": "independiente",
     "ipa": "/indepenˈdjente/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "inevitable": {
     "es": "inevitable",
     "ipa": "/ineβiˈtaβle/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "innocent": {
     "es": "inocente",
     "ipa": "/inoˈθente/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "adj"
   },
   "intelligent": {
     "es": "inteligente",
     "ipa": "/inteli̞ˈxente/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "internal": {
     "es": "interno",
     "ipa": "/inˈteɾno/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "keen": {
     "es": "entusiasta",
     "ipa": "/entuˈsjasta/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "legal": {
     "es": "legal",
     "ipa": "/leˈɣal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "adj"
   },
   "legitimate": {
     "es": "legítimo",
     "ipa": "/leˈxitimo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "liberal": {
     "es": "liberal",
     "ipa": "/liβeˈɾal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "logical": {
     "es": "lógico",
     "ipa": "/ˈloxiko/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "loyal": {
     "es": "leal",
     "ipa": "/leˈal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "massive": {
     "es": "masivo",
     "ipa": "/maˈsiβo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "mental": {
     "es": "mental",
     "ipa": "/menˈtal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "military": {
     "es": "militar",
     "ipa": "/militˈaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "minor": {
     "es": "menor",
     "ipa": "/meˈnoɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "moral": {
     "es": "moral",
     "ipa": "/moˈɾal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "mutual": {
     "es": "mutuo",
     "ipa": "/ˈmutwo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "native": {
     "es": "nativo",
     "ipa": "/naˈtiβo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "neat": {
     "es": "ordenado",
     "ipa": "/oɾðeˈnaðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "negative": {
     "es": "negativo",
     "ipa": "/neɣaˈtiβo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "obvious": {
     "es": "obvio",
     "ipa": "/ˈoβbjo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "adj"
   },
   "official": {
     "es": "oficial",
     "ipa": "/ofiˈθjal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "opposite": {
     "es": "opuesto",
     "ipa": "/oˈpwesto/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "ordinary": {
     "es": "ordinario",
     "ipa": "/oɾðiˈnaɾjo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "original": {
     "es": "original",
     "ipa": "/oɾixiˈnal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "overall": {
     "es": "general",
     "ipa": "/xeneˈɾal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "overseas": {
     "es": "extranjero",
     "ipa": "/estɾanˈxeɾo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "partial": {
     "es": "parcial",
     "ipa": "/paɾˈθjal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "particular": {
     "es": "particular",
     "ipa": "/paɾtikuˈlaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "passive": {
     "es": "pasivo",
     "ipa": "/paˈsiβo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "permanent": {
     "es": "permanente",
     "ipa": "/peɾmaˈnente/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "personal": {
     "es": "personal",
     "ipa": "/peɾsoˈnal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "physical": {
     "es": "físico",
     "ipa": "/ˈfisiko/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "plain": {
     "es": "sencillo",
     "ipa": "/senˈθiʎo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "pleasant": {
     "es": "agradable",
     "ipa": "/aɣɾaˈðaβle/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "political": {
     "es": "político",
     "ipa": "/poˈlitiko/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "positive": {
     "es": "positivo",
     "ipa": "/posiˈtiβo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "potential": {
     "es": "potencial",
     "ipa": "/potenˈθjal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "powerful": {
     "es": "poderoso",
     "ipa": "/podeˈɾoso/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "practical": {
     "es": "práctico",
     "ipa": "/ˈpɾaktiko/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "precious": {
     "es": "precioso",
     "ipa": "/pɾeˈθjoso/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "previous": {
     "es": "anterior",
     "ipa": "/anteˈɾjoɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "primary": {
     "es": "principal",
     "ipa": "/pɾinθiˈpal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "professional": {
     "es": "profesional",
     "ipa": "/pɾofesjoˈnal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "proper": {
     "es": "adecuado",
     "ipa": "/adeˈkwaðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "public": {
     "es": "público",
     "ipa": "/ˈpuβliko/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "adj"
   },
   "pure": {
     "es": "puro",
     "ipa": "/ˈpuɾo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "rapid": {
     "es": "rápido",
     "ipa": "/ˈrapiðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "rare": {
     "es": "raro",
     "ipa": "/ˈraɾo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "raw": {
     "es": "crudo",
     "ipa": "/ˈkɾuðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "reasonable": {
     "es": "razonable",
     "ipa": "/raθoˈnaβle/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "recent": {
     "es": "reciente",
     "ipa": "/reˈθjente/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "regional": {
     "es": "regional",
     "ipa": "/rexjoˈnal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "regular": {
     "es": "regular",
     "ipa": "/reɣuˈlaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "relevant": {
     "es": "relevante",
     "ipa": "/releˈβante/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "remarkable": {
     "es": "notable",
     "ipa": "/noˈtaβle/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "remote": {
     "es": "remoto",
     "ipa": "/reˈmoto/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "responsible": {
     "es": "responsable",
     "ipa": "/responsˈaβle/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "adj"
   },
   "rough": {
     "es": "áspero",
     "ipa": "/ˈaspeɾo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "adj"
   },
   "royal": {
     "es": "real",
     "ipa": "/reˈal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "rural": {
     "es": "rural",
     "ipa": "/ruˈɾal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "adj"
   },
   "secure": {
     "es": "seguro",
     "ipa": "/seˈɣuɾo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "sensitive": {
     "es": "sensible",
     "ipa": "/senˈsiβle/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "severe": {
     "es": "grave",
     "ipa": "/ˈɡɾaβe/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "sharp": {
     "es": "afilado",
     "ipa": "/afiˈlaðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "adj"
   },
   "significant": {
     "es": "significativo",
     "ipa": "/siɣnifikatiˈβo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "silly": {
     "es": "tonto",
     "ipa": "/ˈtonto/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "similar": {
     "es": "similar",
     "ipa": "/simiˈlaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "adj"
   },
   "slight": {
     "es": "leve",
     "ipa": "/ˈleβe/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "smooth": {
     "es": "suave",
     "ipa": "/ˈswaβe/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "adj"
   },
   "social": {
     "es": "social",
     "ipa": "/soˈθjal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "solid": {
     "es": "sólido",
     "ipa": "/ˈsoliðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "spare": {
     "es": "de repuesto",
     "ipa": "/de reˈpwesto/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "specific": {
     "es": "específico",
     "ipa": "/espeˈθifiko/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "steady": {
     "es": "estable",
     "ipa": "/esˈtaβle/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "steep": {
     "es": "empinado",
     "ipa": "/empiˈnaðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "strict": {
     "es": "estricto",
     "ipa": "/esˈtɾikto/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "stubborn": {
     "es": "terco",
     "ipa": "/ˈteɾko/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "subtle": {
     "es": "sutil",
     "ipa": "/suˈtil/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "sudden": {
     "es": "repentino",
     "ipa": "/repenˈtino/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "sufficient": {
     "es": "suficiente",
     "ipa": "/sufiˈθjente/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "suitable": {
     "es": "adecuado",
     "ipa": "/adeˈkwaðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "terrible": {
     "es": "terrible",
     "ipa": "/teˈriβle/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "thick": {
     "es": "grueso",
     "ipa": "/ˈɡɾweso/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "adj"
   },
   "thin": {
     "es": "delgado",
     "ipa": "/delˈɣaðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "adj"
   },
   "tight": {
     "es": "apretado",
     "ipa": "/apɾeˈtaðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "tiny": {
     "es": "diminuto",
     "ipa": "/dimiˈnuto/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "adj"
   },
   "tough": {
     "es": "duro",
     "ipa": "/ˈduɾo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "typical": {
     "es": "típico",
     "ipa": "/ˈtipiko/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "unique": {
     "es": "único",
     "ipa": "/ˈuniko/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "universal": {
     "es": "universal",
     "ipa": "/uniβeɾˈsal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "urban": {
     "es": "urbano",
     "ipa": "/uɾˈβano/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "adj"
   },
   "urgent": {
     "es": "urgente",
     "ipa": "/uɾˈxente/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "useful": {
     "es": "útil",
     "ipa": "/ˈutil/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "usual": {
     "es": "habitual",
     "ipa": "/aβiˈtwal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "valuable": {
     "es": "valioso",
     "ipa": "/baˈljoso/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "vast": {
     "es": "vasto",
     "ipa": "/ˈbasto/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "violent": {
     "es": "violento",
     "ipa": "/bjoˈlento/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "visible": {
     "es": "visible",
     "ipa": "/biˈsiβle/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "vital": {
     "es": "vital",
     "ipa": "/biˈtal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "vivid": {
     "es": "vívido",
     "ipa": "/ˈbiβiðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "warm": {
     "es": "cálido",
     "ipa": "/ˈkaliðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "wealthy": {
     "es": "adinerado",
     "ipa": "/aðineˈɾaðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "weird": {
     "es": "extraño",
     "ipa": "/eksˈtɾaɲo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "landscape": {
     "es": "paisaje",
     "ipa": "/pajˈsaxe/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "cliff": {
     "es": "acantilado",
     "ipa": "/akanti̞ˈlaðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "glacier": {
     "es": "glaciar",
     "ipa": "/ɡlaˈθjaɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "peninsula": {
     "es": "península",
     "ipa": "/peˈninsula/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "horizon": {
     "es": "horizonte",
     "ipa": "/oɾiˈθonte/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "field": {
     "es": "campo",
     "ipa": "/ˈkampo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "meadow": {
     "es": "pradera",
     "ipa": "/pɾaˈðeɾa/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "swamp": {
     "es": "pantano",
     "ipa": "/panˈtano/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "tide": {
     "es": "marea",
     "ipa": "/maˈɾea/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "fog": {
     "es": "niebla",
     "ipa": "/ˈnjeβla/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "rainbow": {
     "es": "arcoíris",
     "ipa": "/aɾkoˈiɾis/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "dawn": {
     "es": "amanecer",
     "ipa": "/amaneˈθeɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "dusk": {
     "es": "anochecer",
     "ipa": "/anotʃeˈθeɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "verb"
   },
   "century": {
     "es": "siglo",
     "ipa": "/ˈsiɣlo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "decade": {
     "es": "década",
     "ipa": "/ˈdekaða/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "era": {
     "es": "era",
     "ipa": "/ˈeɾa/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "period": {
     "es": "período",
     "ipa": "/peˈɾjoðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "stage": {
     "es": "etapa",
     "ipa": "/eˈtapa/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "phase": {
     "es": "fase",
     "ipa": "/ˈfase/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "moment": {
     "es": "momento",
     "ipa": "/moˈmento/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "occasion": {
     "es": "ocasión",
     "ipa": "/okaˈsjon/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "event": {
     "es": "evento",
     "ipa": "/eˈβento/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "crisis": {
     "es": "crisis",
     "ipa": "/ˈkɾisis/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "challenge": {
     "es": "desafío",
     "ipa": "/desaˈfio/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "conflict": {
     "es": "conflicto",
     "ipa": "/konˈflíkto/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "issue": {
     "es": "asunto",
     "ipa": "/aˈsunto/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "topic": {
     "es": "tema",
     "ipa": "/ˈtema/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "purpose": {
     "es": "propósito",
     "ipa": "/pɾoˈposito/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "reason": {
     "es": "razón",
     "ipa": "/raˈθon/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "cause": {
     "es": "causa",
     "ipa": "/ˈkawsa/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "effect": {
     "es": "efecto",
     "ipa": "/eˈfekto/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "result": {
     "es": "resultado",
     "ipa": "/resulˈtaðo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "consequence": {
     "es": "consecuencia",
     "ipa": "/konsekˈwenθja/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "benefit": {
     "es": "beneficio",
     "ipa": "/beneˈfiθjo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "advantage": {
     "es": "ventaja",
     "ipa": "/benˈtaxa/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "disadvantage": {
     "es": "desventaja",
     "ipa": "/desbenˈtaxa/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "danger": {
     "es": "peligro",
     "ipa": "/peˈliɣɾo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "threat": {
     "es": "amenaza",
     "ipa": "/ameˈnaθa/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "warning": {
     "es": "advertencia",
     "ipa": "/aðβeɾˈtenθja/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "emergency": {
     "es": "emergencia",
     "ipa": "/emeɾˈxenθja/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "accident": {
     "es": "accidente",
     "ipa": "/akθiˈðente/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "wound": {
     "es": "herida",
     "ipa": "/eˈɾiða/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "surgery": {
     "es": "cirugía",
     "ipa": "/θiɾuˈxia/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "therapy": {
     "es": "terapia",
     "ipa": "/teˈɾapja/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "treatment": {
     "es": "tratamiento",
     "ipa": "/tɾataˈmjento/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "diagnosis": {
     "es": "diagnóstico",
     "ipa": "/djaɣˈnostiko/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "symptom": {
     "es": "síntoma",
     "ipa": "/ˈsintoma/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "vaccine": {
     "es": "vacuna",
     "ipa": "/baˈkuna/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "virus": {
     "es": "virus",
     "ipa": "/ˈbiɾus/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "bacteria": {
     "es": "bacteria",
     "ipa": "/bakˈteɾja/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "infection": {
     "es": "infección",
     "ipa": "/infekˈθjon/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "cancer": {
     "es": "cáncer",
     "ipa": "/ˈkanθeɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "diabetes": {
     "es": "diabetes",
     "ipa": "/djaˈβetes/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "prescription": {
     "es": "receta",
     "ipa": "/reˈθeta/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "surgeon": {
     "es": "cirujano",
     "ipa": "/θiɾuˈxano/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "patient": {
     "es": "paciente",
     "ipa": "/paˈθjente/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "clinic": {
     "es": "clínica",
     "ipa": "/ˈklinika/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "ward": {
     "es": "sala",
     "ipa": "/ˈsala/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "atmosphere": {
     "es": "atmósfera",
     "ipa": "/atˈmosfeɾa/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "substance": {
     "es": "sustancia",
     "ipa": "/susˈtanθja/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "material": {
     "es": "material",
     "ipa": "/mateˈɾjal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "structure": {
     "es": "estructura",
     "ipa": "/estɾukˈtuɾa/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "surface": {
     "es": "superficie",
     "ipa": "/supeɾˈfiθje/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "layer": {
     "es": "capa",
     "ipa": "/ˈkapa/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "edge": {
     "es": "borde",
     "ipa": "/ˈboɾðe/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "centre": {
     "es": "centro",
     "ipa": "/ˈθentɾo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "distance": {
     "es": "distancia",
     "ipa": "/disˈtanθja/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "length": {
     "es": "longitud",
     "ipa": "/lonxiˈtuð/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "width": {
     "es": "anchura",
     "ipa": "/anˈtʃuɾa/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "height": {
     "es": "altura",
     "ipa": "/alˈtuɾa/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "depth": {
     "es": "profundidad",
     "ipa": "/pɾofundiˈðað/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "weight": {
     "es": "peso",
     "ipa": "/ˈpeso/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "speed": {
     "es": "velocidad",
     "ipa": "/beloθiˈðað/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "pressure": {
     "es": "presión",
     "ipa": "/pɾeˈsjon/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "volume": {
     "es": "volumen",
     "ipa": "/boˈlumen/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "capacity": {
     "es": "capacidad",
     "ipa": "/kapaθiˈðað/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "quantity": {
     "es": "cantidad",
     "ipa": "/kantiˈðað/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "quality": {
     "es": "calidad",
     "ipa": "/kaliˈðað/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "value": {
     "es": "valor",
     "ipa": "/baˈloɾ/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "rate": {
     "es": "tasa",
     "ipa": "/ˈtasa/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "percentage": {
     "es": "porcentaje",
     "ipa": "/poɾθenˈtaxe/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "average": {
     "es": "promedio",
     "ipa": "/pɾoˈmeðjo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "total": {
     "es": "total",
     "ipa": "/toˈtal/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "amount": {
     "es": "cantidad",
     "ipa": "/kantiˈðað/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "number": {
     "es": "número",
     "ipa": "/ˈnumeɾo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "figure": {
     "es": "cifra",
     "ipa": "/ˈθifɾa/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "fact": {
     "es": "hecho",
     "ipa": "/ˈetʃo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "evidence": {
     "es": "evidencia",
     "ipa": "/eβiˈðenθja/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "proof": {
     "es": "prueba",
     "ipa": "/ˈpɾweβa/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "argument": {
     "es": "argumento",
     "ipa": "/aɾɡuˈmento/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "theory": {
     "es": "teoría",
     "ipa": "/teoˈɾia/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "concept": {
     "es": "concepto",
     "ipa": "/konˈθepto/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   },
   "principle": {
     "es": "principio",
     "ipa": "/pɾinˈθipjo/",
-    "level": "B1"
+    "level": "B1",
+    "pos": "noun"
   }
 }

@@ -1237,10 +1237,69 @@ const B1: [string, string, string][] = [
 ];
 
 
+type POS = 'noun' | 'verb' | 'adj' | 'adv';
+
 interface DictEntry {
   es: string;
   ipa: string;
   level: string;
+  pos: POS;
+}
+
+// Words whose POS can't be reliably inferred from the Spanish form
+const posOverrides: Record<string, POS> = {
+  // Adjectives
+  good: 'adj', bad: 'adj', big: 'adj', small: 'adj', new: 'adj', old: 'adj',
+  young: 'adj', hot: 'adj', cold: 'adj', happy: 'adj', sad: 'adj', fast: 'adj',
+  slow: 'adj', tall: 'adj', short: 'adj', long: 'adj', dirty: 'adj', easy: 'adj',
+  difficult: 'adj', beautiful: 'adj', tired: 'adj', sick: 'adj', healthy: 'adj',
+  full: 'adj', empty: 'adj', cheap: 'adj', expensive: 'adj', angry: 'adj',
+  afraid: 'adj', excited: 'adj', nervous: 'adj', proud: 'adj', worried: 'adj',
+  surprised: 'adj', bored: 'adj', lonely: 'adj', jealous: 'adj', embarrassed: 'adj',
+  confused: 'adj', grateful: 'adj', disappointed: 'adj', ugly: 'adj', strong: 'adj',
+  weak: 'adj', heavy: 'adj', light: 'adj', deep: 'adj', wide: 'adj', narrow: 'adj',
+  soft: 'adj', hard: 'adj', clean: 'adj', dry: 'adj', wet: 'adj', rich: 'adj',
+  poor: 'adj', fresh: 'adj', loud: 'adj', quiet: 'adj', bright: 'adj', dark: 'adj',
+  important: 'adj', necessary: 'adj', possible: 'adj', impossible: 'adj',
+  dangerous: 'adj', safe: 'adj', famous: 'adj', popular: 'adj', traditional: 'adj',
+  modern: 'adj', ancient: 'adj', foreign: 'adj', local: 'adj', public: 'adj',
+  private: 'adj', legal: 'adj', illegal: 'adj', guilty: 'adj', innocent: 'adj',
+  responsible: 'adj', available: 'adj', main: 'adj', similar: 'adj', different: 'adj',
+  obvious: 'adj', huge: 'adj', tiny: 'adj', thick: 'adj', thin: 'adj', sharp: 'adj',
+  smooth: 'adj', rough: 'adj', flat: 'adj', straight: 'adj', round: 'adj',
+  square: 'adj', global: 'adj', rural: 'adj', urban: 'adj', pregnant: 'adj',
+  // Adverbs
+  here: 'adv', there: 'adv', now: 'adv', later: 'adv', always: 'adv', never: 'adv',
+  sometimes: 'adv', very: 'adv', also: 'adv', only: 'adv', again: 'adv', well: 'adv',
+  already: 'adv', still: 'adv', almost: 'adv', enough: 'adv', together: 'adv',
+  quickly: 'adv', slowly: 'adv', recently: 'adv', finally: 'adv', perhaps: 'adv',
+  probably: 'adv', especially: 'adv', actually: 'adv', generally: 'adv',
+  frequently: 'adv', immediately: 'adv', directly: 'adv', currently: 'adv',
+  eventually: 'adv', meanwhile: 'adv', otherwise: 'adv', abroad: 'adv',
+  // Nouns that look like verbs in Spanish (end in -ar/-er/-ir)
+  place: 'noun', dinner: 'noun', sugar: 'noun', computer: 'noun', shoulder: 'noun',
+  weather: 'noun', corner: 'noun', summer: 'noun', winter: 'noun', power: 'noun',
+  border: 'noun', silver: 'noun', flower: 'noun', color: 'noun', soccer: 'noun',
+  danger: 'noun', matter: 'noun', character: 'noun', leader: 'noun', member: 'noun',
+  number: 'noun', paper: 'noun', order: 'noun', finger: 'noun', murder: 'noun',
+  partner: 'noun', prayer: 'noun', reader: 'noun', river: 'noun', rubber: 'noun',
+  cancer: 'noun', consumer: 'noun', disaster: 'noun', customer: 'noun',
+  gender: 'noun', chapter: 'noun', encounter: 'noun', labor: 'noun', manner: 'noun',
+  factor: 'noun', barrier: 'noun', beer: 'noun', butter: 'noun', litter: 'noun',
+  hunger: 'noun', shelter: 'noun', timber: 'noun', theater: 'noun', fever: 'noun',
+  career: 'noun', error: 'noun', trigger: 'noun', ladder: 'noun', pepper: 'noun',
+  collar: 'noun', cedar: 'noun', vinegar: 'noun', pillar: 'noun',
+};
+
+function inferPos(en: string, es: string): POS {
+  if (posOverrides[en]) return posOverrides[en];
+
+  // Spanish infinitive verbs end in -ar, -er, -ir (including reflexive -arse, -erse, -irse)
+  const esBase = es.split(' ')[0];
+  if (/(?:ar|er|ir|arse|erse|irse)$/.test(esBase)) return 'verb';
+
+  // Default to noun
+  return 'noun';
 }
 
 const dictionary: Record<string, DictEntry> = {};
@@ -1252,7 +1311,7 @@ for (const [level, entries] of [['A1', A1], ['A2', A2], ['B1', B1]] as [string, 
       console.warn(`Duplicate: ${key} (keeping first occurrence)`);
       continue;
     }
-    dictionary[key] = { es, ipa, level };
+    dictionary[key] = { es, ipa, level, pos: inferPos(key, es) };
   }
 }
 
@@ -1260,11 +1319,14 @@ mkdirSync('src/data', { recursive: true });
 writeFileSync('src/data/dictionary.json', JSON.stringify(dictionary, null, 2) + '\n');
 
 const counts: Record<string, number> = {};
+const posCounts: Record<string, number> = {};
 for (const entry of Object.values(dictionary)) {
   counts[entry.level] = (counts[entry.level] || 0) + 1;
+  posCounts[entry.pos] = (posCounts[entry.pos] || 0) + 1;
 }
 console.log('Dictionary generated:');
 for (const level of ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']) {
   if (counts[level]) console.log(`  ${level}: ${counts[level]} words`);
 }
 console.log(`  Total: ${Object.keys(dictionary).length} words`);
+console.log(`  By POS: noun=${posCounts.noun || 0} verb=${posCounts.verb || 0} adj=${posCounts.adj || 0} adv=${posCounts.adv || 0}`);
