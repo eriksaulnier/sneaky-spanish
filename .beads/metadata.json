@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "sneaky_spanish_v2",
+  "project_id": "6de7e936-c15a-4efb-b27d-ee500ae80e79"
+}
