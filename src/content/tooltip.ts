@@ -7,30 +7,31 @@ const TOOLTIP_STYLES = `
   .tooltip {
     pointer-events: auto;
     background: #fff;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #2A9D8F;
     border-radius: 8px;
     padding: 10px 14px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 4px 16px rgba(42, 157, 143, 0.15);
     font-family: system-ui, -apple-system, sans-serif;
     font-size: 14px;
     line-height: 1.4;
-    color: #333;
+    color: #1a1a1a;
     max-width: 240px;
   }
   .label {
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #888;
+    color: #2A9D8F;
+    font-weight: 600;
     margin-bottom: 4px;
   }
   .original {
     font-weight: 600;
     font-size: 16px;
-    color: #111;
+    color: #1a1a1a;
   }
   .ipa {
-    color: #666;
+    color: #78716c;
     font-size: 13px;
     margin-top: 2px;
   }

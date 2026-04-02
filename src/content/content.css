@@ -4,7 +4,7 @@
 
 .sneaky-highlight .sneaky-word {
   text-decoration: underline;
-  text-decoration-color: rgba(59, 130, 246, 0.5);
-  background-color: rgba(59, 130, 246, 0.08);
+  text-decoration-color: rgba(42, 157, 143, 0.5);
+  background-color: rgba(42, 157, 143, 0.08);
   border-radius: 2px;
 }
