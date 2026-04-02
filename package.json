@@ -9,9 +9,14 @@
     "build": "vite build",
     "build:firefox": "vite build --mode firefox",
     "package": "web-ext build --source-dir dist",
-    "generate-dict": "tsx scripts/generate-dictionary.ts"
+    "generate-dict": "tsx scripts/generate-dictionary.ts",
+    "generate-icon": "tsx scripts/generate-icon.ts"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["sharp"]
   },
   "devDependencies": {
+    "sharp": "^0.34.5",
     "tsx": "^4.21.0",
     "typescript": "^6.0.2",
     "vite": "^8.0.3",
