@@ -17,7 +17,7 @@ body {
 h1 {
   font-size: 22px;
   margin-bottom: 24px;
-  color: #238577;
+  color: #2E7D32;
 }
 
 h2 {
@@ -49,16 +49,16 @@ h2 {
 }
 
 .add-site input:focus {
-  outline: 2px solid #2A9D8F;
+  outline: 2px solid #43A047;
   outline-offset: -1px;
-  border-color: #2A9D8F;
+  border-color: #43A047;
 }
 
 .add-site button {
   padding: 8px 16px;
-  border: 1px solid #2A9D8F;
+  border: 1px solid #43A047;
   border-radius: 6px;
-  background: #2A9D8F;
+  background: #43A047;
   color: #fff;
   font-size: 13px;
   font-weight: 500;
@@ -67,7 +67,7 @@ h2 {
 }
 
 .add-site button:hover {
-  background: #238577;
+  background: #2E7D32;
 }
 
 ul {

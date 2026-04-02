@@ -7,10 +7,10 @@ const TOOLTIP_STYLES = `
   .tooltip {
     pointer-events: auto;
     background: #fff;
-    border: 1px solid #2A9D8F;
+    border: 1px solid #43A047;
     border-radius: 8px;
     padding: 10px 14px;
-    box-shadow: 0 4px 16px rgba(42, 157, 143, 0.15);
+    box-shadow: 0 4px 16px rgba(67, 160, 71, 0.15);
     font-family: system-ui, -apple-system, sans-serif;
     font-size: 14px;
     line-height: 1.4;
@@ -21,7 +21,7 @@ const TOOLTIP_STYLES = `
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #2A9D8F;
+    color: #43A047;
     font-weight: 600;
     margin-bottom: 4px;
   }
