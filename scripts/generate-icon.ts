@@ -7,51 +7,56 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ICON_DIR = join(__dirname, '..', 'public', 'assets', 'icons');
 const SIZES = [16, 32, 48, 128];
 
-// Chameleon silhouette on a rounded-square background.
-// SVG designed at 128x128, scaled down by Sharp.
+// Green chameleon, top-down view on transparent background.
+// Looking down at a chameleon from above -- body, splayed legs, curled tail, two eyes.
 const SVG = `
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-  <!-- Rounded square background -->
-  <rect x="4" y="4" width="120" height="120" rx="24" ry="24" fill="#2A9D8F"/>
+  <!-- Curled tail -->
+  <path d="
+    M 64 118
+    Q 64 126, 56 126
+    Q 46 126, 46 118
+    Q 46 110, 54 110
+    Q 60 110, 58 116
+  " fill="none" stroke="#238577" stroke-width="6" stroke-linecap="round"/>
 
-  <!-- Chameleon body - side profile facing right -->
-  <g transform="translate(14, 18) scale(0.78)">
-    <!-- Curled tail -->
-    <path d="
-      M 20 72
-      Q 8 72, 8 60
-      Q 8 48, 18 48
-      Q 26 48, 26 55
-      Q 26 62, 20 62
-      Q 16 62, 18 58
-    " fill="none" stroke="#FFF" stroke-width="5" stroke-linecap="round"/>
+  <!-- Back left leg -->
+  <path d="M 42 88 Q 14 94, 10 108" fill="none" stroke="#2A9D8F" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 10 108 L 6 104 M 10 108 L 6 112 M 10 108 L 14 114" fill="none" stroke="#2A9D8F" stroke-width="4" stroke-linecap="round"/>
 
-    <!-- Body -->
-    <ellipse cx="62" cy="62" rx="32" ry="26" fill="#FFF"/>
+  <!-- Back right leg -->
+  <path d="M 86 88 Q 114 94, 118 108" fill="none" stroke="#2A9D8F" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 118 108 L 122 104 M 118 108 L 122 112 M 118 108 L 114 114" fill="none" stroke="#2A9D8F" stroke-width="4" stroke-linecap="round"/>
 
-    <!-- Head -->
-    <ellipse cx="98" cy="52" rx="22" ry="20" fill="#FFF"/>
+  <!-- Front left leg -->
+  <path d="M 42 42 Q 14 36, 8 22" fill="none" stroke="#2A9D8F" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 8 22 L 4 26 M 8 22 L 4 18 M 8 22 L 12 16" fill="none" stroke="#2A9D8F" stroke-width="4" stroke-linecap="round"/>
 
-    <!-- Crest/ridge on top of head -->
-    <path d="M 88 34 Q 95 24, 105 32" fill="none" stroke="#FFF" stroke-width="5" stroke-linecap="round"/>
+  <!-- Front right leg -->
+  <path d="M 86 42 Q 114 36, 120 22" fill="none" stroke="#2A9D8F" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 120 22 L 124 26 M 120 22 L 124 18 M 120 22 L 116 16" fill="none" stroke="#2A9D8F" stroke-width="4" stroke-linecap="round"/>
 
-    <!-- Eye - outer -->
-    <circle cx="102" cy="48" r="8" fill="#2A9D8F"/>
-    <!-- Eye - inner -->
-    <circle cx="104" cy="48" r="3.5" fill="#1A1A1A"/>
+  <!-- Body -->
+  <ellipse cx="64" cy="68" rx="24" ry="40" fill="#2A9D8F"/>
 
-    <!-- Mouth line -->
-    <path d="M 108 58 Q 118 56, 120 52" fill="none" stroke="#2A9D8F" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Spine ridge -->
+  <line x1="64" y1="30" x2="64" y2="108" stroke="#238577" stroke-width="3" stroke-linecap="round"/>
 
-    <!-- Front leg -->
-    <path d="M 72 84 L 72 100 Q 72 104, 76 104 L 82 104" fill="none" stroke="#FFF" stroke-width="5" stroke-linecap="round"/>
+  <!-- Head -->
+  <ellipse cx="64" cy="24" rx="20" ry="18" fill="#2A9D8F"/>
 
-    <!-- Back leg -->
-    <path d="M 48 84 L 48 100 Q 48 104, 44 104 L 38 104" fill="none" stroke="#FFF" stroke-width="5" stroke-linecap="round"/>
+  <!-- Snout -->
+  <ellipse cx="64" cy="8" rx="8" ry="6" fill="#238577"/>
 
-    <!-- Branch/perch -->
-    <line x1="24" y1="104" x2="96" y2="104" stroke="#E9C46A" stroke-width="5" stroke-linecap="round"/>
-  </g>
+  <!-- Left eye - bulging out -->
+  <circle cx="46" cy="22" r="9" fill="#2A9D8F" stroke="#238577" stroke-width="2"/>
+  <circle cx="46" cy="22" r="6" fill="#E9C46A"/>
+  <circle cx="45" cy="21" r="3" fill="#1A1A1A"/>
+
+  <!-- Right eye - bulging out -->
+  <circle cx="82" cy="22" r="9" fill="#2A9D8F" stroke="#238577" stroke-width="2"/>
+  <circle cx="82" cy="22" r="6" fill="#E9C46A"/>
+  <circle cx="83" cy="21" r="3" fill="#1A1A1A"/>
 </svg>
 `;
 
