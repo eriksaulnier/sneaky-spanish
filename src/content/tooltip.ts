@@ -132,26 +132,37 @@ function position(t: Tooltip, anchor: Element) {
   });
 }
 
-export function initTooltip(): void {
-  let hideTimer: ReturnType<typeof setTimeout> | null = null;
+export function initTooltip(onReveal?: (word: string) => void): void {
+  let autoHideTimer: ReturnType<typeof setTimeout> | null = null;
 
-  document.addEventListener('mouseover', (e) => {
+  function clearAutoHide() {
+    if (autoHideTimer) { clearTimeout(autoHideTimer); autoHideTimer = null; }
+  }
+
+  document.addEventListener('click', (e) => {
     const target = (e.target as Element).closest?.('.sneaky-word') as HTMLElement | null;
     if (target) {
-      if (hideTimer) { clearTimeout(hideTimer); hideTimer = null; }
+      clearAutoHide();
       show(target, target.dataset.original!, target.dataset.ipa!);
+      autoHideTimer = setTimeout(hide, 3000);
+      onReveal?.(target.dataset.original!);
+      return;
     }
-  });
 
-  document.addEventListener('mouseout', (e) => {
-    const target = (e.target as Element).closest?.('.sneaky-word') as HTMLElement | null;
-    if (target && isVisible()) {
-      hideTimer = setTimeout(hide, 200);
+    // Click outside tooltip hides it
+    if (isVisible()) {
+      const t = getTooltip();
+      const clickedInTooltip = t.container.contains(e.target as Node);
+      if (!clickedInTooltip) {
+        clearAutoHide();
+        hide();
+      }
     }
   });
 
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && isVisible()) {
+      clearAutoHide();
       hide();
     }
   });

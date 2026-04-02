@@ -17,3 +17,12 @@ export interface DictionaryEntry {
 }
 
 export type Dictionary = Record<string, DictionaryEntry>;
+
+export interface WordStat {
+  count: number;
+  firstSeen: number;
+  lastSeen: number;
+  streak: number;
+}
+
+export type WordStats = Record<string, WordStat>;

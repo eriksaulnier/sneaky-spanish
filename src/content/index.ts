@@ -1,6 +1,7 @@
 import type { Dictionary, CEFRLevel } from '../shared/types';
 import { isLevelIncluded } from '../shared/constants';
 import { getSettings } from '../shared/storage';
+import { recordClick, updateStreaks } from '../shared/tracking';
 import { walkDOM, computePhraseInfo, type WordSet } from './walker';
 import { startObserver } from './observer';
 import { initTooltip } from './tooltip';
@@ -20,6 +21,25 @@ function buildWordSet(dictionary: Dictionary, level: CEFRLevel): WordSet {
 }
 
 let currentDictionary: Dictionary | null = null;
+const clickedWords = new Set<string>();
+let tooltipInitialized = false;
+
+function collectSeenWords(): string[] {
+  const spans = document.querySelectorAll('.sneaky-word');
+  const seen = new Set<string>();
+  for (const span of spans) {
+    const original = (span as HTMLElement).dataset.original;
+    if (original) seen.add(original);
+  }
+  return [...seen];
+}
+
+function flushStreaks() {
+  const seen = collectSeenWords();
+  if (seen.length === 0) return;
+  updateStreaks(seen, [...clickedWords]);
+  clickedWords.clear();
+}
 
 async function activate(dictionary: Dictionary, level: CEFRLevel, highlight: boolean) {
   const wordSet = buildWordSet(dictionary, level);
@@ -35,7 +55,14 @@ async function activate(dictionary: Dictionary, level: CEFRLevel, highlight: boo
 
   walkDOM(document.body, wordSet, phraseInfo);
   startObserver(wordSet, phraseInfo);
-  initTooltip();
+
+  if (!tooltipInitialized) {
+    initTooltip((word) => {
+      clickedWords.add(word);
+      recordClick(word);
+    });
+    tooltipInitialized = true;
+  }
 }
 
 async function init() {
@@ -73,5 +100,10 @@ async function handleSettingsChange() {
 
   await activate(currentDictionary, settings.level, settings.highlight);
 }
+
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) flushStreaks();
+});
+window.addEventListener('beforeunload', flushStreaks);
 
 init();

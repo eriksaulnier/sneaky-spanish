@@ -1,5 +1,6 @@
 import type { CEFRLevel } from '../shared/types';
 import { getSettings, saveSettings } from '../shared/storage';
+import { getWordsToReview } from '../shared/tracking';
 
 const enabledEl = document.getElementById('enabled') as HTMLInputElement;
 const levelEl = document.getElementById('level') as HTMLSelectElement;
@@ -63,6 +64,30 @@ async function init() {
     e.preventDefault();
     chrome.runtime.openOptionsPage();
   });
+
+  const practiceList = document.getElementById('practice-list') as HTMLDivElement;
+  const wordsToReview = await getWordsToReview(5);
+  if (wordsToReview.length === 0) {
+    practiceList.textContent = 'Start browsing to track your progress.';
+    practiceList.classList.add('empty');
+  } else {
+    for (const { word, stat } of wordsToReview) {
+      const row = document.createElement('div');
+      row.className = 'practice-row';
+
+      const wordEl = document.createElement('span');
+      wordEl.className = 'practice-word';
+      wordEl.textContent = word;
+
+      const countEl = document.createElement('span');
+      countEl.className = 'practice-count';
+      countEl.textContent = `${stat.count}\u00d7`;
+
+      row.appendChild(wordEl);
+      row.appendChild(countEl);
+      practiceList.appendChild(row);
+    }
+  }
 }
 
 function updateExcludeButton(excluded: boolean) {
