@@ -7,56 +7,36 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ICON_DIR = join(__dirname, '..', 'public', 'assets', 'icons');
 const SIZES = [16, 32, 48, 128];
 
-// Green chameleon, top-down view on transparent background.
-// Looking down at a chameleon from above -- body, splayed legs, curled tail, two eyes.
+// Chubby green chameleon (F2), top-down view on transparent background.
 const SVG = `
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <!-- Curled tail -->
-  <path d="
-    M 64 118
-    Q 64 126, 56 126
-    Q 46 126, 46 118
-    Q 46 110, 54 110
-    Q 60 110, 58 116
-  " fill="none" stroke="#238577" stroke-width="6" stroke-linecap="round"/>
-
-  <!-- Back left leg -->
-  <path d="M 42 88 Q 14 94, 10 108" fill="none" stroke="#2A9D8F" stroke-width="7" stroke-linecap="round"/>
-  <path d="M 10 108 L 6 104 M 10 108 L 6 112 M 10 108 L 14 114" fill="none" stroke="#2A9D8F" stroke-width="4" stroke-linecap="round"/>
-
-  <!-- Back right leg -->
-  <path d="M 86 88 Q 114 94, 118 108" fill="none" stroke="#2A9D8F" stroke-width="7" stroke-linecap="round"/>
-  <path d="M 118 108 L 122 104 M 118 108 L 122 112 M 118 108 L 114 114" fill="none" stroke="#2A9D8F" stroke-width="4" stroke-linecap="round"/>
-
-  <!-- Front left leg -->
-  <path d="M 42 42 Q 14 36, 8 22" fill="none" stroke="#2A9D8F" stroke-width="7" stroke-linecap="round"/>
-  <path d="M 8 22 L 4 26 M 8 22 L 4 18 M 8 22 L 12 16" fill="none" stroke="#2A9D8F" stroke-width="4" stroke-linecap="round"/>
-
-  <!-- Front right leg -->
-  <path d="M 86 42 Q 114 36, 120 22" fill="none" stroke="#2A9D8F" stroke-width="7" stroke-linecap="round"/>
-  <path d="M 120 22 L 124 26 M 120 22 L 124 18 M 120 22 L 116 16" fill="none" stroke="#2A9D8F" stroke-width="4" stroke-linecap="round"/>
-
+  <path d="M 17 26 Q 23 27 23 24 Q 23 21.5 20 22" stroke="#2E7D32" stroke-width="2" fill="none" stroke-linecap="round"/>
   <!-- Body -->
-  <ellipse cx="64" cy="68" rx="24" ry="40" fill="#2A9D8F"/>
-
-  <!-- Spine ridge -->
-  <line x1="64" y1="30" x2="64" y2="108" stroke="#238577" stroke-width="3" stroke-linecap="round"/>
-
+  <ellipse cx="16" cy="15.5" rx="6.5" ry="9" fill="#43A047"/>
+  <!-- Belly -->
+  <ellipse cx="16" cy="15.5" rx="4" ry="7" fill="#66BB6A" opacity="0.5"/>
+  <!-- Front legs -->
+  <path d="M 10.5 9.5 L 5 6.5" stroke="#43A047" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 21.5 9.5 L 27 6.5" stroke="#43A047" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <circle cx="5" cy="6.5" r="1.8" fill="#2E7D32"/>
+  <circle cx="27" cy="6.5" r="1.8" fill="#2E7D32"/>
+  <!-- Back legs -->
+  <path d="M 11 21 L 6 24" stroke="#43A047" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 21 21 L 26 24" stroke="#43A047" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <circle cx="6" cy="24" r="1.8" fill="#2E7D32"/>
+  <circle cx="26" cy="24" r="1.8" fill="#2E7D32"/>
   <!-- Head -->
-  <ellipse cx="64" cy="24" rx="20" ry="18" fill="#2A9D8F"/>
-
-  <!-- Snout -->
-  <ellipse cx="64" cy="8" rx="8" ry="6" fill="#238577"/>
-
-  <!-- Left eye - bulging out -->
-  <circle cx="46" cy="22" r="9" fill="#2A9D8F" stroke="#238577" stroke-width="2"/>
-  <circle cx="46" cy="22" r="6" fill="#E9C46A"/>
-  <circle cx="45" cy="21" r="3" fill="#1A1A1A"/>
-
-  <!-- Right eye - bulging out -->
-  <circle cx="82" cy="22" r="9" fill="#2A9D8F" stroke="#238577" stroke-width="2"/>
-  <circle cx="82" cy="22" r="6" fill="#E9C46A"/>
-  <circle cx="83" cy="21" r="3" fill="#1A1A1A"/>
+  <ellipse cx="16" cy="5.5" rx="7" ry="5" fill="#4CAF50"/>
+  <!-- Eyes -->
+  <circle cx="10" cy="4.5" r="3.5" fill="#A5D6A7"/>
+  <circle cx="22" cy="4.5" r="3.5" fill="#A5D6A7"/>
+  <circle cx="10" cy="4.5" r="2" fill="#1B5E20"/>
+  <circle cx="22" cy="4.5" r="2" fill="#1B5E20"/>
+  <circle cx="10.7" cy="3.5" r="0.7" fill="white" opacity="0.9"/>
+  <circle cx="22.7" cy="3.5" r="0.7" fill="white" opacity="0.9"/>
+  <!-- Smile -->
+  <path d="M 13 8 Q 16 9.5 19 8" stroke="#2E7D32" stroke-width="0.8" fill="none" stroke-linecap="round"/>
 </svg>
 `;
 
