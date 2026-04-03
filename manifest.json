@@ -3,7 +3,7 @@
   "name": "Sneaky Spanish",
   "version": "2.0.0",
   "description": "Learn Spanish vocabulary passively as you browse — words on any page are quietly replaced with Spanish.",
-  "permissions": ["storage", "activeTab"],
+  "permissions": ["storage"],
   "host_permissions": ["<all_urls>"],
   "background": {
     "service_worker": "src/background/service-worker.ts"
