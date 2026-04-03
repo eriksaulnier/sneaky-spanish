@@ -33,12 +33,14 @@ Everything runs locally. The dictionary is bundled in the extension, no API call
 
 ### From source
 
+Requires [mise](https://mise.jdx.dev/) and [pnpm](https://pnpm.io/).
+
 ```bash
 git clone git@github.com:eriksaulnier/sneaky-spanish.git
 cd sneaky-spanish
-pnpm install
-pnpm build          # Chrome/Chromium
-pnpm build:firefox  # Firefox
+just setup            # Install tools, dependencies, and git hooks
+just build            # Chrome/Chromium
+just build firefox    # Firefox
 ```
 
 Then load the `dist/` directory as an unpacked extension:
@@ -58,12 +60,16 @@ Then load the `dist/` directory as an unpacked extension:
 ## Development
 
 ```bash
-pnpm dev              # Watch mode — rebuilds on file changes
-pnpm build            # Production build (Chrome)
-pnpm build:firefox    # Production build (Firefox)
-pnpm generate-dict    # Regenerate dictionary from word data
-pnpm generate-icon    # Regenerate icon PNGs from SVG
-pnpm package          # Package with web-ext
+just dev              # Watch mode — rebuilds on file changes
+just build            # Production build (both targets)
+just build-chrome     # Production build (Chrome only)
+just build-firefox    # Production build (Firefox only)
+just package          # Build + package with web-ext
+
+pnpm test             # Run tests
+pnpm test:coverage    # Run tests with coverage
+pnpm lint             # Lint
+pnpm lint:fix         # Lint and auto-fix
 ```
 
 ### Project structure

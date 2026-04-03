@@ -1,5 +1,7 @@
 [tools]
 node = "22"
+lefthook = "latest"
+just = "latest"
 
 [settings]
 experimental = true
