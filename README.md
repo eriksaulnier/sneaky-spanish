@@ -91,6 +91,15 @@ src/
 - [Sharp](https://sharp.pixelplumbing.com/) for icon generation
 - [web-ext](https://github.com/nicedoc/web-ext) for packaging
 
+### Releasing
+
+Releases are managed by [Release Please](https://github.com/googleapis/release-please). On every push to `main`, it creates or updates a release PR that:
+
+- Bumps the version in `package.json` and `manifest.json` based on conventional commits
+- Generates a CHANGELOG
+
+Merging the release PR creates a GitHub Release, which triggers the [publish workflow](.github/workflows/publish.yml) to build and publish to Chrome Web Store and Firefox AMO.
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup and guidelines.
