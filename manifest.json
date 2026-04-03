@@ -37,7 +37,7 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "sneaky-spanish@example.com",
+      "id": "sneaky-spanish@erik.software",
       "strict_min_version": "109.0"
     }
   }

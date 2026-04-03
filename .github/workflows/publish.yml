@@ -1,0 +1,101 @@
+# Publish to Chrome Web Store and Firefox AMO on GitHub Release.
+#
+# Triggered by: publishing a GitHub Release tagged vX.Y.Z
+# Skips store publishing when secrets aren't configured (initial setup).
+#
+# Required secrets for Chrome Web Store:
+#   CHROME_EXTENSION_ID    - Extension ID from Chrome Web Store dashboard (set as repo variable)
+#   CHROME_CLIENT_ID       - OAuth client ID from Google Cloud Console
+#   CHROME_CLIENT_SECRET   - OAuth client secret from Google Cloud Console
+#   CHROME_REFRESH_TOKEN   - OAuth refresh token (use Google OAuth Playground or
+#                            the mock server in browser-actions/release-chrome-extension)
+#
+# Required secrets for Firefox AMO:
+#   FIREFOX_JWT_ISSUER     - API key from https://addons.mozilla.org/developers/addon/api/key/
+#                            (set as repo variable for the job condition check)
+#   FIREFOX_JWT_SECRET     - API secret from the same page
+
+name: Publish Extension
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+env:
+  TAG: ${{ github.event.release.tag_name }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      # Build Chrome (MV3)
+      - run: pnpm build
+      - run: mkdir -p artifacts/chrome
+      - run: pnpm package --filename "sneaky-spanish-chrome-${TAG}.zip" --artifacts-dir artifacts/chrome --overwrite-dest
+
+      # Build Firefox
+      - run: pnpm build:firefox
+      - run: mkdir -p artifacts/firefox
+      - run: pnpm package --filename "sneaky-spanish-firefox-${TAG}.zip" --artifacts-dir artifacts/firefox --overwrite-dest
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chrome-zip
+          path: artifacts/chrome/*.zip
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: firefox-zip
+          path: artifacts/firefox/*.zip
+
+      # Attach zips to the GitHub Release
+      - run: gh release upload "$TAG" artifacts/chrome/*.zip artifacts/firefox/*.zip --clobber
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+  publish-chrome:
+    needs: build
+    runs-on: ubuntu-latest
+    if: ${{ vars.CHROME_EXTENSION_ID != '' }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: chrome-zip
+
+      - uses: browser-actions/release-chrome-extension@v0.2.1
+        with:
+          extension-id: ${{ vars.CHROME_EXTENSION_ID }}
+          extension-path: sneaky-spanish-chrome-${{ env.TAG }}.zip
+          oauth-client-id: ${{ secrets.CHROME_CLIENT_ID }}
+          oauth-client-secret: ${{ secrets.CHROME_CLIENT_SECRET }}
+          oauth-refresh-token: ${{ secrets.CHROME_REFRESH_TOKEN }}
+
+  publish-firefox:
+    needs: build
+    runs-on: ubuntu-latest
+    if: ${{ vars.FIREFOX_JWT_ISSUER != '' }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: firefox-zip
+
+      - uses: wdzeng/firefox-addon@v1
+        with:
+          addon-guid: sneaky-spanish@erik.software
+          xpi-path: sneaky-spanish-firefox-${{ env.TAG }}.zip
+          jwt-issuer: ${{ secrets.FIREFOX_JWT_ISSUER }}
+          jwt-secret: ${{ secrets.FIREFOX_JWT_SECRET }}
