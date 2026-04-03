@@ -87,7 +87,7 @@ function renderWordStats() {
     .filter(([, stat]) => (stat.seenCount ?? 0) > 0 || stat.count > 0)
     .map(([word, stat]) => ({
       word,
-      entry: dictionary[word],
+      entry: dictionary[word.toLowerCase()],
       seenCount: stat.seenCount ?? 0,
       count: stat.count,
     }));
