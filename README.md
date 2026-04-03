@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="icon-exploration/f2-chubby-green-polished.svg" width="128" height="128" alt="Sneaky Spanish icon — a chubby green chameleon viewed from above">
+  <img src="public/assets/icons/icon128.png" width="128" height="128" alt="Sneaky Spanish icon — a chubby green chameleon viewed from above">
 </p>
 
 <h1 align="center">Sneaky Spanish</h1>

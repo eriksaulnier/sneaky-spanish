@@ -10,6 +10,7 @@ const SIZES = [16, 32, 48, 128];
 // Chubby green chameleon (F2), top-down view on transparent background.
 const SVG = `
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <g transform="translate(0, 2.5)">
   <!-- Curled tail -->
   <path d="M 17 26 Q 23 27 23 24 Q 23 21.5 20 22" stroke="#2E7D32" stroke-width="2" fill="none" stroke-linecap="round"/>
   <!-- Body -->
@@ -37,6 +38,7 @@ const SVG = `
   <circle cx="22.7" cy="3.5" r="0.7" fill="white" opacity="0.9"/>
   <!-- Smile -->
   <path d="M 13 8 Q 16 9.5 19 8" stroke="#2E7D32" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+  </g>
 </svg>
 `;
 
