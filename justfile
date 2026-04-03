@@ -1,8 +1,8 @@
-# Install dependencies and set up git hooks
+# Install dependencies and register git hooks
 setup:
     mise install
     pnpm install
-    lefthook install --force
+    git config --local core.hooksPath .beads/hooks
 
 # Start dev mode (watch + rebuild)
 dev:
