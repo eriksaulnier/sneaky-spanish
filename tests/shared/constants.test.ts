@@ -1,6 +1,10 @@
-import { describe, it, expect, beforeEach } from 'vitest';
-import { isLevelIncluded, populateLevelSelect, CEFR_LEVELS, CEFR_LEVEL_LABELS } from '../../src/shared/constants';
-import type { CEFRLevel } from '../../src/shared/types';
+import { beforeEach, describe, expect, it } from 'vitest';
+import {
+  CEFR_LEVEL_LABELS,
+  CEFR_LEVELS,
+  isLevelIncluded,
+  populateLevelSelect,
+} from '../../src/shared/constants';
 
 describe('isLevelIncluded', () => {
   it('includes A1 word at all levels', () => {
@@ -53,7 +57,9 @@ describe('populateLevelSelect', () => {
   it('options have correct labels', () => {
     populateLevelSelect(select);
     for (const level of CEFR_LEVELS) {
-      const option = select.querySelector(`option[value="${level}"]`) as HTMLOptionElement;
+      const option = select.querySelector(
+        `option[value="${level}"]`,
+      ) as HTMLOptionElement;
       expect(option.textContent).toBe(CEFR_LEVEL_LABELS[level]);
     }
   });

@@ -1,12 +1,14 @@
-import { describe, it, expect, beforeEach, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { startObserver, stopObserver } from '../../src/content/observer';
-import type { WordSet } from '../../src/shared/word-filter';
 import type { PhraseInfo } from '../../src/content/walker';
 import type { DictionaryEntry } from '../../src/shared/types';
+import type { WordSet } from '../../src/shared/word-filter';
 
 // Mock walker so we can verify calls without full DOM replacement logic
 vi.mock('../../src/content/walker', async () => {
-  const actual = await vi.importActual<typeof import('../../src/content/walker')>('../../src/content/walker');
+  const actual = await vi.importActual<
+    typeof import('../../src/content/walker')
+  >('../../src/content/walker');
   return {
     ...actual,
     processNode: vi.fn(actual.processNode),
@@ -19,7 +21,12 @@ vi.mock('../../src/content/visibility', () => ({
 }));
 
 function makeWordSet(): WordSet {
-  const entry: DictionaryEntry = { es: 'casa', ipa: '/k/', level: 'A1', pos: 'noun' };
+  const entry: DictionaryEntry = {
+    es: 'casa',
+    ipa: '/k/',
+    level: 'A1',
+    pos: 'noun',
+  };
   return new Map([['house', entry]]);
 }
 

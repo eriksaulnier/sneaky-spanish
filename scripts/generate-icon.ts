@@ -1,7 +1,7 @@
-import sharp from 'sharp';
 import { mkdirSync } from 'node:fs';
-import { join, dirname } from 'node:path';
+import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import sharp from 'sharp';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ICON_DIR = join(__dirname, '..', 'public', 'assets', 'icons');
@@ -47,10 +47,7 @@ mkdirSync(ICON_DIR, { recursive: true });
 await Promise.all(
   SIZES.map(async (size) => {
     const outPath = join(ICON_DIR, `icon${size}.png`);
-    await sharp(Buffer.from(SVG))
-      .resize(size, size)
-      .png()
-      .toFile(outPath);
+    await sharp(Buffer.from(SVG)).resize(size, size).png().toFile(outPath);
     console.log(`  ${outPath} (${size}x${size})`);
   }),
 );

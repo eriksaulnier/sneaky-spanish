@@ -1,10 +1,18 @@
-import { describe, it, expect, beforeEach } from 'vitest';
-import { computePhraseInfo, processNode, walkDOM } from '../../src/content/walker';
+import { beforeEach, describe, expect, it } from 'vitest';
+import {
+  computePhraseInfo,
+  processNode,
+  walkDOM,
+} from '../../src/content/walker';
 import type { DictionaryEntry } from '../../src/shared/types';
 import type { WordSet } from '../../src/shared/word-filter';
 
 function makeWordSet(
-  entries: Record<string, Omit<DictionaryEntry, 'level' | 'pos'> & Partial<Pick<DictionaryEntry, 'level' | 'pos'>>>,
+  entries: Record<
+    string,
+    Omit<DictionaryEntry, 'level' | 'pos'> &
+      Partial<Pick<DictionaryEntry, 'level' | 'pos'>>
+  >,
 ): WordSet {
   const map: WordSet = new Map();
   for (const [key, val] of Object.entries(entries)) {
@@ -19,10 +27,10 @@ function makeWordSet(
 }
 
 const wordSet = makeWordSet({
-  'house': { es: 'casa', ipa: '/ˈkasa/' },
-  'cat': { es: 'gato', ipa: '/ˈɡato/' },
+  house: { es: 'casa', ipa: '/ˈkasa/' },
+  cat: { es: 'gato', ipa: '/ˈɡato/' },
   'good morning': { es: 'buenos días', ipa: '/ˈbwenos ˈdias/', pos: 'phrase' },
-  'good': { es: 'bueno', ipa: '/ˈbweno/' },
+  good: { es: 'bueno', ipa: '/ˈbweno/' },
   'ice cream': { es: 'helado', ipa: '/eˈlaðo/', pos: 'phrase' },
 });
 
@@ -45,8 +53,8 @@ beforeEach(() => {
 describe('computePhraseInfo', () => {
   it('returns maxWords=1 and empty phraseStarts when wordSet has no phrases', () => {
     const singleWords = makeWordSet({
-      'house': { es: 'casa', ipa: '/ˈkasa/' },
-      'cat': { es: 'gato', ipa: '/ˈɡato/' },
+      house: { es: 'casa', ipa: '/ˈkasa/' },
+      cat: { es: 'gato', ipa: '/ˈɡato/' },
     });
     const info = computePhraseInfo(singleWords);
     expect(info.maxWords).toBe(1);
@@ -68,7 +76,7 @@ describe('computePhraseInfo', () => {
   it('sets maxWords to the length of the longest phrase', () => {
     const ws = makeWordSet({
       'a b c': { es: 'xyz', ipa: '/xyz/', pos: 'phrase' },
-      'hello': { es: 'hola', ipa: '/ola/' },
+      hello: { es: 'hola', ipa: '/ola/' },
     });
     const info = computePhraseInfo(ws);
     expect(info.maxWords).toBe(3);
@@ -93,7 +101,7 @@ describe('processNode — single word matching', () => {
     processNode(textNode, wordSet, phraseInfo);
     const span = document.querySelector('span.sneaky-word');
     expect(span).not.toBeNull();
-    expect(span!.textContent).toBe('casa');
+    expect(span?.textContent).toBe('casa');
   });
 
   it('sets data-original to the original English word', () => {
@@ -121,7 +129,7 @@ describe('processNode — single word matching', () => {
     const textNode = createTextInDOM('banana');
     processNode(textNode, wordSet, phraseInfo);
     expect(document.querySelector('span.sneaky-word')).toBeNull();
-    expect(document.querySelector('p')!.textContent).toBe('banana');
+    expect(document.querySelector('p')?.textContent).toBe('banana');
   });
 
   it('returns false when no matches are found', () => {

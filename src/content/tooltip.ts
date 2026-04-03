@@ -134,8 +134,11 @@ function hide() {
 function trackPosition() {
   if (!currentAnchor || !tooltip) return;
   const rect = currentAnchor.getBoundingClientRect();
-  const offscreen = rect.bottom < 0 || rect.top > window.innerHeight ||
-    rect.right < 0 || rect.left > window.innerWidth;
+  const offscreen =
+    rect.bottom < 0 ||
+    rect.top > window.innerHeight ||
+    rect.right < 0 ||
+    rect.left > window.innerWidth;
   if (offscreen) {
     hide();
     return;
@@ -169,11 +172,16 @@ export function initTooltip(onReveal?: (word: string) => void): void {
   let autoHideTimer: ReturnType<typeof setTimeout> | null = null;
 
   function clearAutoHide() {
-    if (autoHideTimer) { clearTimeout(autoHideTimer); autoHideTimer = null; }
+    if (autoHideTimer) {
+      clearTimeout(autoHideTimer);
+      autoHideTimer = null;
+    }
   }
 
   document.addEventListener('contextmenu', (e) => {
-    const target = (e.target as Element).closest?.('.sneaky-word') as HTMLElement | null;
+    const target = (e.target as Element).closest?.(
+      '.sneaky-word',
+    ) as HTMLElement | null;
     if (!target) return;
     e.preventDefault();
     clearAutoHide();

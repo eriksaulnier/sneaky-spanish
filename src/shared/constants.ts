@@ -18,7 +18,10 @@ export const CEFR_LEVEL_LABELS: Record<CEFRLevel, string> = {
   C2: 'C2 — Mastery',
 };
 
-export function populateLevelSelect(select: HTMLSelectElement, selectedLevel?: CEFRLevel): void {
+export function populateLevelSelect(
+  select: HTMLSelectElement,
+  selectedLevel?: CEFRLevel,
+): void {
   select.textContent = '';
   for (const level of CEFR_LEVELS) {
     const option = document.createElement('option');
@@ -29,13 +32,31 @@ export function populateLevelSelect(select: HTMLSelectElement, selectedLevel?: C
   if (selectedLevel) select.value = selectedLevel;
 }
 
-const LEVEL_INDEX: Record<CEFRLevel, number> = { A1: 0, A2: 1, B1: 2, B2: 3, C1: 4, C2: 5 };
+const LEVEL_INDEX: Record<CEFRLevel, number> = {
+  A1: 0,
+  A2: 1,
+  B1: 2,
+  B2: 3,
+  C1: 4,
+  C2: 5,
+};
 
-export function isLevelIncluded(wordLevel: CEFRLevel, userLevel: CEFRLevel): boolean {
+export function isLevelIncluded(
+  wordLevel: CEFRLevel,
+  userLevel: CEFRLevel,
+): boolean {
   return LEVEL_INDEX[wordLevel] <= LEVEL_INDEX[userLevel];
 }
 
 export const SKIP_ELEMENTS = new Set([
-  'SCRIPT', 'STYLE', 'NOSCRIPT', 'CODE', 'PRE', 'KBD',
-  'SAMP', 'TEXTAREA', 'INPUT', 'SELECT',
+  'SCRIPT',
+  'STYLE',
+  'NOSCRIPT',
+  'CODE',
+  'PRE',
+  'KBD',
+  'SAMP',
+  'TEXTAREA',
+  'INPUT',
+  'SELECT',
 ]);

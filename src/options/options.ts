@@ -1,34 +1,61 @@
-import type { CEFRLevel, Dictionary, Settings, WordStats, DictionaryEntry } from '../shared/types';
+import {
+  CEFR_LEVELS,
+  isLevelIncluded,
+  populateLevelSelect,
+} from '../shared/constants';
 import { getSettings, saveSettings } from '../shared/storage';
 import { getWordStats, resetWordStats } from '../shared/tracking';
+import type {
+  CEFRLevel,
+  Dictionary,
+  DictionaryEntry,
+  Settings,
+  WordStats,
+} from '../shared/types';
 import { buildWordSet } from '../shared/word-filter';
-import { CEFR_LEVELS, isLevelIncluded, populateLevelSelect } from '../shared/constants';
 
 function debounce(fn: () => void, ms: number): () => void {
   let timer: ReturnType<typeof setTimeout>;
-  return () => { clearTimeout(timer); timer = setTimeout(fn, ms); };
+  return () => {
+    clearTimeout(timer);
+    timer = setTimeout(fn, ms);
+  };
 }
 
 // DOM element references
 const levelEl = document.getElementById('level') as HTMLSelectElement;
 const statActive = document.getElementById('stat-active') as HTMLElement;
 const statSeen = document.getElementById('stat-seen') as HTMLElement;
-const statEncounters = document.getElementById('stat-encounters') as HTMLElement;
+const statEncounters = document.getElementById(
+  'stat-encounters',
+) as HTMLElement;
 const statClicked = document.getElementById('stat-clicked') as HTMLElement;
-const progressSummary = document.getElementById('progress-summary') as HTMLElement;
+const progressSummary = document.getElementById(
+  'progress-summary',
+) as HTMLElement;
 
 const statsSearch = document.getElementById('stats-search') as HTMLInputElement;
-const statsBody = document.getElementById('stats-body') as HTMLTableSectionElement;
+const statsBody = document.getElementById(
+  'stats-body',
+) as HTMLTableSectionElement;
 const statsEmpty = document.getElementById('stats-empty') as HTMLElement;
-const tableContainer = document.querySelector('.table-container') as HTMLElement;
+const tableContainer = document.querySelector(
+  '.table-container',
+) as HTMLElement;
 const resetAllBtn = document.getElementById('reset-all') as HTMLButtonElement;
 
-const wordlistSearch = document.getElementById('wordlist-search') as HTMLInputElement;
+const wordlistSearch = document.getElementById(
+  'wordlist-search',
+) as HTMLInputElement;
 const currentLevel = document.getElementById('current-level') as HTMLElement;
-const wordlistGroups = document.getElementById('wordlist-groups') as HTMLElement;
+const wordlistGroups = document.getElementById(
+  'wordlist-groups',
+) as HTMLElement;
 
 const listEl = document.getElementById('exclusion-list') as HTMLUListElement;
-const emptyMsg = document.getElementById('empty-message') as HTMLParagraphElement;
+const emptyMsg = document.getElementById(
+  'empty-message',
+) as HTMLParagraphElement;
 const newSiteInput = document.getElementById('new-site') as HTMLInputElement;
 const addBtn = document.getElementById('add-site') as HTMLButtonElement;
 
@@ -309,7 +336,9 @@ async function addSite() {
 }
 
 function setupEventListeners() {
-  const defaultSortTh = document.querySelector('th.sortable[data-sort="clicks"]');
+  const defaultSortTh = document.querySelector(
+    'th.sortable[data-sort="clicks"]',
+  );
   if (defaultSortTh) defaultSortTh.classList.add('sort-desc');
 
   levelEl.addEventListener('change', async () => {
@@ -319,8 +348,14 @@ function setupEventListeners() {
     renderActiveWords();
   });
 
-  statsSearch.addEventListener('input', debounce(() => renderWordStats(), 200));
-  wordlistSearch.addEventListener('input', debounce(() => renderActiveWords(), 200));
+  statsSearch.addEventListener(
+    'input',
+    debounce(() => renderWordStats(), 200),
+  );
+  wordlistSearch.addEventListener(
+    'input',
+    debounce(() => renderActiveWords(), 200),
+  );
 
   resetAllBtn.addEventListener('click', async () => {
     if (!confirm('Reset all word statistics? This cannot be undone.')) return;
@@ -337,7 +372,7 @@ function setupEventListeners() {
 
   document.querySelectorAll('th.sortable').forEach((th) => {
     th.addEventListener('click', () => {
-      const col = (th as HTMLElement).dataset['sort'] ?? '';
+      const col = (th as HTMLElement).dataset.sort ?? '';
       if (sortColumn === col) {
         sortAsc = !sortAsc;
       } else {

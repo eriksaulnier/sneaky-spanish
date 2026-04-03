@@ -12,7 +12,7 @@ export function startVisibilityObserver(): void {
         const word = el.dataset.original;
         if (word) {
           viewportSeen.add(word);
-          observer!.unobserve(el);
+          observer?.unobserve(el);
         }
       }
     },

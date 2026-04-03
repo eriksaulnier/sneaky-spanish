@@ -1,6 +1,6 @@
-import { processNode, walkDOM, type PhraseInfo } from './walker';
 import type { WordSet } from '../shared/word-filter';
 import { observeSpan } from './visibility';
+import { type PhraseInfo, processNode, walkDOM } from './walker';
 
 let observer: MutationObserver | null = null;
 
@@ -13,7 +13,8 @@ export function startObserver(wordSet: WordSet, phraseInfo: PhraseInfo): void {
   observer = new MutationObserver((mutations) => {
     for (const mutation of mutations) {
       for (const node of mutation.addedNodes) {
-        if (node instanceof HTMLElement && node.closest('.sneaky-word')) continue;
+        if (node instanceof HTMLElement && node.closest('.sneaky-word'))
+          continue;
         pending.add(node);
       }
     }

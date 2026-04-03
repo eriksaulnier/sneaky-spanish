@@ -13,16 +13,21 @@
     "generate-icon": "tsx scripts/generate-icon.ts",
     "test": "vitest run",
     "test:watch": "vitest",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write ."
   },
   "pnpm": {
     "onlyBuiltDependencies": [
-      "sharp"
+      "sharp",
+      "lefthook"
     ]
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.4.10",
     "@vitest/coverage-v8": "^4.1.2",
     "jsdom": "^29.0.1",
+    "lefthook": "^2.1.4",
     "sharp": "^0.34.5",
     "tsx": "^4.21.0",
     "typescript": "^6.0.2",

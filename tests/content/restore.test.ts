@@ -1,6 +1,6 @@
-import { describe, it, expect, beforeEach, vi } from 'vitest';
-import { restoreOriginalText } from '../../src/content/restore';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { stopObserver } from '../../src/content/observer';
+import { restoreOriginalText } from '../../src/content/restore';
 import { destroyTooltip } from '../../src/content/tooltip';
 import { stopVisibilityObserver } from '../../src/content/visibility';
 
@@ -63,7 +63,9 @@ describe('restoreOriginalText', () => {
 
     restoreOriginalText();
 
-    expect(document.documentElement.classList.contains('sneaky-highlight')).toBe(false);
+    expect(
+      document.documentElement.classList.contains('sneaky-highlight'),
+    ).toBe(false);
   });
 
   it('no-op when no spans exist', () => {

@@ -6,7 +6,10 @@ let lock: Promise<void> = Promise.resolve();
 
 function withLock<T>(fn: () => Promise<T>): Promise<T> {
   const result = lock.then(fn);
-  lock = result.then(() => {}, () => {});
+  lock = result.then(
+    () => {},
+    () => {},
+  );
   return result;
 }
 

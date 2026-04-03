@@ -1,8 +1,8 @@
-import { describe, it, expect, beforeEach } from 'vitest';
+import { beforeEach, describe, expect, it } from 'vitest';
 import {
-  startVisibilityObserver,
-  observeSpan,
   getViewportSeenWords,
+  observeSpan,
+  startVisibilityObserver,
   stopVisibilityObserver,
 } from '../../src/content/visibility';
 

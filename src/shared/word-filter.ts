@@ -1,5 +1,5 @@
-import type { DictionaryEntry, Dictionary, CEFRLevel } from './types';
 import { isLevelIncluded } from './constants';
+import type { CEFRLevel, Dictionary, DictionaryEntry } from './types';
 
 export type WordSet = Map<string, DictionaryEntry>;
 
@@ -7,7 +7,10 @@ export type WordSet = Map<string, DictionaryEntry>;
 // risk breaking grammar when swapped into English sentences.
 export const ALLOWED_POS = new Set(['noun', 'phrase']);
 
-export function buildWordSet(dictionary: Dictionary, level: CEFRLevel): WordSet {
+export function buildWordSet(
+  dictionary: Dictionary,
+  level: CEFRLevel,
+): WordSet {
   const wordSet: WordSet = new Map();
   for (const [english, entry] of Object.entries(dictionary)) {
     if (!ALLOWED_POS.has(entry.pos)) continue;

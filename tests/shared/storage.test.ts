@@ -1,6 +1,6 @@
-import { describe, it, expect } from 'vitest';
-import { getSettings, saveSettings } from '../../src/shared/storage';
+import { describe, expect, it } from 'vitest';
 import { DEFAULT_SETTINGS } from '../../src/shared/constants';
+import { getSettings, saveSettings } from '../../src/shared/storage';
 
 describe('getSettings', () => {
   it('returns DEFAULT_SETTINGS when storage is empty', async () => {

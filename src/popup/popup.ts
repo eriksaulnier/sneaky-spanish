@@ -1,14 +1,18 @@
-import type { CEFRLevel } from '../shared/types';
+import { populateLevelSelect } from '../shared/constants';
 import { getSettings, saveSettings } from '../shared/storage';
 import { getWordsToReview } from '../shared/tracking';
-import { populateLevelSelect } from '../shared/constants';
+import type { CEFRLevel } from '../shared/types';
 
 const enabledEl = document.getElementById('enabled') as HTMLInputElement;
 const levelEl = document.getElementById('level') as HTMLSelectElement;
 const highlightEl = document.getElementById('highlight') as HTMLInputElement;
 const excludeBtn = document.getElementById('exclude-site') as HTMLButtonElement;
-const siteStatus = document.getElementById('site-status') as HTMLParagraphElement;
-const optionsLink = document.getElementById('options-link') as HTMLAnchorElement;
+const siteStatus = document.getElementById(
+  'site-status',
+) as HTMLParagraphElement;
+const optionsLink = document.getElementById(
+  'options-link',
+) as HTMLAnchorElement;
 
 let currentHostname = '';
 
@@ -51,7 +55,9 @@ async function init() {
     const isExcluded = settings.exclusions.includes(currentHostname);
 
     if (isExcluded) {
-      const exclusions = settings.exclusions.filter((h) => h !== currentHostname);
+      const exclusions = settings.exclusions.filter(
+        (h) => h !== currentHostname,
+      );
       await saveSettings({ exclusions });
     } else {
       const exclusions = [...settings.exclusions, currentHostname];
@@ -66,7 +72,9 @@ async function init() {
     chrome.runtime.openOptionsPage();
   });
 
-  const practiceList = document.getElementById('practice-list') as HTMLDivElement;
+  const practiceList = document.getElementById(
+    'practice-list',
+  ) as HTMLDivElement;
   const wordsToReview = await getWordsToReview(5);
   if (wordsToReview.length === 0) {
     practiceList.textContent = 'Start browsing to track your progress.';
@@ -110,7 +118,9 @@ function updateExcludeButton(excluded: boolean) {
 
 function notifyContentScript(tabId?: number) {
   if (tabId) {
-    chrome.tabs.sendMessage(tabId, { type: 'settings-changed' }).catch(() => {});
+    chrome.tabs
+      .sendMessage(tabId, { type: 'settings-changed' })
+      .catch(() => {});
   }
 }
 

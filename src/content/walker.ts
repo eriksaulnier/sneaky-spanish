@@ -1,8 +1,9 @@
-import type { DictionaryEntry } from '../shared/types';
 import { SKIP_ELEMENTS } from '../shared/constants';
+import type { DictionaryEntry } from '../shared/types';
 import type { WordSet } from '../shared/word-filter';
 
-const WORD_BOUNDARY = /(\s+|[.,;:!?'"()\[\]{}<>\/\\@#$%^&*+=|~`—–\-\u2018\u2019\u201C\u201D]+)/;
+const WORD_BOUNDARY =
+  /(\s+|[.,;:!?'"()[\]{}<>/\\@#$%^&*+=|~`—–\-\u2018\u2019\u201C\u201D]+)/;
 
 function shouldSkip(node: Node): boolean {
   let el: Element | null = node.parentElement;
@@ -16,7 +17,10 @@ function shouldSkip(node: Node): boolean {
 }
 
 function matchCase(spanish: string, original: string): string {
-  if (original[0] === original[0].toUpperCase() && original[0] !== original[0].toLowerCase()) {
+  if (
+    original[0] === original[0].toUpperCase() &&
+    original[0] !== original[0].toLowerCase()
+  ) {
     return spanish[0].toUpperCase() + spanish.slice(1);
   }
   return spanish;
@@ -27,7 +31,13 @@ function tokenize(text: string): string[] {
 }
 
 function isWordToken(token: string): boolean {
-  return token.length > 0 && !/^\s+$/.test(token) && !/^[.,;:!?'"()\[\]{}<>\/\\@#$%^&*+=|~`—–\-\u2018\u2019\u201C\u201D]+$/.test(token);
+  return (
+    token.length > 0 &&
+    !/^\s+$/.test(token) &&
+    !/^[.,;:!?'"()[\]{}<>/\\@#$%^&*+=|~`—–\-\u2018\u2019\u201C\u201D]+$/.test(
+      token,
+    )
+  );
 }
 
 // Try to match a multi-word phrase starting at token index i.
@@ -52,7 +62,9 @@ function tryPhraseMatch(
 
   // Try longest match first (4 words, then 3, then 2)
   for (let len = Math.min(wordIndices.length, maxWords); len >= 2; len--) {
-    const phraseWords = wordIndices.slice(0, len).map((idx) => tokens[idx].toLowerCase());
+    const phraseWords = wordIndices
+      .slice(0, len)
+      .map((idx) => tokens[idx].toLowerCase());
     const phraseKey = phraseWords.join(' ');
     const entry = wordSet.get(phraseKey);
     if (entry) {
@@ -84,9 +96,13 @@ export function computePhraseInfo(wordSet: WordSet): PhraseInfo {
   return { maxWords, phraseStarts };
 }
 
-export function processNode(textNode: Text, wordSet: WordSet, phraseInfo: PhraseInfo): boolean {
+export function processNode(
+  textNode: Text,
+  wordSet: WordSet,
+  phraseInfo: PhraseInfo,
+): boolean {
   const text = textNode.nodeValue;
-  if (!text || !text.trim()) return false;
+  if (!text?.trim()) return false;
   if (shouldSkip(textNode)) return false;
 
   const tokens = tokenize(text);
@@ -110,8 +126,16 @@ export function processNode(textNode: Text, wordSet: WordSet, phraseInfo: Phrase
     const token = tokens[i];
 
     // Try phrase match first (only for word tokens that start a known phrase)
-    if (isWordToken(token) && phraseInfo.phraseStarts.has(token.toLowerCase())) {
-      const phraseMatch = tryPhraseMatch(tokens, i, wordSet, phraseInfo.maxWords);
+    if (
+      isWordToken(token) &&
+      phraseInfo.phraseStarts.has(token.toLowerCase())
+    ) {
+      const phraseMatch = tryPhraseMatch(
+        tokens,
+        i,
+        wordSet,
+        phraseInfo.maxWords,
+      );
       if (phraseMatch) {
         const [entry, consumed, originalPhrase] = phraseMatch;
         const span = document.createElement('span');
@@ -142,11 +166,15 @@ export function processNode(textNode: Text, wordSet: WordSet, phraseInfo: Phrase
     i++;
   }
 
-  textNode.parentNode!.replaceChild(fragment, textNode);
+  textNode.parentNode?.replaceChild(fragment, textNode);
   return true;
 }
 
-export function walkDOM(root: Node, wordSet: WordSet, phraseInfo: PhraseInfo): void {
+export function walkDOM(
+  root: Node,
+  wordSet: WordSet,
+  phraseInfo: PhraseInfo,
+): void {
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
     acceptNode(node) {
       if (shouldSkip(node)) return NodeFilter.FILTER_REJECT;

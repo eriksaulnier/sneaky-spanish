@@ -1,14 +1,14 @@
-import { describe, it, expect } from 'vitest';
-import { ALLOWED_POS, buildWordSet } from '../../src/shared/word-filter';
+import { describe, expect, it } from 'vitest';
 import type { Dictionary } from '../../src/shared/types';
+import { ALLOWED_POS, buildWordSet } from '../../src/shared/word-filter';
 
 const testDict: Dictionary = {
-  'house': { es: 'casa', ipa: '/k/', level: 'A1', pos: 'noun' },
-  'cat': { es: 'gato', ipa: '/g/', level: 'A2', pos: 'noun' },
-  'run': { es: 'correr', ipa: '/k/', level: 'A1', pos: 'verb' },
-  'beautiful': { es: 'hermoso', ipa: '/e/', level: 'B1', pos: 'adj' },
+  house: { es: 'casa', ipa: '/k/', level: 'A1', pos: 'noun' },
+  cat: { es: 'gato', ipa: '/g/', level: 'A2', pos: 'noun' },
+  run: { es: 'correr', ipa: '/k/', level: 'A1', pos: 'verb' },
+  beautiful: { es: 'hermoso', ipa: '/e/', level: 'B1', pos: 'adj' },
   'good morning': { es: 'buenos días', ipa: '/b/', level: 'A1', pos: 'phrase' },
-  'library': { es: 'biblioteca', ipa: '/b/', level: 'B2', pos: 'noun' },
+  library: { es: 'biblioteca', ipa: '/b/', level: 'B2', pos: 'noun' },
 };
 
 describe('ALLOWED_POS', () => {

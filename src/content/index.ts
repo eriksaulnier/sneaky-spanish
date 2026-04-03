@@ -1,12 +1,12 @@
-import type { Dictionary, CEFRLevel } from '../shared/types';
 import { getSettings } from '../shared/storage';
 import { recordClick, recordSeenWords } from '../shared/tracking';
-import { walkDOM, computePhraseInfo } from './walker';
-import { startObserver } from './observer';
-import { initTooltip } from './tooltip';
-import { restoreOriginalText } from './restore';
+import type { CEFRLevel, Dictionary } from '../shared/types';
 import { buildWordSet } from '../shared/word-filter';
-import { startVisibilityObserver, getViewportSeenWords, stopVisibilityObserver } from './visibility';
+import { startObserver } from './observer';
+import { restoreOriginalText } from './restore';
+import { initTooltip } from './tooltip';
+import { getViewportSeenWords, startVisibilityObserver } from './visibility';
+import { computePhraseInfo, walkDOM } from './walker';
 
 let currentDictionary: Dictionary | null = null;
 let tooltipInitialized = false;
@@ -22,7 +22,11 @@ async function flushSeenWords() {
   await recordSeenWords(seen);
 }
 
-async function activate(dictionary: Dictionary, level: CEFRLevel, highlight: boolean) {
+async function activate(
+  dictionary: Dictionary,
+  level: CEFRLevel,
+  highlight: boolean,
+) {
   const wordSet = buildWordSet(dictionary, level);
   if (wordSet.size === 0) return;
 

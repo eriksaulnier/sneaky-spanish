@@ -9,8 +9,8 @@
   --text-faint: #a8a29e;
   --border: #d6d3d1;
   --border-subtle: #e7e5e4;
-  --primary: #43A047;
-  --primary-dark: #2E7D32;
+  --primary: #43a047;
+  --primary-dark: #2e7d32;
   --danger: #dc2626;
 }
 
@@ -26,8 +26,8 @@
     --text-faint: #6b6b6b;
     --border: #404040;
     --border-subtle: #333;
-    --primary: #66BB6A;
-    --primary-dark: #81C784;
+    --primary: #66bb6a;
+    --primary-dark: #81c784;
     --danger: #ef5350;
   }
 }
@@ -175,7 +175,9 @@ section:last-child {
   font-size: 13px;
   font-weight: 500;
   cursor: pointer;
-  transition: background 0.15s, color 0.15s;
+  transition:
+    background 0.15s,
+    color 0.15s;
   white-space: nowrap;
 }
 
@@ -225,12 +227,12 @@ th.sortable:hover {
 }
 
 th.sort-asc::after {
-  content: ' ▲';
+  content: " ▲";
   font-size: 10px;
 }
 
 th.sort-desc::after {
-  content: ' ▼';
+  content: " ▼";
   font-size: 10px;
 }
 

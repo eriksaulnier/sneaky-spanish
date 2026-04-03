@@ -6,13 +6,13 @@
   --text-faint: #a8a29e;
   --border: #d6d3d1;
   --border-subtle: #e7e5e4;
-  --primary: #43A047;
-  --primary-dark: #2E7D32;
+  --primary: #43a047;
+  --primary-dark: #2e7d32;
   --primary-hover-bg: #f1f8e9;
   --danger: #dc2626;
   --danger-subtle-bg: #fef2f2;
   --danger-subtle-border: #fca5a5;
-  --warning: #E9C46A;
+  --warning: #e9c46a;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,13 +24,13 @@
     --text-faint: #6b6b6b;
     --border: #404040;
     --border-subtle: #333;
-    --primary: #66BB6A;
-    --primary-dark: #81C784;
+    --primary: #66bb6a;
+    --primary-dark: #81c784;
     --primary-hover-bg: rgba(102, 187, 106, 0.12);
     --danger: #ef5350;
     --danger-subtle-bg: rgba(239, 83, 80, 0.1);
     --danger-subtle-border: rgba(239, 83, 80, 0.3);
-    --warning: #E9C46A;
+    --warning: #e9c46a;
   }
 }
 
@@ -121,7 +121,9 @@ button {
   background: var(--bg-elevated);
   font-size: 13px;
   cursor: pointer;
-  transition: background 0.15s, border-color 0.15s;
+  transition:
+    background 0.15s,
+    border-color 0.15s;
   color: var(--text);
 }
 
@@ -224,7 +226,7 @@ footer a:hover {
 }
 
 .toggle-slider::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 16px;
   width: 16px;
