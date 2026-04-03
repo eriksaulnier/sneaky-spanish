@@ -23,7 +23,7 @@ Everything runs locally. The dictionary is bundled in the extension, no API call
 - **CEFR-aligned difficulty** — A1 through C2, each level includes all words from levels below it
 - **1,300+ word dictionary** — bundled locally, works offline
 - **Multi-word phrases** — matches phrases up to 4 words (e.g., "take care of" → "cuidar de")
-- **Tooltip on click** — shows original English word + IPA pronunciation
+- **Tooltip on right-click** — shows original English word + IPA pronunciation
 - **Highlight mode** — optional underline + tinted background on replaced words
 - **Per-site exclusions** — turn it off for specific domains
 - **Word tracking** — viewport-aware tracking of words you've actually seen and clicked
@@ -34,8 +34,8 @@ Everything runs locally. The dictionary is bundled in the extension, no API call
 ### From source
 
 ```bash
-git clone git@github.com:eriksaulnier/sneaky-spanish-v2.git
-cd sneaky-spanish-v2
+git clone git@github.com:eriksaulnier/sneaky-spanish.git
+cd sneaky-spanish
 pnpm install
 pnpm build          # Chrome/Chromium
 pnpm build:firefox  # Firefox
@@ -51,7 +51,7 @@ Then load the `dist/` directory as an unpacked extension:
 1. Click the extension icon in your toolbar
 2. Pick your CEFR level
 3. Browse normally — Spanish words will start appearing on pages
-4. Click any green word to see the original English and pronunciation
+4. Right-click any green word to see the original English and pronunciation
 5. Toggle highlight mode if you want replaced words to stand out more
 6. Exclude sites where you don't want replacements (like your bank)
 
@@ -107,6 +107,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup and guidelines.
 ## Privacy
 
 All data stays on your device. The dictionary is bundled in the extension. No network requests, no analytics, no tracking. Settings sync across your browser profile via `chrome.storage.sync`, but nothing goes to any third-party server. See the full [privacy policy](privacy-policy.md).
+
+## History
+
+Originally built as a college course project in 2015 ([sneakyspanish](https://github.com/eriksaulnier/sneakyspanish)). Rebuilt from scratch in 2026 with Manifest V3, CEFR-leveled vocabulary, and progress tracking.
 
 ## License
 
