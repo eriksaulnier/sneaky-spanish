@@ -1,6 +1,6 @@
 {
   "name": "sneaky-spanish",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "packageManager": "pnpm@10.8.1",
@@ -13,7 +13,9 @@
     "generate-icon": "tsx scripts/generate-icon.ts"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["sharp"]
+    "onlyBuiltDependencies": [
+      "sharp"
+    ]
   },
   "devDependencies": {
     "sharp": "^0.34.5",
