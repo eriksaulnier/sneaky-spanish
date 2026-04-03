@@ -11,6 +11,11 @@ import { startVisibilityObserver, getViewportSeenWords, stopVisibilityObserver }
 let currentDictionary: Dictionary | null = null;
 let tooltipInitialized = false;
 
+async function loadDictionary(): Promise<Dictionary> {
+  const mod = await import('../data/dictionary.json');
+  return mod.default as Dictionary;
+}
+
 async function flushSeenWords() {
   const seen = getViewportSeenWords();
   if (seen.length === 0) return;
@@ -48,8 +53,7 @@ async function init() {
   const hostname = window.location.hostname;
   if (settings.exclusions.includes(hostname)) return;
 
-  const dictModule = await import('../data/dictionary.json');
-  currentDictionary = dictModule.default as Dictionary;
+  currentDictionary = await loadDictionary();
 
   await activate(currentDictionary, settings.level, settings.highlight);
 }
@@ -70,8 +74,7 @@ async function handleSettingsChange() {
   if (settings.exclusions.includes(hostname)) return;
 
   if (!currentDictionary) {
-    const dictModule = await import('../data/dictionary.json');
-    currentDictionary = dictModule.default as Dictionary;
+    currentDictionary = await loadDictionary();
   }
 
   await activate(currentDictionary, settings.level, settings.highlight);
