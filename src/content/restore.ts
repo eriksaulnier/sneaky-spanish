@@ -1,8 +1,10 @@
 import { stopObserver } from './observer';
 import { destroyTooltip } from './tooltip';
+import { stopVisibilityObserver } from './visibility';
 
 export function restoreOriginalText(): void {
   stopObserver();
+  stopVisibilityObserver();
   destroyTooltip();
 
   const spans = document.querySelectorAll('.sneaky-word');

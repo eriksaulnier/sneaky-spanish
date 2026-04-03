@@ -21,6 +21,7 @@ export async function recordClick(word: string): Promise<void> {
     firstSeen: existing?.firstSeen ?? now,
     lastSeen: now,
     streak: 0,
+    seenCount: existing?.seenCount ?? 0,
   };
 
   await saveWordStats(stats);
@@ -47,11 +48,49 @@ export async function updateStreaks(seen: string[], clicked: string[]): Promise<
   }
 }
 
+export async function recordSeenWords(words: string[]): Promise<void> {
+  if (words.length === 0) return;
+
+  const stats = await getWordStats();
+  const now = Date.now();
+  let changed = false;
+
+  for (const word of words) {
+    const existing = stats[word];
+    if (existing) {
+      existing.seenCount += 1;
+      existing.lastSeen = now;
+    } else {
+      stats[word] = { count: 0, streak: 0, seenCount: 1, firstSeen: now, lastSeen: now };
+    }
+    changed = true;
+  }
+
+  if (changed) {
+    await saveWordStats(stats);
+  }
+}
+
+export async function resetWordStats(words?: string[]): Promise<void> {
+  if (!words) {
+    await saveWordStats({});
+    return;
+  }
+  if (words.length === 0) return;
+
+  const stats = await getWordStats();
+  for (const word of words) {
+    delete stats[word];
+  }
+  await saveWordStats(stats);
+}
+
 export async function getWordsToReview(
   limit: number,
 ): Promise<Array<{ word: string; stat: WordStat }>> {
   const stats = await getWordStats();
   return Object.entries(stats)
+    .filter(([, stat]) => stat.count > 0)
     .map(([word, stat]) => ({ word, stat }))
     .sort((a, b) => b.stat.count - a.stat.count)
     .slice(0, limit);

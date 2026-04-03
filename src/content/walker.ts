@@ -1,7 +1,8 @@
 import type { DictionaryEntry } from '../shared/types';
 import { SKIP_ELEMENTS } from '../shared/constants';
+import type { WordSet } from '../shared/word-filter';
 
-export type WordSet = Map<string, DictionaryEntry>;
+export type { WordSet };
 
 const WORD_BOUNDARY = /(\s+|[.,;:!?'"()\[\]{}<>\/\\@#$%^&*+=|~`—–\-\u2018\u2019\u201C\u201D]+)/;
 

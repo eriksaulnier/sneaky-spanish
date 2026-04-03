@@ -23,6 +23,7 @@ export interface WordStat {
   firstSeen: number;
   lastSeen: number;
   streak: number;
+  seenCount: number;
 }
 
 export type WordStats = Record<string, WordStat>;

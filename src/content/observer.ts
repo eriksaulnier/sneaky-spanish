@@ -1,4 +1,5 @@
 import { processNode, walkDOM, type WordSet, type PhraseInfo } from './walker';
+import { observeSpan } from './visibility';
 
 let observer: MutationObserver | null = null;
 
@@ -25,8 +26,17 @@ export function startObserver(wordSet: WordSet, phraseInfo: PhraseInfo): void {
         if (!node.isConnected) continue;
         if (node instanceof Text) {
           processNode(node, wordSet, phraseInfo);
+          const parent = node.parentElement;
+          if (parent) {
+            for (const span of parent.querySelectorAll('.sneaky-word')) {
+              observeSpan(span);
+            }
+          }
         } else if (node instanceof HTMLElement) {
           walkDOM(node, wordSet, phraseInfo);
+          for (const span of node.querySelectorAll('.sneaky-word')) {
+            observeSpan(span);
+          }
         }
       }
     }, 16);

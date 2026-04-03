@@ -10,7 +10,75 @@
   <div id="app">
     <h1>Sneaky Spanish Options</h1>
 
-    <section>
+    <section id="progress-section">
+      <h2>Your Progress</h2>
+      <div class="level-control">
+        <label for="level">CEFR Level</label>
+        <select id="level">
+          <option value="A1">A1 — Beginner</option>
+          <option value="A2">A2 — Elementary</option>
+          <option value="B1">B1 — Intermediate</option>
+          <option value="B2">B2 — Upper Intermediate</option>
+          <option value="C1">C1 — Advanced</option>
+          <option value="C2">C2 — Mastery</option>
+        </select>
+      </div>
+      <div class="stats-row">
+        <div class="stat-card">
+          <span class="stat-number" id="stat-active">—</span>
+          <span class="stat-label">Active words</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" id="stat-seen">—</span>
+          <span class="stat-label">Words seen</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" id="stat-encounters">—</span>
+          <span class="stat-label">Total encounters</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" id="stat-clicked">—</span>
+          <span class="stat-label">Words clicked</span>
+        </div>
+      </div>
+      <p class="progress-summary" id="progress-summary"></p>
+    </section>
+
+    <section id="stats-section">
+      <h2>Word Statistics</h2>
+      <p class="description">Words you've encountered while browsing.</p>
+      <div class="table-controls">
+        <input type="text" id="stats-search" placeholder="Search words...">
+        <button type="button" id="reset-all" class="danger-btn">Reset All Stats</button>
+      </div>
+      <div class="table-container">
+        <table id="stats-table">
+          <thead>
+            <tr>
+              <th class="sortable" data-sort="word">English</th>
+              <th class="sortable" data-sort="spanish">Spanish</th>
+              <th class="sortable" data-sort="level">Level</th>
+              <th class="sortable" data-sort="seen">Seen</th>
+              <th class="sortable" data-sort="clicks">Clicks</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="stats-body"></tbody>
+        </table>
+      </div>
+      <p id="stats-empty" class="empty">No word statistics yet. Start browsing to track your progress.</p>
+    </section>
+
+    <section id="wordlist-section">
+      <h2>Active Word List</h2>
+      <p class="description">Words that will be translated at your current level (<span id="current-level">—</span>).</p>
+      <div class="table-controls">
+        <input type="text" id="wordlist-search" placeholder="Search words...">
+      </div>
+      <div id="wordlist-groups"></div>
+    </section>
+
+    <section id="exclusions-section">
       <h2>Excluded Sites</h2>
       <p class="description">Sneaky Spanish is disabled on these sites.</p>
       <div class="add-site">

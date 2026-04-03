@@ -1,43 +1,22 @@
 import type { Dictionary, CEFRLevel } from '../shared/types';
-import { isLevelIncluded } from '../shared/constants';
 import { getSettings } from '../shared/storage';
-import { recordClick, updateStreaks } from '../shared/tracking';
+import { recordClick, updateStreaks, recordSeenWords } from '../shared/tracking';
 import { walkDOM, computePhraseInfo, type WordSet } from './walker';
 import { startObserver } from './observer';
 import { initTooltip } from './tooltip';
 import { restoreOriginalText } from './restore';
-
-const ALLOWED_POS = new Set(['noun', 'phrase']);
-
-function buildWordSet(dictionary: Dictionary, level: CEFRLevel): WordSet {
-  const wordSet: WordSet = new Map();
-  for (const [english, entry] of Object.entries(dictionary)) {
-    if (!ALLOWED_POS.has(entry.pos)) continue;
-    if (isLevelIncluded(entry.level, level)) {
-      wordSet.set(english, entry);
-    }
-  }
-  return wordSet;
-}
+import { buildWordSet } from '../shared/word-filter';
+import { startVisibilityObserver, getViewportSeenWords, stopVisibilityObserver } from './visibility';
 
 let currentDictionary: Dictionary | null = null;
 const clickedWords = new Set<string>();
 let tooltipInitialized = false;
 
-function collectSeenWords(): string[] {
-  const spans = document.querySelectorAll('.sneaky-word');
-  const seen = new Set<string>();
-  for (const span of spans) {
-    const original = (span as HTMLElement).dataset.original;
-    if (original) seen.add(original);
-  }
-  return [...seen];
-}
-
-function flushStreaks() {
-  const seen = collectSeenWords();
+async function flushStreaks() {
+  const seen = getViewportSeenWords();
   if (seen.length === 0) return;
-  updateStreaks(seen, [...clickedWords]);
+  await recordSeenWords(seen);
+  await updateStreaks(seen, [...clickedWords]);
   clickedWords.clear();
 }
 
@@ -54,6 +33,7 @@ async function activate(dictionary: Dictionary, level: CEFRLevel, highlight: boo
   }
 
   walkDOM(document.body, wordSet, phraseInfo);
+  startVisibilityObserver();
   startObserver(wordSet, phraseInfo);
 
   if (!tooltipInitialized) {
