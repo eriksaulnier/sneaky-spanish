@@ -1,3 +1,39 @@
+:root {
+  --bg: #fafaf9;
+  --bg-elevated: #fff;
+  --text: #1a1a1a;
+  --text-muted: #78716c;
+  --text-faint: #a8a29e;
+  --border: #d6d3d1;
+  --border-subtle: #e7e5e4;
+  --primary: #43A047;
+  --primary-dark: #2E7D32;
+  --primary-hover-bg: #f1f8e9;
+  --danger: #dc2626;
+  --danger-subtle-bg: #fef2f2;
+  --danger-subtle-border: #fca5a5;
+  --warning: #E9C46A;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --bg-elevated: #2a2a2a;
+    --text: #e5e5e5;
+    --text-muted: #8c8c8c;
+    --text-faint: #6b6b6b;
+    --border: #404040;
+    --border-subtle: #333;
+    --primary: #66BB6A;
+    --primary-dark: #81C784;
+    --primary-hover-bg: rgba(102, 187, 106, 0.12);
+    --danger: #ef5350;
+    --danger-subtle-bg: rgba(239, 83, 80, 0.1);
+    --danger-subtle-border: rgba(239, 83, 80, 0.3);
+    --warning: #E9C46A;
+  }
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,8 +44,8 @@ body {
   width: 300px;
   font-family: system-ui, -apple-system, sans-serif;
   font-size: 14px;
-  color: #1a1a1a;
-  background: #fafaf9;
+  color: var(--text);
+  background: var(--bg);
 }
 
 #app {
@@ -22,7 +58,7 @@ header {
   justify-content: space-between;
   margin-bottom: 16px;
   padding-bottom: 12px;
-  border-bottom: 2px solid #43A047;
+  border-bottom: 2px solid var(--primary);
 }
 
 h1 {
@@ -31,7 +67,7 @@ h1 {
   gap: 6px;
   font-size: 16px;
   font-weight: 600;
-  color: #2E7D32;
+  color: var(--primary-dark);
 }
 
 section {
@@ -42,25 +78,25 @@ label {
   display: block;
   font-size: 12px;
   font-weight: 500;
-  color: #78716c;
+  color: var(--text-muted);
   margin-bottom: 4px;
 }
 
 select {
   width: 100%;
   padding: 6px 8px;
-  border: 1px solid #d6d3d1;
+  border: 1px solid var(--border);
   border-radius: 6px;
   font-size: 13px;
-  background: #fff;
+  background: var(--bg-elevated);
   cursor: pointer;
-  color: #1a1a1a;
+  color: var(--text);
 }
 
 select:focus {
-  outline: 2px solid #43A047;
+  outline: 2px solid var(--primary);
   outline-offset: -1px;
-  border-color: #43A047;
+  border-color: var(--primary);
 }
 
 .checkbox-label {
@@ -68,65 +104,65 @@ select:focus {
   align-items: center;
   gap: 8px;
   font-size: 13px;
-  color: #1a1a1a;
+  color: var(--text);
   cursor: pointer;
 }
 
 .checkbox-label input {
   margin: 0;
-  accent-color: #43A047;
+  accent-color: var(--primary);
 }
 
 button {
   width: 100%;
   padding: 8px;
-  border: 1px solid #d6d3d1;
+  border: 1px solid var(--border);
   border-radius: 6px;
-  background: #fff;
+  background: var(--bg-elevated);
   font-size: 13px;
   cursor: pointer;
   transition: background 0.15s, border-color 0.15s;
-  color: #1a1a1a;
+  color: var(--text);
 }
 
 button:hover {
-  background: #f1f8e9;
-  border-color: #43A047;
+  background: var(--primary-hover-bg);
+  border-color: var(--primary);
 }
 
 button.excluded {
-  background: #fef2f2;
-  border-color: #fca5a5;
-  color: #dc2626;
+  background: var(--danger-subtle-bg);
+  border-color: var(--danger-subtle-border);
+  color: var(--danger);
 }
 
 .status {
   font-size: 11px;
-  color: #a8a29e;
+  color: var(--text-faint);
   margin-top: 4px;
 }
 
 footer {
   margin-top: 12px;
   padding-top: 12px;
-  border-top: 1px solid #e7e5e4;
+  border-top: 1px solid var(--border-subtle);
   text-align: center;
 }
 
 footer a {
   font-size: 12px;
-  color: #43A047;
+  color: var(--primary);
   text-decoration: none;
 }
 
 footer a:hover {
   text-decoration: underline;
-  color: #2E7D32;
+  color: var(--primary-dark);
 }
 
 /* Practice section */
 #practice-section {
-  border-top: 1px solid #e7e5e4;
+  border-top: 1px solid var(--border-subtle);
   padding-top: 12px;
 }
 
@@ -135,7 +171,7 @@ footer a:hover {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #43A047;
+  color: var(--primary);
   margin-bottom: 8px;
 }
 
@@ -148,18 +184,18 @@ footer a:hover {
 }
 
 .practice-word {
-  color: #1a1a1a;
+  color: var(--text);
 }
 
 .practice-count {
-  color: #E9C46A;
+  color: var(--warning);
   font-weight: 600;
   font-size: 12px;
 }
 
 #practice-list.empty {
   font-size: 12px;
-  color: #a8a29e;
+  color: var(--text-faint);
   font-style: italic;
 }
 
@@ -182,7 +218,7 @@ footer a:hover {
   position: absolute;
   cursor: pointer;
   inset: 0;
-  background: #d6d3d1;
+  background: var(--border);
   border-radius: 22px;
   transition: background 0.2s;
 }
@@ -194,13 +230,13 @@ footer a:hover {
   width: 16px;
   left: 3px;
   bottom: 3px;
-  background: #fff;
+  background: var(--bg-elevated);
   border-radius: 50%;
   transition: transform 0.2s;
 }
 
 .toggle input:checked + .toggle-slider {
-  background: #43A047;
+  background: var(--primary);
 }
 
 .toggle input:checked + .toggle-slider::before {

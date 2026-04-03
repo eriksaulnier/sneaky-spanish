@@ -3,35 +3,52 @@ const TOOLTIP_STYLES = `
     position: fixed;
     z-index: 2147483647;
     pointer-events: none;
+
+    --tt-bg: #fff;
+    --tt-border: #43A047;
+    --tt-shadow: rgba(67, 160, 71, 0.15);
+    --tt-text: #1a1a1a;
+    --tt-primary: #43A047;
+    --tt-muted: #78716c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :host {
+      --tt-bg: #2a2a2a;
+      --tt-border: #66BB6A;
+      --tt-shadow: rgba(102, 187, 106, 0.2);
+      --tt-text: #e5e5e5;
+      --tt-primary: #66BB6A;
+      --tt-muted: #8c8c8c;
+    }
   }
   .tooltip {
     pointer-events: auto;
-    background: #fff;
-    border: 1px solid #43A047;
+    background: var(--tt-bg);
+    border: 1px solid var(--tt-border);
     border-radius: 8px;
     padding: 10px 14px;
-    box-shadow: 0 4px 16px rgba(67, 160, 71, 0.15);
+    box-shadow: 0 4px 16px var(--tt-shadow);
     font-family: system-ui, -apple-system, sans-serif;
     font-size: 14px;
     line-height: 1.4;
-    color: #1a1a1a;
+    color: var(--tt-text);
     max-width: 240px;
   }
   .label {
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #43A047;
+    color: var(--tt-primary);
     font-weight: 600;
     margin-bottom: 4px;
   }
   .original {
     font-weight: 600;
     font-size: 16px;
-    color: #1a1a1a;
+    color: var(--tt-text);
   }
   .ipa {
-    color: #78716c;
+    color: var(--tt-muted);
     font-size: 13px;
     margin-top: 2px;
   }

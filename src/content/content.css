@@ -8,3 +8,10 @@
   background-color: rgba(67, 160, 71, 0.08);
   border-radius: 2px;
 }
+
+@media (prefers-color-scheme: dark) {
+  .sneaky-highlight .sneaky-word {
+    text-decoration-color: rgba(102, 187, 106, 0.5);
+    background-color: rgba(102, 187, 106, 0.12);
+  }
+}
