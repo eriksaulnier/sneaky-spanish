@@ -6,6 +6,10 @@
 
 <p align="center">A browser extension that sneaks Spanish into your everyday browsing.</p>
 
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License"></a>
+</p>
+
 ---
 
 Sneaky Spanish quietly swaps English words on any webpage with their Spanish equivalents while you browse. No flashcards, no scheduled study sessions, no app you have to remember to open — just Spanish words showing up naturally in the pages you're already reading.
@@ -22,7 +26,7 @@ Everything runs locally. The dictionary is bundled in the extension, no API call
 - **Tooltip on click** — shows original English word + IPA pronunciation
 - **Highlight mode** — optional underline + tinted background on replaced words
 - **Per-site exclusions** — turn it off for specific domains
-- **Word tracking** — tracks which words you've encountered and how often
+- **Word tracking** — viewport-aware tracking of words you've actually seen and clicked
 - **Cross-browser** — Chrome and Firefox (MV3)
 
 ## Install
@@ -70,11 +74,12 @@ src/
 ├── content/          Content script (the word replacement engine)
 │   ├── walker.ts     DOM traversal & word matching
 │   ├── observer.ts   MutationObserver for dynamic content
-│   ├── tooltip.ts    Hover tooltip (Shadow DOM)
+│   ├── visibility.ts IntersectionObserver for viewport tracking
+│   ├── tooltip.ts    Click tooltip (Shadow DOM)
 │   └── restore.ts    Restore original text
 ├── popup/            Extension popup UI
-├── options/          Options page (excluded sites)
-├── shared/           Storage, types, constants
+├── options/          Options page (settings, stats, word list)
+├── shared/           Storage, types, constants, word filtering
 └── data/
     └── dictionary.json   Generated word dictionary
 ```
@@ -86,6 +91,14 @@ src/
 - [Sharp](https://sharp.pixelplumbing.com/) for icon generation
 - [web-ext](https://github.com/nicedoc/web-ext) for packaging
 
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup and guidelines.
+
 ## Privacy
 
-All data stays on your device. The dictionary is bundled in the extension. No network requests, no analytics, no tracking. Settings sync across your browser profile via `chrome.storage.sync`, but nothing goes to any third-party server.
+All data stays on your device. The dictionary is bundled in the extension. No network requests, no analytics, no tracking. Settings sync across your browser profile via `chrome.storage.sync`, but nothing goes to any third-party server. See the full [privacy policy](privacy-policy.md).
+
+## License
+
+[MIT](LICENSE)
