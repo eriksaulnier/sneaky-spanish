@@ -1,6 +1,6 @@
 import type { Dictionary, CEFRLevel } from '../shared/types';
 import { getSettings } from '../shared/storage';
-import { recordClick, updateStreaks, recordSeenWords } from '../shared/tracking';
+import { recordClick, recordSeenWords } from '../shared/tracking';
 import { walkDOM, computePhraseInfo, type WordSet } from './walker';
 import { startObserver } from './observer';
 import { initTooltip } from './tooltip';
@@ -9,15 +9,12 @@ import { buildWordSet } from '../shared/word-filter';
 import { startVisibilityObserver, getViewportSeenWords, stopVisibilityObserver } from './visibility';
 
 let currentDictionary: Dictionary | null = null;
-const clickedWords = new Set<string>();
 let tooltipInitialized = false;
 
-async function flushStreaks() {
+async function flushSeenWords() {
   const seen = getViewportSeenWords();
   if (seen.length === 0) return;
   await recordSeenWords(seen);
-  await updateStreaks(seen, [...clickedWords]);
-  clickedWords.clear();
 }
 
 async function activate(dictionary: Dictionary, level: CEFRLevel, highlight: boolean) {
@@ -38,7 +35,6 @@ async function activate(dictionary: Dictionary, level: CEFRLevel, highlight: boo
 
   if (!tooltipInitialized) {
     initTooltip((word) => {
-      clickedWords.add(word);
       recordClick(word);
     });
     tooltipInitialized = true;
@@ -82,8 +78,8 @@ async function handleSettingsChange() {
 }
 
 document.addEventListener('visibilitychange', () => {
-  if (document.hidden) flushStreaks();
+  if (document.hidden) flushSeenWords();
 });
-window.addEventListener('beforeunload', flushStreaks);
+window.addEventListener('beforeunload', flushSeenWords);
 
 init();

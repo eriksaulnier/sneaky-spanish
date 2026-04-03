@@ -2,6 +2,14 @@ import type { WordStat, WordStats } from './types';
 
 const STORAGE_KEY = 'wordStats';
 
+let lock: Promise<void> = Promise.resolve();
+
+function withLock<T>(fn: () => Promise<T>): Promise<T> {
+  const result = lock.then(fn);
+  lock = result.then(() => {}, () => {});
+  return result;
+}
+
 export async function getWordStats(): Promise<WordStats> {
   const result = await chrome.storage.local.get(STORAGE_KEY);
   return (result[STORAGE_KEY] as WordStats) ?? {};
@@ -11,78 +19,62 @@ async function saveWordStats(stats: WordStats): Promise<void> {
   await chrome.storage.local.set({ [STORAGE_KEY]: stats });
 }
 
-export async function recordClick(word: string): Promise<void> {
-  const stats = await getWordStats();
-  const now = Date.now();
-  const existing = stats[word];
+export function recordClick(word: string): Promise<void> {
+  return withLock(async () => {
+    const stats = await getWordStats();
+    const now = Date.now();
+    const existing = stats[word];
 
-  stats[word] = {
-    count: (existing?.count ?? 0) + 1,
-    firstSeen: existing?.firstSeen ?? now,
-    lastSeen: now,
-    streak: 0,
-    seenCount: existing?.seenCount ?? 0,
-  };
+    stats[word] = {
+      count: (existing?.count ?? 0) + 1,
+      firstSeen: existing?.firstSeen ?? now,
+      lastSeen: now,
+      seenCount: existing?.seenCount ?? 0,
+    };
 
-  await saveWordStats(stats);
+    await saveWordStats(stats);
+  });
 }
 
-export async function updateStreaks(seen: string[], clicked: string[]): Promise<void> {
-  if (seen.length === 0) return;
+export function recordSeenWords(words: string[]): Promise<void> {
+  return withLock(async () => {
+    if (words.length === 0) return;
 
-  const stats = await getWordStats();
-  const clickedSet = new Set(clicked);
-  let changed = false;
+    const stats = await getWordStats();
+    const now = Date.now();
+    let changed = false;
 
-  for (const word of seen) {
-    if (clickedSet.has(word)) continue;
-    const existing = stats[word];
-    if (existing) {
-      existing.streak += 1;
+    for (const word of words) {
+      const existing = stats[word];
+      if (existing) {
+        existing.seenCount += 1;
+        existing.lastSeen = now;
+      } else {
+        stats[word] = { count: 0, seenCount: 1, firstSeen: now, lastSeen: now };
+      }
       changed = true;
     }
-  }
 
-  if (changed) {
-    await saveWordStats(stats);
-  }
-}
-
-export async function recordSeenWords(words: string[]): Promise<void> {
-  if (words.length === 0) return;
-
-  const stats = await getWordStats();
-  const now = Date.now();
-  let changed = false;
-
-  for (const word of words) {
-    const existing = stats[word];
-    if (existing) {
-      existing.seenCount += 1;
-      existing.lastSeen = now;
-    } else {
-      stats[word] = { count: 0, streak: 0, seenCount: 1, firstSeen: now, lastSeen: now };
+    if (changed) {
+      await saveWordStats(stats);
     }
-    changed = true;
-  }
-
-  if (changed) {
-    await saveWordStats(stats);
-  }
+  });
 }
 
-export async function resetWordStats(words?: string[]): Promise<void> {
-  if (!words) {
-    await saveWordStats({});
-    return;
-  }
-  if (words.length === 0) return;
+export function resetWordStats(words?: string[]): Promise<void> {
+  return withLock(async () => {
+    if (!words) {
+      await saveWordStats({});
+      return;
+    }
+    if (words.length === 0) return;
 
-  const stats = await getWordStats();
-  for (const word of words) {
-    delete stats[word];
-  }
-  await saveWordStats(stats);
+    const stats = await getWordStats();
+    for (const word of words) {
+      delete stats[word];
+    }
+    await saveWordStats(stats);
+  });
 }
 
 export async function getWordsToReview(

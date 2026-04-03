@@ -22,7 +22,6 @@ export interface WordStat {
   count: number;
   firstSeen: number;
   lastSeen: number;
-  streak: number;
   seenCount: number;
 }
 
