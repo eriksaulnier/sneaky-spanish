@@ -14,6 +14,17 @@ import type {
 } from '../shared/types';
 import { buildWordSet } from '../shared/word-filter';
 
+async function notifyAllTabs() {
+  const tabs = await chrome.tabs.query({});
+  for (const tab of tabs) {
+    if (tab.id) {
+      chrome.tabs
+        .sendMessage(tab.id, { type: 'settings-changed' })
+        .catch(() => {});
+    }
+  }
+}
+
 function debounce(fn: () => void, ms: number): () => void {
   let timer: ReturnType<typeof setTimeout>;
   return () => {
@@ -312,6 +323,7 @@ async function renderExclusions() {
       await saveSettings({
         exclusions: latest.exclusions.filter((h) => h !== hostname),
       });
+      notifyAllTabs();
       renderExclusions();
     });
     li.appendChild(removeBtn);
@@ -331,6 +343,7 @@ async function addSite() {
   }
 
   await saveSettings({ exclusions: [...current.exclusions, hostname] });
+  notifyAllTabs();
   newSiteInput.value = '';
   renderExclusions();
 }
@@ -344,6 +357,7 @@ function setupEventListeners() {
   levelEl.addEventListener('change', async () => {
     settings.level = levelEl.value as CEFRLevel;
     await saveSettings({ level: settings.level });
+    notifyAllTabs();
     renderProgress();
     renderActiveWords();
   });
