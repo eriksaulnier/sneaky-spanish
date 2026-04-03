@@ -19,6 +19,7 @@ export const CEFR_LEVEL_LABELS: Record<CEFRLevel, string> = {
 };
 
 export function populateLevelSelect(select: HTMLSelectElement, selectedLevel?: CEFRLevel): void {
+  select.textContent = '';
   for (const level of CEFR_LEVELS) {
     const option = document.createElement('option');
     option.value = level;

@@ -42,7 +42,6 @@ export function recordSeenWords(words: string[]): Promise<void> {
 
     const stats = await getWordStats();
     const now = Date.now();
-    let changed = false;
 
     for (const word of words) {
       const existing = stats[word];
@@ -52,12 +51,9 @@ export function recordSeenWords(words: string[]): Promise<void> {
       } else {
         stats[word] = { count: 0, seenCount: 1, firstSeen: now, lastSeen: now };
       }
-      changed = true;
     }
 
-    if (changed) {
-      await saveWordStats(stats);
-    }
+    await saveWordStats(stats);
   });
 }
 
