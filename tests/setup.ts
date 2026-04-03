@@ -2,17 +2,25 @@ import { beforeEach } from 'vitest';
 
 interface StorageArea {
   data: Record<string, unknown>;
-  get(keys: Record<string, unknown>): Promise<Record<string, unknown>>;
+  get(keys: string | string[] | Record<string, unknown>): Promise<Record<string, unknown>>;
   set(items: Record<string, unknown>): Promise<void>;
 }
 
 function createStorageArea(): StorageArea {
   const area: StorageArea = {
     data: {},
-    async get(keys: Record<string, unknown>) {
+    async get(keys: string | string[] | Record<string, unknown>) {
       const result: Record<string, unknown> = {};
-      for (const [key, defaultValue] of Object.entries(keys)) {
-        result[key] = key in area.data ? area.data[key] : defaultValue;
+      if (typeof keys === 'string') {
+        result[keys] = area.data[keys];
+      } else if (Array.isArray(keys)) {
+        for (const key of keys) {
+          result[key] = area.data[key];
+        }
+      } else {
+        for (const [key, defaultValue] of Object.entries(keys)) {
+          result[key] = key in area.data ? area.data[key] : defaultValue;
+        }
       }
       return result;
     },
