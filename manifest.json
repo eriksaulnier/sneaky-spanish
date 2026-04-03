@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Sneaky Spanish",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Learn Spanish vocabulary passively as you browse — words on any page are quietly replaced with Spanish.",
   "permissions": [
     "storage"

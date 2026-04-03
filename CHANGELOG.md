@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/eriksaulnier/sneaky-spanish-v2/compare/sneaky-spanish-v1.0.0...sneaky-spanish-v1.0.1) (2026-04-03)
+
+
+### Bug Fixes
+
+* **ci:** use PAT for release-please to trigger publish workflow ([c5e917a](https://github.com/eriksaulnier/sneaky-spanish-v2/commit/c5e917a14cd9c587a772a304bb6256a5b79db9bb))
+
 ## 1.0.0 (2026-04-03)
 
 
