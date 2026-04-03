@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/eriksaulnier/sneaky-spanish-v2/compare/sneaky-spanish-v1.0.2...sneaky-spanish-v1.1.0) (2026-04-03)
+
+
+### Features
+
+* switch tooltip to right-click and follow anchor on scroll ([ee5d6b1](https://github.com/eriksaulnier/sneaky-spanish-v2/commit/ee5d6b19ba1a003541aa4ec9c70b6a0d711f7680))
+
 ## [1.0.2](https://github.com/eriksaulnier/sneaky-spanish-v2/compare/sneaky-spanish-v1.0.1...sneaky-spanish-v1.0.2) (2026-04-03)
 
 
