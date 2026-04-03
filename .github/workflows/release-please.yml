@@ -14,7 +14,38 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: googleapis/release-please-action@v4
+        id: release
         with:
           token: ${{ secrets.RELEASE_TOKEN }}
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
+
+      # Format files modified by release-please (e.g. manifest.json)
+      - if: steps.release.outputs.pr
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ fromJSON(steps.release.outputs.pr).headBranchName }}
+          token: ${{ secrets.RELEASE_TOKEN }}
+
+      - if: steps.release.outputs.pr
+        uses: pnpm/action-setup@v4
+
+      - if: steps.release.outputs.pr
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - if: steps.release.outputs.pr
+        run: pnpm install --frozen-lockfile
+
+      - if: steps.release.outputs.pr
+        run: pnpm lint:fix
+
+      - if: steps.release.outputs.pr
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "chore: format release files"
+          git push
