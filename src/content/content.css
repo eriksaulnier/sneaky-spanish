@@ -1,7 +1,3 @@
-.sneaky-word {
-  cursor: pointer;
-}
-
 .sneaky-highlight .sneaky-word {
   text-decoration: underline;
   text-decoration-color: rgba(67, 160, 71, 0.5);

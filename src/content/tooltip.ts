@@ -62,6 +62,8 @@ interface Tooltip {
 }
 
 let tooltip: Tooltip | null = null;
+let currentAnchor: Element | null = null;
+let rafId: number | null = null;
 
 function createTooltip(): Tooltip {
   const host = document.createElement('div');
@@ -114,40 +116,53 @@ function show(anchor: Element, original: string, ipa: string) {
   t.originalEl.textContent = original;
   t.ipaEl.textContent = ipa;
   t.container.style.display = 'block';
-  position(t, anchor);
+  currentAnchor = anchor;
+  trackPosition();
 }
 
 function hide() {
   if (tooltip) {
     tooltip.container.style.display = 'none';
   }
+  currentAnchor = null;
+  if (rafId !== null) {
+    cancelAnimationFrame(rafId);
+    rafId = null;
+  }
+}
+
+function trackPosition() {
+  if (!currentAnchor || !tooltip) return;
+  const rect = currentAnchor.getBoundingClientRect();
+  const offscreen = rect.bottom < 0 || rect.top > window.innerHeight ||
+    rect.right < 0 || rect.left > window.innerWidth;
+  if (offscreen) {
+    hide();
+    return;
+  }
+  position(tooltip, currentAnchor);
+  rafId = requestAnimationFrame(trackPosition);
 }
 
 function position(t: Tooltip, anchor: Element) {
   const rect = anchor.getBoundingClientRect();
   const gap = 6;
+  const tipRect = t.container.getBoundingClientRect();
+  let top: number;
+  let left: number;
 
-  t.host.style.left = '0px';
-  t.host.style.top = '0px';
+  if (rect.bottom + gap + tipRect.height <= window.innerHeight) {
+    top = rect.bottom + gap;
+  } else {
+    top = rect.top - gap - tipRect.height;
+  }
 
-  requestAnimationFrame(() => {
-    const tipRect = t.container.getBoundingClientRect();
-    let top: number;
-    let left: number;
+  left = rect.left + rect.width / 2 - tipRect.width / 2;
+  left = Math.max(8, Math.min(left, window.innerWidth - tipRect.width - 8));
+  top = Math.max(8, top);
 
-    if (rect.bottom + gap + tipRect.height <= window.innerHeight) {
-      top = rect.bottom + gap;
-    } else {
-      top = rect.top - gap - tipRect.height;
-    }
-
-    left = rect.left + rect.width / 2 - tipRect.width / 2;
-    left = Math.max(8, Math.min(left, window.innerWidth - tipRect.width - 8));
-    top = Math.max(8, top);
-
-    t.host.style.left = `${left}px`;
-    t.host.style.top = `${top}px`;
-  });
+  t.host.style.left = `${left}px`;
+  t.host.style.top = `${top}px`;
 }
 
 export function initTooltip(onReveal?: (word: string) => void): void {
@@ -157,17 +172,17 @@ export function initTooltip(onReveal?: (word: string) => void): void {
     if (autoHideTimer) { clearTimeout(autoHideTimer); autoHideTimer = null; }
   }
 
-  document.addEventListener('click', (e) => {
+  document.addEventListener('contextmenu', (e) => {
     const target = (e.target as Element).closest?.('.sneaky-word') as HTMLElement | null;
-    if (target) {
-      clearAutoHide();
-      show(target, target.dataset.original!, target.dataset.ipa!);
-      autoHideTimer = setTimeout(hide, 3000);
-      onReveal?.(target.dataset.original!);
-      return;
-    }
+    if (!target) return;
+    e.preventDefault();
+    clearAutoHide();
+    show(target, target.dataset.original!, target.dataset.ipa!);
+    autoHideTimer = setTimeout(hide, 3000);
+    onReveal?.(target.dataset.original!);
+  });
 
-    // Click outside tooltip hides it
+  document.addEventListener('click', (e) => {
     if (isVisible()) {
       const t = getTooltip();
       const clickedInTooltip = t.container.contains(e.target as Node);
