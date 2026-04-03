@@ -80,6 +80,6 @@ async function handleSettingsChange() {
 document.addEventListener('visibilitychange', () => {
   if (document.hidden) flushSeenWords();
 });
-window.addEventListener('beforeunload', flushSeenWords);
+window.addEventListener('pagehide', () => flushSeenWords());
 
 init();
