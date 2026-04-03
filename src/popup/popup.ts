@@ -1,6 +1,7 @@
 import type { CEFRLevel } from '../shared/types';
 import { getSettings, saveSettings } from '../shared/storage';
 import { getWordsToReview } from '../shared/tracking';
+import { populateLevelSelect } from '../shared/constants';
 
 const enabledEl = document.getElementById('enabled') as HTMLInputElement;
 const levelEl = document.getElementById('level') as HTMLSelectElement;
@@ -15,7 +16,7 @@ async function init() {
   const settings = await getSettings();
 
   enabledEl.checked = settings.enabled;
-  levelEl.value = settings.level;
+  populateLevelSelect(levelEl, settings.level);
   highlightEl.checked = settings.highlight;
 
   const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });

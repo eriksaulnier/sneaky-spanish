@@ -2,7 +2,7 @@ import type { CEFRLevel, Dictionary, Settings, WordStats, DictionaryEntry } from
 import { getSettings, saveSettings } from '../shared/storage';
 import { getWordStats, resetWordStats } from '../shared/tracking';
 import { buildWordSet } from '../shared/word-filter';
-import { CEFR_LEVELS, isLevelIncluded } from '../shared/constants';
+import { CEFR_LEVELS, isLevelIncluded, populateLevelSelect } from '../shared/constants';
 
 function debounce(fn: () => void, ms: number): () => void {
   let timer: ReturnType<typeof setTimeout>;
@@ -46,7 +46,7 @@ async function init() {
   settings = await getSettings();
   wordStats = await getWordStats();
 
-  levelEl.value = settings.level;
+  populateLevelSelect(levelEl, settings.level);
   renderProgress();
   renderWordStats();
   renderActiveWords();
