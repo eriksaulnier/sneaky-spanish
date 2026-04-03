@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Sneaky Spanish",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Learn Spanish vocabulary passively as you browse — words on any page are quietly replaced with Spanish.",
   "permissions": [
     "storage"
@@ -49,9 +49,11 @@
     "gecko": {
       "id": "sneaky-spanish@erik.software",
       "strict_min_version": "109.0",
-    "data_collection_permissions": {
-      "required": ["none"]
-    }
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
     }
   }
 }

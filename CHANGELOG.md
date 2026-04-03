@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/eriksaulnier/sneaky-spanish-v2/compare/sneaky-spanish-v1.0.1...sneaky-spanish-v1.0.2) (2026-04-03)
+
+
+### Bug Fixes
+
+* add data_collection_permissions for Firefox AMO compliance ([ade46bc](https://github.com/eriksaulnier/sneaky-spanish-v2/commit/ade46bca13b6a9ae0d135926c7c7c9302f0477f0))
+
 ## [1.0.1](https://github.com/eriksaulnier/sneaky-spanish-v2/compare/sneaky-spanish-v1.0.0...sneaky-spanish-v1.0.1) (2026-04-03)
 
 
