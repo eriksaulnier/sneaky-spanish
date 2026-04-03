@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.1.1](https://github.com/eriksaulnier/sneaky-spanish/compare/sneaky-spanish-v1.1.0...sneaky-spanish-v1.1.1) (2026-04-03)
+
+
+### Bug Fixes
+
+* add runtime validation to getSettings and modernize service worker ([a063f01](https://github.com/eriksaulnier/sneaky-spanish/commit/a063f0142ea8f60f9b32edf2994309bcbb04cce4))
+* bump Firefox minimum version to 140 for data_collection_permissions support ([7366e8b](https://github.com/eriksaulnier/sneaky-spanish/commit/7366e8bf9dacb5d3216649da801b672883219e82))
+* combine beads and lefthook into single pre-commit hook ([5ebcf26](https://github.com/eriksaulnier/sneaky-spanish/commit/5ebcf26e59d2560407ee1689fcdb0c95f65fc852))
+* notify content scripts when settings change from options page ([59cff6d](https://github.com/eriksaulnier/sneaky-spanish/commit/59cff6d7e38b58332d5f0c78af8cbc24dc4d8da2))
+
 ## [1.1.0](https://github.com/eriksaulnier/sneaky-spanish-v2/compare/sneaky-spanish-v1.0.2...sneaky-spanish-v1.1.0) (2026-04-03)
 
 
