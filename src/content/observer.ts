@@ -1,4 +1,5 @@
-import { processNode, walkDOM, type WordSet, type PhraseInfo } from './walker';
+import { processNode, walkDOM, type PhraseInfo } from './walker';
+import type { WordSet } from '../shared/word-filter';
 import { observeSpan } from './visibility';
 
 let observer: MutationObserver | null = null;

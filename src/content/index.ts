@@ -1,7 +1,7 @@
 import type { Dictionary, CEFRLevel } from '../shared/types';
 import { getSettings } from '../shared/storage';
 import { recordClick, recordSeenWords } from '../shared/tracking';
-import { walkDOM, computePhraseInfo, type WordSet } from './walker';
+import { walkDOM, computePhraseInfo } from './walker';
 import { startObserver } from './observer';
 import { initTooltip } from './tooltip';
 import { restoreOriginalText } from './restore';
