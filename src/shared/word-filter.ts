@@ -3,6 +3,8 @@ import { isLevelIncluded } from './constants';
 
 export type WordSet = Map<string, DictionaryEntry>;
 
+// Only nouns and phrases are safe for inline replacement — verbs/adjectives
+// risk breaking grammar when swapped into English sentences.
 export const ALLOWED_POS = new Set(['noun', 'phrase']);
 
 export function buildWordSet(dictionary: Dictionary, level: CEFRLevel): WordSet {
