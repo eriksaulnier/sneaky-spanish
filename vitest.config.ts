@@ -13,6 +13,7 @@ export default defineConfig({
         'src/content/index.ts',
         'src/background/service-worker.ts',
         'src/shared/types.ts',
+        'src/content/tooltip.ts',
       ],
       thresholds: {
         lines: 80,
