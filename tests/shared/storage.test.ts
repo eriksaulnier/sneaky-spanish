@@ -24,6 +24,49 @@ describe('getSettings', () => {
     expect(settings.highlight).toBe(false);
     expect(settings.exclusions).toEqual([]);
   });
+  it('returns defaults for corrupted level', async () => {
+    await chrome.storage.sync.set({ level: 'X1' });
+    const settings = await getSettings();
+    expect(settings.level).toBe('A1');
+  });
+
+  it('returns defaults for non-boolean enabled', async () => {
+    await chrome.storage.sync.set({ enabled: 'yes' });
+    const settings = await getSettings();
+    expect(settings.enabled).toBe(true);
+  });
+
+  it('returns defaults for non-boolean highlight', async () => {
+    await chrome.storage.sync.set({ highlight: 1 });
+    const settings = await getSettings();
+    expect(settings.highlight).toBe(false);
+  });
+
+  it('filters non-string entries from exclusions', async () => {
+    await chrome.storage.sync.set({
+      exclusions: ['example.com', 42, null, 'test.org'],
+    });
+    const settings = await getSettings();
+    expect(settings.exclusions).toEqual(['example.com', 'test.org']);
+  });
+
+  it('returns default exclusions for non-array value', async () => {
+    await chrome.storage.sync.set({ exclusions: 'not-an-array' });
+    const settings = await getSettings();
+    expect(settings.exclusions).toEqual([]);
+  });
+
+  it('preserves valid values while fixing invalid ones', async () => {
+    await chrome.storage.sync.set({
+      enabled: false,
+      level: 'INVALID',
+      highlight: true,
+    });
+    const settings = await getSettings();
+    expect(settings.enabled).toBe(false);
+    expect(settings.level).toBe('A1');
+    expect(settings.highlight).toBe(true);
+  });
 });
 
 describe('saveSettings', () => {
